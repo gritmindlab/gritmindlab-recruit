@@ -171,6 +171,9 @@
     padding:10px 22px;letter-spacing:.03em;
   }
   tbody tr:nth-child(even){background:#faf9f5;}
+  .rank-row[data-url]:not([data-url=""]){cursor:pointer;}
+  .rank-row[data-url]:not([data-url=""]):hover{background:var(--navy-soft)!important;}
+  .rank-row .org-cell{position:relative;}
   tbody td{padding:11px 22px;border-bottom:1px solid var(--line-soft);}
   .rank{font-family:var(--font-mono);font-weight:700;color:var(--ink-soft);width:26px;}
   .org-cell{font-weight:600;}
@@ -439,13 +442,19 @@ function renderRanking(){
   const rows = [...items].sort((a,b)=>b.totalCount-a.totalCount).slice(0,20);
   const body = document.getElementById('rank-body');
   body.innerHTML = rows.length ? rows.map((row,i)=>`
-    <tr>
+    <tr class="rank-row" data-url="${row.srcUrl||''}" title="클릭하면 원문 공고로 이동합니다">
       <td class="rank">${i+1}</td>
       <td class="org-cell">${row.orgName} <span style="font-weight:400;color:var(--ink-soft);font-size:12px;">(${row.jobTrack})</span></td>
       <td class="num-cell">${countLabel(row)}</td>
       <td class="num-cell">${(row.endDate||'').slice(5).replace('-','.')}</td>
     </tr>`).join('')
     : `<tr><td colspan="4" style="text-align:center;color:var(--ink-soft);padding:20px;">표시할 공고가 없습니다.</td></tr>`;
+
+  body.querySelectorAll('.rank-row[data-url]').forEach(tr=>{
+    const url = tr.dataset.url;
+    if(!url) return;
+    tr.addEventListener('click', ()=> window.open(url, '_blank', 'noopener'));
+  });
 }
 
 async function loadData(){
