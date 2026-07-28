@@ -290,7 +290,14 @@ document.getElementById('ref-date').textContent =
   referenceToday.toLocaleDateString('ko-KR', {month:'long', day:'numeric'});
 
 const DOW = ['일','월','화','수','목','금','토'];
-function toKey(d){ return d.toISOString().slice(0,10); }
+function toKey(d){
+  // toISOString()은 UTC 기준이라 한국(UTC+9)에서는 자정 근처 날짜가 하루 밀리는 버그가 있었음.
+  // 로컬(브라우저) 시간대 기준으로 직접 조합해서 날짜가 어긋나지 않게 함.
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
 
 let items = [];
 let startByDate = {};
