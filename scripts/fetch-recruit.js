@@ -1,12 +1,17 @@
 /**
- * 그릿마인드랩 · 공공기관 고졸채용 캘린더 — 데이터 수집 스크립트 (Firebase 없는 버전)
+ * 그릿마인드랩 · 공공기관 고졸채용 캘린더 — 데이터 수집 스크립트
  *
  * GitHub Actions가 이 스크립트를 주기적으로 실행해서
  * 공공데이터포털 API 결과를 data/recruit.json 파일로 저장 → 자동 커밋.
- * 프론트엔드(캘린더 페이지)는 이 JSON 파일을 fetch로 읽기만 하면 됨.
  *
  * 실행: node scripts/fetch-recruit.js
  * 필요 환경변수: DATAGO_SERVICE_KEY (GitHub Actions Secret으로 등록)
+ *
+ * ⚠️ 중요: 이 API는 "총 채용인원"만 줄 뿐, 학력조건별(고졸/대졸 등) 세부 인원을
+ * 나눠서 주지 않아요. acbgCondNmLst("고졸,대졸(4년)" 같은 문자열)는
+ * "이 채용에 어떤 학력 조건이 허용되는지"만 알려주고, recrutNope(모집인원)는
+ * 그 채용 전체 인원 하나뿐이에요. 즉 "고졸 15명 / 전체 80명" 같은 세부 분리는
+ * 이 API만으로는 불가능하고, 공고 원문(srcUrl)을 봐야 확인할 수 있어요.
  */
 
 const fs = require('fs');
@@ -37,39 +42,48 @@ const NCS_TO_JOB_TRACK = {
   '환경.에너지.안전': '시설',
   '경비.청소': '시설',
 };
-function mapNcsToJobTrack(ncsNameList) {
-  if (!ncsNameList) return '기타';
-  const names = Array.isArray(ncsNameList) ? ncsNameList : [ncsNameList];
+function mapNcsToJobTrack(ncsNameStr) {
+  if (!ncsNameStr) return '기타';
+  const names = ncsNameStr.split(',').map(s => s.trim());
   for (const n of names) {
     if (NCS_TO_JOB_TRACK[n]) return NCS_TO_JOB_TRACK[n];
   }
   return '기타';
 }
 
-// TODO: 실제 응답 JSON에서 공고 배열 경로 확인 후 교체
+// YYYYMMDD -> YYYY-MM-DD
+function toIsoDate(ymd) {
+  if (!ymd || ymd.length !== 8) return null;
+  return `${ymd.slice(0, 4)}-${ymd.slice(4, 6)}-${ymd.slice(6, 8)}`;
+}
+
+// 실제 응답 구조: { resultCode, resultMsg, totalCount, result: [ ...items ] }
 function extractItems(rawData) {
-  return rawData?.response?.body?.items?.item || [];
+  return rawData?.result || [];
 }
 
 function normalizeItem(item) {
-  const ncsNameList = item.ncsCdNmLst || item.ncsNmLst || null;
-  const eduNameList = item.acbgCondNmLst || null;
+  const eduNames = (item.acbgCondNmLst || '').split(',').map(s => s.trim()).filter(Boolean);
 
   return {
-    sn: item.sn || null,
-    orgName: item.pblntInstNm || item.instNm || '',
+    sn: item.recrutPblntSn || null,              // 채용공시 일련번호 (detail 조회 시 sn 파라미터로 사용)
+    orgName: item.instNm || '',
     orgCode: item.pblntInstCd || null,
     title: item.recrutPbancTtl || '',
-    startDate: item.pbancBgngYmd || null,
-    endDate: item.pbancEndYmd || null,
-    hireTypeNmLst: item.hireTypeNmLst || [],
-    recrutSeNmLst: item.recrutSeNmLst || [],
-    workRgnNmLst: item.workRgnNmLst || [],
-    ncsNmLst: ncsNameList || [],
-    jobTrack: mapNcsToJobTrack(ncsNameList),
-    eduCondNmLst: eduNameList || [],
-    isHighSchoolTrack: Array.isArray(eduNameList) && eduNameList.includes('고졸'),
-    replImprYn: item.replImprYn || 'N',
+    startDate: toIsoDate(item.pbancBgngYmd),
+    endDate: toIsoDate(item.pbancEndYmd),
+    hireTypeNm: item.hireTypeNmLst || '',          // 고용유형 (예: "정규직")
+    recrutSeNm: item.recrutSeNm || '',              // 채용구분 (예: "신입")
+    workRgnNm: item.workRgnNmLst || '',             // 근무지역 (콤마 구분 문자열)
+    ncsNm: item.ncsCdNmLst || '',                   // NCS분류명 (콤마 구분 문자열)
+    jobTrack: mapNcsToJobTrack(item.ncsCdNmLst),    // 우리 직군 라벨로 변환
+    totalCount: Number(item.recrutNope || 0),        // 모집인원 (전체, 학력별 분리 없음)
+    eduCondNm: eduNames,                              // 허용 학력조건 목록 (예: ["고졸","대졸(4년)"])
+    isHighSchoolTrack: eduNames.includes('고졸'),
+    replImprYn: item.replmprYn || 'N',
+    daysLeft: item.decimalDay ?? null,                // API가 계산해주는 마감까지 남은 일수
+    srcUrl: item.srcUrl || null,
+    aplyQlfcCn: item.aplyQlfcCn || '',                // 지원자격 원문 (참고용, 전공 등 파싱 가능)
   };
 }
 
@@ -80,19 +94,13 @@ async function main() {
       resultType: 'json',
       numOfRows: 100,
       pageNo: 1,
-      ongoingYn: 'Y',           // 진행중인 공고만
-      acbgCondLst: HS_EDU_CODE, // 고졸(R7030)만 서버단 필터링
+      ongoingYn: 'Y',
+      acbgCondLst: HS_EDU_CODE,
     },
   });
 
   const rawItems = extractItems(res.data);
   console.log(`[fetch-recruit] fetched ${rawItems.length} items`);
-  if (rawItems.length > 0) {
-    console.log('[fetch-recruit] sample raw item:', JSON.stringify(rawItems[0], null, 2));
-  } else {
-    // 0건이면 실제 응답 구조 자체가 궁금하니 전체를 찍어서 원인 파악
-    console.log('[fetch-recruit] raw response (0건이라 전체 출력):', JSON.stringify(res.data, null, 2));
-  }
 
   const items = rawItems.map(normalizeItem).filter(it => it.sn);
 
@@ -103,7 +111,7 @@ async function main() {
   };
 
   const outPath = path.join(__dirname, '..', 'data', 'recruit.json');
-  fs.mkdirSync(path.dirname(outPath), { recursive: true }); // data 폴더 없으면 자동 생성
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`[fetch-recruit] wrote ${items.length} items to ${outPath}`);
 }
