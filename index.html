@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>고졸채용 안내 캘린더 · 그릿마인드랩</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css">
+<style>
+  :root{
+    --bg:#fafbfc;
+    --paper:#ffffff;
+    --ink:#1c2b3a;
+    --ink-soft:#6b7684;
+    --line:#dbe2e8;
+    --line-soft:#e9eef2;
+    --navy:#2f6fb8;
+    --navy-soft:#e8f1fb;
+    --red:#e0453a;
+    --red-soft:#fdeceb;
+    --gold:#e0a526;
+    --gold-soft:#fdf3dd;
+    --green:#3fae6f;
+    --green-soft:#e8f7ef;
+    --font-display:'Eulyoo1945', serif;
+    --font-body:'Gothic A1', -apple-system, sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:var(--font-body);font-size:14px;padding:30px 18px 70px;
+  }
+  .wrap{max-width:1120px;margin:0 auto;}
+
+  header{
+    background:var(--paper);border:1px solid var(--line);
+    border-top:5px solid var(--navy);
+    padding:22px 26px;margin-bottom:22px;
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;
+  }
+  .doc-tag{
+    font-family:var(--font-mono);font-size:11px;color:var(--ink-soft);
+    letter-spacing:.08em;border:1px solid var(--line);padding:2px 8px;display:inline-block;
+  }
+  h1{ font-family:var(--font-display);font-size:26px;font-weight:700;margin:8px 0 4px; }
+  .sub{font-size:13px;color:var(--ink-soft);}
+  .meta-right{ text-align:right;font-size:12px;color:var(--ink-soft);line-height:1.7;font-family:var(--font-mono); }
+  .meta-right b{color:var(--ink);}
+
+  .month-nav{
+    display:flex;justify-content:space-between;align-items:center;
+    background:var(--paper);border:1px solid var(--line);border-bottom:none;
+    padding:14px 20px;
+  }
+  .month-nav h2{font-family:var(--font-display);font-size:19px;font-weight:600;margin:0;}
+  .nav-btns{display:flex;gap:6px;}
+  .nav-btns button{
+    width:30px;height:30px;border:1px solid var(--line);background:var(--paper);
+    color:var(--ink-soft);cursor:pointer;font-size:14px;
+  }
+  .nav-btns button:hover{border-color:var(--ink-soft);color:var(--ink);}
+
+  .weekday-row{
+    display:grid;grid-template-columns:repeat(7,1fr);
+    background:var(--navy);color:#fff;
+  }
+  .weekday-row div{ text-align:center;font-size:12px;font-weight:600;padding:8px 0;letter-spacing:.04em; }
+  .weekday-row div:first-child{color:#f2b8b0;}
+  .weekday-row div:last-child{color:#a9c2e0;}
+
+  .calendar{
+    display:grid;grid-template-columns:repeat(7,1fr);
+    background:var(--paper);border:1px solid var(--line);border-top:none;
+  }
+  .day-cell{
+    border-right:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+    min-height:116px;padding:6px 6px 4px;cursor:pointer;
+    transition:background .12s ease;
+  }
+  .day-cell:nth-child(7n){border-right:none;}
+  .day-cell:hover{background:#faf9f5;}
+  .day-cell.out-month{background:#fafaf8;cursor:default;color:var(--line);}
+  .day-cell.out-month:hover{background:#fafaf8;}
+  .day-cell.selected{background:var(--navy-soft);}
+  .day-cell.today .date-num{
+    background:var(--navy);color:#fff;border-radius:50%;
+    width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;
+  }
+  .date-num{font-family:var(--font-mono);font-size:12.5px;font-weight:600;color:var(--ink);}
+  .day-cell.out-month .date-num{color:#c7c2b3;}
+  .day-cell.selected .date-num{
+    background:var(--navy);color:#fff;border-radius:4px;
+    padding:1px 7px;font-weight:700;
+  }
+  .day-chips{margin-top:5px;display:flex;flex-direction:column;gap:5px;}
+  .day-row{font-size:10px;color:var(--ink);overflow:hidden;}
+  .row-top{display:flex;align-items:center;gap:4px;}
+  .day-row .badge{
+    flex-shrink:0;width:15px;height:15px;border-radius:3px;
+    display:inline-flex;align-items:center;justify-content:center;
+    font-size:8.5px;font-weight:700;color:#fff;
+  }
+  .day-row.new .badge{background:var(--navy);}
+  .day-row.due .badge{background:var(--red);}
+  .day-row .name{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600;}
+  .day-row.due .name{color:var(--red);}
+  .day-row .cnt{
+    font-family:var(--font-mono);font-size:8.5px;color:var(--ink-soft);
+    padding-left:19px;display:block;margin-top:1px;
+    white-space:nowrap;letter-spacing:-0.03em;
+  }
+  .more-mini{font-size:9px;color:var(--ink-soft);padding-left:19px;}
+
+  .expando{
+    grid-column:1/-1;background:var(--navy-soft);
+    border-top:2px solid var(--navy);border-bottom:1px solid var(--line);
+    padding:10px 16px 12px;
+  }
+  .expando-head{ font-size:12px;font-weight:700;color:var(--navy);margin-bottom:6px; }
+  .expando-head .count{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-soft);font-weight:400;margin-left:6px;}
+  .expando-body{display:flex;flex-direction:column;}
+  .erow{
+    display:flex;align-items:center;gap:10px;
+    padding:7px 4px;border-bottom:1px solid var(--line-soft);
+    cursor:pointer;font-size:12.5px;
+  }
+  .erow:hover{background:rgba(255,255,255,.5);}
+  .erow-org{flex:1;min-width:0;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .erow-type{ font-size:9.5px;font-weight:700;padding:2px 6px;flex-shrink:0; }
+  .erow-type.new{background:var(--navy-soft);color:var(--navy);}
+  .erow-type.due{background:var(--red-soft);color:var(--red);}
+  .erow-job{
+    font-size:10px;font-weight:600;background:var(--navy);color:#fff;
+    padding:2px 7px;flex-shrink:0;
+  }
+  .erow-count{font-family:var(--font-mono);font-size:11px;color:var(--ink-soft);flex-shrink:0;}
+  .erow-dday{font-family:var(--font-mono);font-size:12px;font-weight:700;flex-shrink:0;width:44px;text-align:right;}
+  .erow-dday.urgent{color:var(--red);}
+  .erow-dday.soon{color:var(--gold);}
+  .erow-dday.safe{color:var(--green);}
+  .erow-detail{
+    font-size:11px;font-family:var(--font-body);color:var(--ink-soft);
+    padding:6px 4px 10px 4px;margin-top:-1px;
+    border-bottom:1px solid var(--line-soft);line-height:1.6;
+  }
+  .erow-detail .qual{display:block;margin-bottom:6px;white-space:pre-line;}
+  .erow-detail a{color:var(--navy);font-weight:600;text-decoration:none;}
+  .erow-detail a:hover{text-decoration:underline;}
+
+  .panel{background:var(--paper);border:1px solid var(--line);}
+  .panel-head{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:14px 22px;border-bottom:1px solid var(--line);background:#fafaf7;
+  }
+  .panel-head h2{font-family:var(--font-display);font-size:18px;font-weight:600;margin:0;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  thead th{
+    background:var(--navy);color:#fff;text-align:left;font-size:11.5px;font-weight:600;
+    padding:10px 22px;letter-spacing:.03em;
+  }
+  tbody tr:nth-child(even){background:#faf9f5;}
+  tbody td{padding:11px 22px;border-bottom:1px solid var(--line-soft);}
+  .rank{font-family:var(--font-mono);font-weight:700;color:var(--ink-soft);width:26px;}
+  .org-cell{font-weight:600;}
+  .num-cell{font-family:var(--font-mono);text-align:right;}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;padding:12px 22px;font-size:11.5px;color:var(--ink-soft);border-top:1px solid var(--line);}
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .legend i{width:9px;height:9px;display:inline-block;border-radius:50%;}
+  .legend i.urgent{background:var(--red);}
+  .legend i.soon{background:var(--gold);}
+  .legend i.safe{background:var(--green);}
+
+  .status-msg{padding:40px 20px;text-align:center;color:var(--ink-soft);background:var(--paper);border:1px solid var(--line);border-top:none;}
+
+  footer{
+    max-width:1120px;margin:20px auto 0;font-size:11.5px;color:var(--ink-soft);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+  }
+  footer code{font-family:var(--font-mono);background:var(--paper);border:1px solid var(--line);padding:1px 6px;}
+
+  @media (max-width:760px){
+    .day-cell{min-height:78px;}
+    .day-row{font-size:9px;}
+    header, .expando-head, .panel-head{padding:12px;}
+    .erow{flex-wrap:wrap;row-gap:4px;}
+    .erow-type{order:1;}
+    .erow-org{order:2;flex:1;width:auto;white-space:normal;}
+    .erow-job{order:3;}
+    .erow-count{order:4;}
+    .erow-dday{order:5;margin-left:auto;width:auto;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <span class="doc-tag">그릿마인드랩 진로지도 자료</span>
+      <h1>고졸채용 안내 캘린더</h1>
+      <div class="sub">공공기관 신입사원 채용 중 고졸 지원 가능한 공고만 정리해서 보여드립니다</div>
+    </div>
+    <div class="meta-right">
+      자료 기준일 <b id="ref-date">-</b><br>
+      데이터 갱신 <b id="data-updated">-</b>
+    </div>
+  </header>
+
+  <div class="month-nav">
+    <h2 id="month-title">-</h2>
+    <div class="nav-btns">
+      <button id="prev-month">‹</button>
+      <button id="next-month">›</button>
+    </div>
+  </div>
+  <div class="weekday-row">
+    <div>일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div>토</div>
+  </div>
+  <div class="calendar" id="calendar"></div>
+  <div class="status-msg" id="status-msg" style="display:none;"></div>
+
+  <div class="panel" style="margin-top:22px;">
+    <div class="panel-head">
+      <h2>고졸 지원 가능 채용 · 인원순</h2>
+    </div>
+    <table>
+      <thead>
+        <tr><th>순위</th><th>기관 · 직군</th><th style="text-align:right">채용인원</th><th style="text-align:right">마감</th></tr>
+      </thead>
+      <tbody id="rank-body"></tbody>
+    </table>
+    <div class="legend">
+      <span><i class="urgent"></i>마감 D-7 이내</span>
+      <span><i class="soon"></i>마감 D-14 이내</span>
+      <span><i class="safe"></i>여유 있음</span>
+    </div>
+  </div>
+
+  <footer>
+    <span>고졸 지원 가능 여부는 학력조건 코드(R7000: 고졸=R7030) 기준입니다.</span>
+    <span>출처: 공공데이터포털 "재정경제부_공공기관 채용정보 조회서비스"</span>
+  </footer>
+</div>
+
+<script>
+const referenceToday = new Date();
+document.getElementById('ref-date').textContent =
+  referenceToday.toLocaleDateString('ko-KR', {month:'long', day:'numeric'});
+
+const DOW = ['일','월','화','수','목','금','토'];
+function toKey(d){ return d.toISOString().slice(0,10); }
+
+let items = [];
+let startByDate = {};
+let deadlineByDate = {};
+let selectedKey = null;
+let viewYear = referenceToday.getFullYear();
+let viewMonth = referenceToday.getMonth();
+
+function ddayInfo(dateStr){
+  const d = new Date(dateStr);
+  const diff = Math.round((d - referenceToday)/86400000);
+  let cls='safe';
+  if(diff<=7) cls='urgent'; else if(diff<=14) cls='soon';
+  return {diff, cls};
+}
+
+// eduCondNm 배열 기준으로 인원 표기 문구 생성
+// - 학력조건이 "고졸" 하나뿐이면 정확한 고졸전형 인원으로 표기
+// - 여러 학력이 섞여 있으면 총 인원 + 고졸 포함 안내로 표기 (API가 학력별 분리 인원을 안 주기 때문)
+function countLabel(it){
+  if(it.eduCondNm && it.eduCondNm.length===1 && it.eduCondNm[0]==='고졸'){
+    return `고졸전형 ${it.totalCount}명`;
+  }
+  return `총 ${it.totalCount}명 (고졸 포함)`;
+}
+function countLabelShort(it){
+  if(it.eduCondNm && it.eduCondNm.length===1 && it.eduCondNm[0]==='고졸'){
+    return `고졸 ${it.totalCount}명`;
+  }
+  return `총 ${it.totalCount}명`;
+}
+
+function buildMonthCells(year, month){
+  const firstDay = new Date(year, month, 1);
+  const startOffset = firstDay.getDay();
+  const daysInMonth = new Date(year, month+1, 0).getDate();
+  const totalCells = Math.ceil((startOffset+daysInMonth)/7)*7;
+  const cells = [];
+  for(let i=0;i<totalCells;i++){
+    const dayNum = i - startOffset + 1;
+    const date = new Date(year, month, dayNum);
+    cells.push({ date, inMonth: dayNum>=1 && dayNum<=daysInMonth });
+  }
+  return cells;
+}
+
+function renderMonthTitle(){
+  document.getElementById('month-title').textContent = `${viewYear}년 ${viewMonth+1}월`;
+}
+
+function dayCellHtml(date, inMonth){
+  const key = toKey(date);
+  const postItems = startByDate[key]||[];
+  const dueItems = deadlineByDate[key]||[];
+  const isToday = toKey(referenceToday)===key;
+  const sel = key===selectedKey;
+  let chipsHtml = '';
+  if(inMonth && (postItems.length>0 || dueItems.length>0)){
+    const combined = [
+      ...postItems.map(it=>({it, type:'new'})),
+      ...dueItems.map(it=>({it, type:'due'}))
+    ];
+    const visible = combined.slice(0,2);
+    const extra = combined.length - visible.length;
+    chipsHtml = visible.map(({it,type})=>{
+      const badge = type==='due' ? '끝' : '시';
+      return `<div class="day-row ${type}">
+        <div class="row-top"><span class="badge">${badge}</span><span class="name">${it.orgName}</span></div>
+        <div class="cnt">${countLabelShort(it)}</div>
+      </div>`;
+    }).join('') + (extra>0? `<div class="more-mini">+${extra}건</div>` : '');
+  }
+  const clickable = inMonth && (postItems.length>0 || dueItems.length>0);
+  return `<div class="day-cell ${inMonth?'':'out-month'} ${isToday?'today':''} ${sel?'selected':''}" data-key="${key}" data-clickable="${clickable}">
+    <span class="date-num">${date.getDate()}</span>
+    <div class="day-chips">${chipsHtml}</div>
+  </div>`;
+}
+
+function erowHtml(it, idx, type){
+  const dateForDday = type==='due' ? it.endDate : it.endDate; // D-day는 항상 마감 기준
+  const {diff, cls} = ddayInfo(it.endDate);
+  const typeBadge = type==='due'
+    ? `<span class="erow-type due">마감</span>`
+    : `<span class="erow-type new">시작</span>`;
+  const ddayHtml = `<span class="erow-dday ${cls}">D${diff>=0?'-'+diff:'+'+Math.abs(diff)}</span>`;
+  const qualExcerpt = (it.aplyQlfcCn||'').slice(0,160).trim();
+  return `
+  <div class="erow" data-idx="${idx}">
+    ${typeBadge}
+    <span class="erow-org">${it.orgName} — ${it.title}</span>
+    <span class="erow-job">${it.jobTrack}</span>
+    <span class="erow-count">${countLabel(it)}</span>
+    ${ddayHtml}
+  </div>
+  <div class="erow-detail" data-idx="${idx}" style="display:none;">
+    <span class="qual">${qualExcerpt}${(it.aplyQlfcCn||'').length>160?'…':''}</span>
+    학력조건: ${(it.eduCondNm||[]).join(', ')} · 근무지: ${it.workRgnNm||'-'} · 고용형태: ${it.hireTypeNm||'-'}<br>
+    ${it.srcUrl ? `<a href="${it.srcUrl}" target="_blank" rel="noopener">원문 공고 보기 →</a>` : ''}
+  </div>`;
+}
+
+function expandoHtml(key){
+  const postItems = startByDate[key]||[];
+  const dueItems = deadlineByDate[key]||[];
+  const d = new Date(key);
+  const label = `${d.getMonth()+1}.${d.getDate()}(${DOW[d.getDay()]})`;
+  const rowsHtml =
+    postItems.map((it,i)=>erowHtml(it, `new-${i}`, 'new')).join('') +
+    dueItems.map((it,i)=>erowHtml(it, `due-${i}`, 'due')).join('');
+  const summary = `시작 ${postItems.length}건 · 마감 ${dueItems.length}건 · 공고 클릭 시 지원자격 원문 표시`;
+  return `<div class="expando" style="grid-column:1/-1;">
+    <div class="expando-head">${label} <span class="count">${summary}</span></div>
+    <div class="expando-body">${rowsHtml}</div>
+  </div>`;
+}
+
+function renderCalendar(){
+  const cal = document.getElementById('calendar');
+  const cells = buildMonthCells(viewYear, viewMonth);
+  let html = '';
+  for(let w=0; w<cells.length/7; w++){
+    const week = cells.slice(w*7, w*7+7);
+    html += week.map(c=>dayCellHtml(c.date, c.inMonth)).join('');
+    const weekKeys = week.map(c=>toKey(c.date));
+    if(selectedKey && weekKeys.includes(selectedKey)){
+      html += expandoHtml(selectedKey);
+    }
+  }
+  cal.innerHTML = html;
+
+  cal.querySelectorAll('.day-cell[data-clickable="true"]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const key = el.dataset.key;
+      selectedKey = (selectedKey===key) ? null : key;
+      renderCalendar();
+    });
+  });
+  cal.querySelectorAll('.erow').forEach(el=>{
+    el.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      const idx = el.dataset.idx;
+      const detailEl = cal.querySelector(`.erow-detail[data-idx="${idx}"]`);
+      const open = detailEl.style.display !== 'none';
+      detailEl.style.display = open ? 'none' : 'block';
+    });
+  });
+}
+
+function renderRanking(){
+  const rows = [...items].sort((a,b)=>b.totalCount-a.totalCount).slice(0,20);
+  const body = document.getElementById('rank-body');
+  body.innerHTML = rows.length ? rows.map((row,i)=>`
+    <tr>
+      <td class="rank">${i+1}</td>
+      <td class="org-cell">${row.orgName} <span style="font-weight:400;color:var(--ink-soft);font-size:12px;">(${row.jobTrack})</span></td>
+      <td class="num-cell">${countLabel(row)}</td>
+      <td class="num-cell">${(row.endDate||'').slice(5).replace('-','.')}</td>
+    </tr>`).join('')
+    : `<tr><td colspan="4" style="text-align:center;color:var(--ink-soft);padding:20px;">표시할 공고가 없습니다.</td></tr>`;
+}
+
+async function loadData(){
+  const statusEl = document.getElementById('status-msg');
+  try{
+    const res = await fetch('./data/recruit.json', { cache: 'no-store' });
+    if(!res.ok) throw new Error('데이터 파일을 불러오지 못했습니다 (' + res.status + ')');
+    const data = await res.json();
+    items = data.items || [];
+
+    document.getElementById('data-updated').textContent =
+      data.updatedAt ? new Date(data.updatedAt).toLocaleString('ko-KR') : '알 수 없음';
+
+    startByDate = {};
+    deadlineByDate = {};
+    items.forEach(it=>{
+      if(it.startDate){
+        if(!startByDate[it.startDate]) startByDate[it.startDate]=[];
+        startByDate[it.startDate].push(it);
+      }
+      if(it.endDate){
+        if(!deadlineByDate[it.endDate]) deadlineByDate[it.endDate]=[];
+        deadlineByDate[it.endDate].push(it);
+      }
+    });
+
+    if(items.length===0){
+      statusEl.style.display='block';
+      statusEl.textContent = '현재 고졸 지원 가능한 진행중 공고가 없습니다. (자동 수집은 계속 진행 중이에요)';
+    } else {
+      statusEl.style.display='none';
+    }
+  } catch(err){
+    statusEl.style.display='block';
+    statusEl.textContent = '데이터를 불러오지 못했습니다: ' + err.message;
+    console.error(err);
+  }
+
+  renderMonthTitle();
+  renderCalendar();
+  renderRanking();
+}
+
+document.getElementById('prev-month').addEventListener('click', ()=>{
+  viewMonth--; if(viewMonth<0){viewMonth=11; viewYear--;}
+  renderMonthTitle(); renderCalendar();
+});
+document.getElementById('next-month').addEventListener('click', ()=>{
+  viewMonth++; if(viewMonth>11){viewMonth=0; viewYear++;}
+  renderMonthTitle(); renderCalendar();
+});
+
+loadData();
+</script>
+</body>
+</html>
