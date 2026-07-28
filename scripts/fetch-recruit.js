@@ -89,6 +89,9 @@ async function main() {
   console.log(`[fetch-recruit] fetched ${rawItems.length} items`);
   if (rawItems.length > 0) {
     console.log('[fetch-recruit] sample raw item:', JSON.stringify(rawItems[0], null, 2));
+  } else {
+    // 0건이면 실제 응답 구조 자체가 궁금하니 전체를 찍어서 원인 파악
+    console.log('[fetch-recruit] raw response (0건이라 전체 출력):', JSON.stringify(res.data, null, 2));
   }
 
   const items = rawItems.map(normalizeItem).filter(it => it.sn);
@@ -100,6 +103,7 @@ async function main() {
   };
 
   const outPath = path.join(__dirname, '..', 'data', 'recruit.json');
+  fs.mkdirSync(path.dirname(outPath), { recursive: true }); // data 폴더 없으면 자동 생성
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`[fetch-recruit] wrote ${items.length} items to ${outPath}`);
 }
