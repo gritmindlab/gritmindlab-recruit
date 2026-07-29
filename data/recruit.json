@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T21:46:52.778Z",
+  "updatedAt": "2026-07-29T00:18:45.194Z",
   "count": 19,
   "items": [
     {
@@ -13,7 +13,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "대전",
       "ncsNm": "금융.보험",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 1,
       "eduCondNm": [
         "고졸"
@@ -35,7 +35,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "경북",
       "ncsNm": "금융.보험",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 1,
       "eduCondNm": [
         "고졸"
@@ -81,7 +81,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "서울,충북,전남광주,경북,제주",
       "ncsNm": "경영.회계.사무,경비.청소,건설,정보통신",
-      "jobTrack": "시설",
+      "jobTrack": "사무",
       "totalCount": 17,
       "eduCondNm": [
         "학력무관",
@@ -104,7 +104,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "충남,전북,경북",
       "ncsNm": "사업관리,경영.회계.사무",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 4,
       "eduCondNm": [
         "고졸",
@@ -150,7 +150,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "부산,세종,경기,강원,충북,전북,전남광주,경북,제주",
       "ncsNm": "경영.회계.사무,기계,화학,환경.에너지.안전,연구",
-      "jobTrack": "기계",
+      "jobTrack": "사무",
       "totalCount": 34,
       "eduCondNm": [
         "학력무관",
@@ -173,7 +173,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "부산,울산,경기,강원,충북,전북,전남광주,경북,경남",
       "ncsNm": "사업관리,경영.회계.사무,건설,기계,전기.전자,정보통신,환경.에너지.안전",
-      "jobTrack": "토목",
+      "jobTrack": "사무",
       "totalCount": 229,
       "eduCondNm": [
         "학력무관",
@@ -224,7 +224,7 @@
       "recrutSeNm": "신입+경력",
       "workRgnNm": "서울",
       "ncsNm": "사업관리,경영.회계.사무,보건.의료",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 14,
       "eduCondNm": [
         "고졸",
@@ -250,7 +250,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "전남광주",
       "ncsNm": "경영.회계.사무",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 2,
       "eduCondNm": [
         "고졸",
@@ -274,7 +274,7 @@
       "recrutSeNm": "경력",
       "workRgnNm": "세종",
       "ncsNm": "사업관리,경영.회계.사무",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 4,
       "eduCondNm": [
         "고졸",
@@ -298,7 +298,7 @@
       "recrutSeNm": "신입+경력",
       "workRgnNm": "경기",
       "ncsNm": "사업관리,경영.회계.사무,교육.자연.사회과학,보건.의료,사회복지.종교,전기.전자,정보통신",
-      "jobTrack": "전기",
+      "jobTrack": "사무",
       "totalCount": 46,
       "eduCondNm": [
         "고졸",
@@ -324,7 +324,7 @@
       "recrutSeNm": "신입+경력",
       "workRgnNm": "부산",
       "ncsNm": "보건.의료",
-      "jobTrack": "기타",
+      "jobTrack": "보건복지",
       "totalCount": 20,
       "eduCondNm": [
         "고졸"
@@ -346,7 +346,7 @@
       "recrutSeNm": "신입+경력",
       "workRgnNm": "부산",
       "ncsNm": "보건.의료",
-      "jobTrack": "기타",
+      "jobTrack": "보건복지",
       "totalCount": 1,
       "eduCondNm": [
         "고졸"
@@ -368,7 +368,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "서울",
       "ncsNm": "경영.회계.사무",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 2,
       "eduCondNm": [
         "고졸",
@@ -392,7 +392,7 @@
       "recrutSeNm": "신입+경력",
       "workRgnNm": "서울",
       "ncsNm": "경영.회계.사무,교육.자연.사회과학",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 2,
       "eduCondNm": [
         "학력무관",
@@ -419,7 +419,7 @@
       "recrutSeNm": "신입+경력",
       "workRgnNm": "서울",
       "ncsNm": "사업관리,경영.회계.사무,보건.의료,사회복지.종교,정보통신,연구",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 36,
       "eduCondNm": [
         "학력무관",
@@ -445,7 +445,7 @@
       "recrutSeNm": "신입",
       "workRgnNm": "서울,부산,대구,인천,광주,대전,울산,경기,강원,충북,충남,전북,경북,경남",
       "ncsNm": "경영.회계.사무",
-      "jobTrack": "기타",
+      "jobTrack": "사무",
       "totalCount": 0,
       "eduCondNm": [
         "고졸"
