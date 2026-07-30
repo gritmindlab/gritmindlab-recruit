@@ -409,7 +409,9 @@ function dayCellHtml(date, inMonth){
     chipsHtml = groups.map(group=>{
       const badge = group.type==='due' ? '끝' : '시';
       const countTag = group.items.length>1 ? ` <span class="multi-tag">${group.items.length}건</span>` : '';
-      return `<div class="day-row ${group.type}">
+      // 1건짜리 그룹은 원문 링크로 바로 이동, 여러 건이면 날짜를 눌러 목록에서 선택
+      const url = group.items.length===1 ? (group.items[0].srcUrl||'') : '';
+      return `<div class="day-row ${group.type}" data-direct-url="${url}">
         <div class="row-top"><span class="badge">${badge}</span><span class="name">${group.orgName}${countTag}</span></div>
         <div class="cnt">${groupLabel(group)}</div>
       </div>`;
@@ -423,25 +425,18 @@ function dayCellHtml(date, inMonth){
 }
 
 function erowHtml(it, idx, type){
-  const dateForDday = type==='due' ? it.endDate : it.endDate; // D-day는 항상 마감 기준
   const {diff, cls} = ddayInfo(it.endDate);
   const typeBadge = type==='due'
     ? `<span class="erow-type due">마감</span>`
     : `<span class="erow-type new">시작</span>`;
   const ddayHtml = `<span class="erow-dday ${cls}">D${diff>=0?'-'+diff:'+'+Math.abs(diff)}</span>`;
-  const qualExcerpt = (it.aplyQlfcCn||'').slice(0,160).trim();
   return `
-  <div class="erow" data-idx="${idx}">
+  <div class="erow" data-url="${it.srcUrl||''}" title="클릭하면 원문 공고로 이동합니다">
     ${typeBadge}
     <span class="erow-org">${it.orgName} — ${it.title}</span>
     <span class="erow-job">${it.jobTrack}</span>
     <span class="erow-count">${countLabel(it)}</span>
     ${ddayHtml}
-  </div>
-  <div class="erow-detail" data-idx="${idx}" style="display:none;">
-    <span class="qual">${qualExcerpt}${(it.aplyQlfcCn||'').length>160?'…':''}</span>
-    학력조건: ${(it.eduCondNm||[]).join(', ')} · 근무지: ${it.workRgnNm||'-'} · 고용형태: ${it.hireTypeNm||'-'}<br>
-    ${it.srcUrl ? `<a href="${it.srcUrl}" target="_blank" rel="noopener">원문 공고 보기 →</a>` : ''}
   </div>`;
 }
 
@@ -453,7 +448,7 @@ function expandoHtml(key){
   const rowsHtml =
     postItems.map((it,i)=>erowHtml(it, `new-${i}`, 'new')).join('') +
     dueItems.map((it,i)=>erowHtml(it, `due-${i}`, 'due')).join('');
-  const summary = `시작 ${postItems.length}건 · 마감 ${dueItems.length}건 · 공고 클릭 시 지원자격 원문 표시`;
+  const summary = `시작 ${postItems.length}건 · 마감 ${dueItems.length}건 · 공고 클릭 시 원문으로 이동`;
   return `<div class="expando" style="grid-column:1/-1;">
     <div class="expando-head">${label} <span class="count">${summary}</span></div>
     <div class="expando-body">${rowsHtml}</div>
@@ -481,13 +476,23 @@ function renderCalendar(){
       renderCalendar();
     });
   });
-  cal.querySelectorAll('.erow').forEach(el=>{
+  // 1건짜리 기관명은 클릭하면 날짜 펼치기 없이 바로 원문으로 이동
+  cal.querySelectorAll('.day-row[data-direct-url]').forEach(el=>{
+    const url = el.dataset.directUrl;
+    if(!url) return;
+    el.style.cursor = 'pointer';
     el.addEventListener('click', (e)=>{
       e.stopPropagation();
-      const idx = el.dataset.idx;
-      const detailEl = cal.querySelector(`.erow-detail[data-idx="${idx}"]`);
-      const open = detailEl.style.display !== 'none';
-      detailEl.style.display = open ? 'none' : 'block';
+      window.open(url, '_blank', 'noopener');
+    });
+  });
+  // 여러 건 묶여서 날짜를 펼쳤을 때 나오는 목록은, 각 줄 클릭 시 바로 원문으로 이동
+  cal.querySelectorAll('.erow[data-url]').forEach(el=>{
+    const url = el.dataset.url;
+    if(!url) return;
+    el.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      window.open(url, '_blank', 'noopener');
     });
   });
 }
