@@ -104,7 +104,7 @@ function normalizeItem(item) {
   };
 }
 
-async function fetchAllPages() {
+async function fetchPagesForInstType(instType) {
   const all = [];
   let pageNo = 1;
   const numOfRows = 100;
@@ -117,19 +117,36 @@ async function fetchAllPages() {
         resultType: 'json',
         numOfRows,
         pageNo,
-        ongoingYn: 'Y', // 진행중인 공고 전체 (학력조건 필터는 뺌 - 전체/고졸 탭을 프론트에서 나누기 위함)
+        ongoingYn: 'Y',
+        instType, // 기관유형 - 공기업(시장형/준시장형)만 필터링
       },
     });
     const pageItems = extractItems(res.data);
     all.push(...pageItems);
 
     const totalCount = res.data?.totalCount ?? pageItems.length;
-    console.log(`[fetch-recruit] page ${pageNo}: ${pageItems.length}건 (누적 ${all.length}/${totalCount})`);
+    console.log(`[fetch-recruit] instType=${instType} page ${pageNo}: ${pageItems.length}건 (누적 ${all.length}/${totalCount})`);
 
     if (all.length >= totalCount || pageItems.length === 0) break;
     pageNo++;
   }
   return all;
+}
+
+// 기관유형(A2000): 공기업(시장형 A2001, 준시장형 A2002) + 준정부기관(기금관리형 A2003, 위탁집행형 A2004)
+// → 기타공공기관(A2005)만 제외하고 나머지 다 포함
+// instType 파라미터는 한 번에 값 하나만 받는 것으로 보여서, 유형별로 나눠 호출 후 합침
+async function fetchAllPages() {
+  const instTypes = ['A2001', 'A2002', 'A2003', 'A2004'];
+  const results = await Promise.all(instTypes.map(t => fetchPagesForInstType(t)));
+  const merged = results.flat();
+  const seen = new Set();
+  return merged.filter(it => {
+    const key = it.recrutPblntSn;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 async function main() {
