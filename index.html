@@ -51,6 +51,16 @@
   .meta-right{ text-align:right;font-size:12px;color:var(--ink-soft);line-height:1.7;font-family:var(--font-mono); }
   .meta-right b{color:var(--ink);}
 
+  /* ---------- View tabs (전체/고졸) ---------- */
+  .view-tabs{display:flex;gap:6px;margin-bottom:12px;}
+  .view-tab{
+    font-size:13px;font-weight:600;padding:8px 16px;
+    border:1px solid var(--line);background:var(--paper);color:var(--ink-soft);
+    cursor:pointer;transition:all .12s ease;
+  }
+  .view-tab:hover{border-color:var(--navy);color:var(--navy);}
+  .view-tab.active{background:var(--navy);border-color:var(--navy);color:#fff;}
+
   .month-nav{
     display:flex;justify-content:space-between;align-items:center;
     background:var(--paper);border:1px solid var(--line);border-bottom:none;
@@ -253,6 +263,11 @@
     </div>
   </header>
 
+  <div class="view-tabs" id="view-tabs">
+    <button class="view-tab" data-mode="all">전체 채용</button>
+    <button class="view-tab active" data-mode="hs">고졸 지원 가능</button>
+  </div>
+
   <div class="month-nav">
     <h2 id="month-title">-</h2>
     <div class="nav-btns">
@@ -268,7 +283,7 @@
 
   <div class="panel" style="margin-top:22px;">
     <div class="panel-head">
-      <h2>고졸 지원 가능 채용 · 인원순</h2>
+      <h2 id="rank-title">고졸 지원 가능 채용 · 인원순</h2>
     </div>
     <div class="table-scroll">
       <table>
@@ -306,12 +321,14 @@ function toKey(d){
   return `${y}-${m}-${day}`;
 }
 
-let items = [];
+let allItems = [];    // API에서 가져온 전체 진행중 공고
+let items = [];        // 현재 탭(전체/고졸)에 맞게 필터된 목록
 let startByDate = {};
 let deadlineByDate = {};
 let selectedKey = null;
 let viewYear = referenceToday.getFullYear();
 let viewMonth = referenceToday.getMonth();
+let viewMode = 'hs'; // 'hs' = 고졸 지원 가능만, 'all' = 전체
 
 function ddayInfo(dateStr){
   const d = new Date(dateStr);
@@ -474,46 +491,67 @@ function renderRanking(){
   });
 }
 
+function applyViewMode(){
+  items = viewMode === 'hs' ? allItems.filter(it => it.isHighSchoolTrack) : allItems;
+
+  startByDate = {};
+  deadlineByDate = {};
+  items.forEach(it=>{
+    if(it.startDate){
+      if(!startByDate[it.startDate]) startByDate[it.startDate]=[];
+      startByDate[it.startDate].push(it);
+    }
+    if(it.endDate){
+      if(!deadlineByDate[it.endDate]) deadlineByDate[it.endDate]=[];
+      deadlineByDate[it.endDate].push(it);
+    }
+  });
+
+  const statusEl = document.getElementById('status-msg');
+  if(items.length===0){
+    statusEl.style.display='block';
+    statusEl.textContent = viewMode==='hs'
+      ? '현재 고졸 지원 가능한 진행중 공고가 없습니다. (자동 수집은 계속 진행 중이에요)'
+      : '현재 진행중인 공고가 없습니다.';
+  } else {
+    statusEl.style.display='none';
+  }
+
+  renderCalendar();
+  renderRanking();
+}
+
 async function loadData(){
   const statusEl = document.getElementById('status-msg');
   try{
     const res = await fetch('./data/recruit.json', { cache: 'no-store' });
     if(!res.ok) throw new Error('데이터 파일을 불러오지 못했습니다 (' + res.status + ')');
     const data = await res.json();
-    items = data.items || [];
+    allItems = data.items || [];
 
     document.getElementById('data-updated').textContent =
       data.updatedAt ? new Date(data.updatedAt).toLocaleString('ko-KR') : '알 수 없음';
-
-    startByDate = {};
-    deadlineByDate = {};
-    items.forEach(it=>{
-      if(it.startDate){
-        if(!startByDate[it.startDate]) startByDate[it.startDate]=[];
-        startByDate[it.startDate].push(it);
-      }
-      if(it.endDate){
-        if(!deadlineByDate[it.endDate]) deadlineByDate[it.endDate]=[];
-        deadlineByDate[it.endDate].push(it);
-      }
-    });
-
-    if(items.length===0){
-      statusEl.style.display='block';
-      statusEl.textContent = '현재 고졸 지원 가능한 진행중 공고가 없습니다. (자동 수집은 계속 진행 중이에요)';
-    } else {
-      statusEl.style.display='none';
-    }
   } catch(err){
     statusEl.style.display='block';
     statusEl.textContent = '데이터를 불러오지 못했습니다: ' + err.message;
     console.error(err);
+    allItems = [];
   }
 
   renderMonthTitle();
-  renderCalendar();
-  renderRanking();
+  applyViewMode();
 }
+
+document.getElementById('view-tabs').addEventListener('click', (e)=>{
+  const btn = e.target.closest('.view-tab');
+  if(!btn) return;
+  viewMode = btn.dataset.mode;
+  document.querySelectorAll('.view-tab').forEach(b=>b.classList.toggle('active', b===btn));
+  document.getElementById('rank-title').textContent =
+    viewMode==='hs' ? '고졸 지원 가능 채용 · 인원순' : '전체 채용 · 인원순';
+  selectedKey = null;
+  applyViewMode();
+});
 
 document.getElementById('prev-month').addEventListener('click', ()=>{
   viewMonth--; if(viewMonth<0){viewMonth=11; viewYear--;}
