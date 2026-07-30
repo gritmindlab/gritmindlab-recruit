@@ -1,8 +1,96 @@
 {
-  "updatedAt": "2026-07-30T08:57:49.091Z",
-  "count": 487,
+  "updatedAt": "2026-07-30T10:02:46.746Z",
+  "count": 490,
   "highSchoolCount": 19,
   "items": [
+    {
+      "sn": 303284,
+      "orgName": "정보통신기획평가원",
+      "orgCode": "C0908",
+      "title": "2026년 정보통신기획평가원 직원채용(휴직대체) 공고",
+      "startDate": "2026-07-23",
+      "endDate": "2026-08-06",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "대전",
+      "ncsNm": "사업관리,경영.회계.사무,경비.청소,정보통신",
+      "jobTrack": "사무",
+      "totalCount": 9,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "Y",
+      "daysLeft": 7,
+      "srcUrl": "https://www.iitp.kr/web/index.do",
+      "aplyQlfcCn": "<공통>\r\nㅇ 연령 제한없음(단, 우리 원 정년규정에 의거 만 60세 미만인 자)\r\nㅇ 성별 제한없음(단, 남성의 경우 「병역법」 제76조 제1항의 각호에 해당하지 않는 자)\r\nㅇ 채용 분야 직무기술서 상의 직무 역량을 보유한 자\r\nㅇ 임용예정일(‘26.9월 말~10월초 예정) 부터 근무가 가능한 자\r\n\r\n<위촉직(사업관리)>\r\nㅇ 다음 공인어학시험 중 1개 이상 자격을 충족한 자 또는 영어권 국가 학사 이상 학위취득자\r\n- TOEIC 750점, TOEFL-IBT 85점, New TEPS 268, TOEIC-S 120점, TEPS-S 51점, OPIC IM2 이상\r\n* 원서 접수마감일 기준 2년 이내 정기시험 성적 (단, 유효기간 만료 전 어학성적사전등록 시 5년간 인정)\r\n\r\n※ 이외 상세사항은 첨부파일의 공고문 등 참고"
+    },
+    {
+      "sn": 303281,
+      "orgName": "대한적십자사",
+      "orgCode": "C0059",
+      "title": "[영주적십자병원] 정규직 조리사, 정규직 취사원, 계약직 구내매점 직원(평일오후)공개채용 공고",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-15",
+      "hireTypeNm": "정규직,비정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "경북",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 3,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 16,
+      "srcUrl": "https://www.redcross.or.kr/redrecruit/",
+      "aplyQlfcCn": "1. 정규직 조리사\r\n- 조리사 자격증 소지자\r\n\r\n2. 정규직 취사원\r\n- 조리 및 취사업무 가능자\r\n\r\n3. 계약직 구내매점 직원\r\n- 계약기간 :’26.9.1. ~ ’27.8.31.\r\n※ 근무시간 : 평일 16시~21시"
+    },
+    {
+      "sn": 303280,
+      "orgName": "전남대학교병원",
+      "orgCode": "C0113",
+      "title": "2026년 7월 전남대학교병원 청년인턴 공개채용 공고",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-13",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "전남광주",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://cnuh.recruiter.co.kr/",
+      "aplyQlfcCn": "공통사항 : 응시연령 : 만 34세 이하(공고일 기준)\r\n※ 「제대군인지원에 관한 법률」에 따라 제대군인지원에 관한 법률 제2조에 의한 제대군인 및 병역법 제1항 제1호의 업무에 복무하고 소집 해제된 공익 근무요원이 응시할 경우, 상한 연령을 연장함.(군복무기간 1년 미만 : 1세, 1년 이상∼2년 미만 : 2세, 2년 이상 : 3세 연장)\r\n-판독실 업무지원 : 제한없음"
+    },
+    {
+      "sn": 303279,
+      "orgName": "전남대학교병원",
+      "orgCode": "C0113",
+      "title": "2026년 7월 전남대학교병원 직원(지원직) 공개채용 공고",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-13",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "전남광주",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 17,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://cnuh.recruiter.co.kr/",
+      "aplyQlfcCn": "항생제 적정사용 관리 시범사업: 약사 면허 소지자\r\n공공보건의료 협력체계 구축사업 전담업무: 간호사 면허 소지자, 종합병원 이상 근무경력 1년 이상인 자\r\n전공의 수련환경 혁신지원사업 관련 업무: 제한없음\r\n조제업무보조: 3교대 근무가 가능한 자\r\n간호업무보조: 3교대 근무가 가능한 자\r\n건축 업무: 건축기사, 실내건축기사, 건축시공관련기술사, 건축사 중 1개 이상 소지자\r\n전기 업무: 전기기사, 전기공사기사, 소방설비기사(전기) 이상 자격증 중 1개 이상 소지자\r\n환경관리업무: 현장 근로, 교대 근무가 가능한 자\r\n소아청소년 완화의료 사회복지사: 사회복지사 1급 자격 소지자\r\n공용윤리위원회 운영 및 위탁 지원사업 업무: 사회복지사 1급 자격 소지자\r\n항생제 적정사용 프로그램 개발 등: 아래 경력 중 하나 이상을 충족해야 함\r\n * Client/Server 환경 개발 경력 3년 이상\r\n * ASP.NET, JavaScript, CSS, TypeScript, jQuery, Visualstudio 환경 등에서 웹개발 경력 3년 이상"
+    },
     {
       "sn": 303273,
       "orgName": "대한적십자사",
@@ -5169,28 +5257,6 @@
       "daysLeft": 13,
       "srcUrl": "https://koiha.recruiter.co.kr/career/home",
       "aplyQlfcCn": "○연구직(6급(갑))\r\n 1. 관련분야 학사학위 취득한 자\r\n 2. 기타 동등한 자격이 있다고 인정되는 자"
-    },
-    {
-      "sn": 302998,
-      "orgName": "정보통신기획평가원",
-      "orgCode": "C0908",
-      "title": "2026년 정보통신기획평가원 직원채용(휴직대체) 공고",
-      "startDate": "2026-07-23",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "대전",
-      "ncsNm": "사업관리,경영.회계.사무,경비.청소,정보통신",
-      "jobTrack": "사무",
-      "totalCount": 9,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 7,
-      "srcUrl": "https://www.iitp.kr/web/index.do",
-      "aplyQlfcCn": "<공통>\r\nㅇ 연령 제한없음(단, 우리 원 정년규정에 의거 만 60세 미만인 자)\r\nㅇ 성별 제한없음(단, 남성의 경우 「병역법」 제76조 제1항의 각호에 해당하지 않는 자)\r\nㅇ 채용 분야 직무기술서 상의 직무 역량을 보유한 자\r\nㅇ 임용예정일(‘26.9월 말~10월초 예정) 부터 근무가 가능한 자\r\n\r\n<위촉직(사업관리)>\r\nㅇ 다음 공인어학시험 중 1개 이상 자격을 충족한 자 또는 영어권 국가 학사 이상 학위취득자\r\n- TOEIC 750점, TOEFL-IBT 85점, New TEPS 268, TOEIC-S 120점, TEPS-S 51점, OPIC IM2 이상\r\n* 원서 접수마감일 기준 2년 이내 정기시험 성적 (단, 유효기간 만료 전 어학성적사전등록 시 5년간 인정)\r\n\r\n※ 이외 상세사항은 첨부파일의 공고문 등 참고"
     },
     {
       "sn": 302997,
