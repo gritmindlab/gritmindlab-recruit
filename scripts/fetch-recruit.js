@@ -104,26 +104,46 @@ function normalizeItem(item) {
   };
 }
 
-async function main() {
-  const res = await axios.get(LIST_URL, {
-    params: {
-      serviceKey: SERVICE_KEY,
-      resultType: 'json',
-      numOfRows: 100,
-      pageNo: 1,
-      ongoingYn: 'Y',
-      acbgCondLst: HS_EDU_CODE,
-    },
-  });
+async function fetchAllPages() {
+  const all = [];
+  let pageNo = 1;
+  const numOfRows = 100;
+  const MAX_PAGES = 15; // 안전장치: 최대 1500건까지만
 
-  const rawItems = extractItems(res.data);
-  console.log(`[fetch-recruit] fetched ${rawItems.length} items`);
+  while (pageNo <= MAX_PAGES) {
+    const res = await axios.get(LIST_URL, {
+      params: {
+        serviceKey: SERVICE_KEY,
+        resultType: 'json',
+        numOfRows,
+        pageNo,
+        ongoingYn: 'Y', // 진행중인 공고 전체 (학력조건 필터는 뺌 - 전체/고졸 탭을 프론트에서 나누기 위함)
+      },
+    });
+    const pageItems = extractItems(res.data);
+    all.push(...pageItems);
+
+    const totalCount = res.data?.totalCount ?? pageItems.length;
+    console.log(`[fetch-recruit] page ${pageNo}: ${pageItems.length}건 (누적 ${all.length}/${totalCount})`);
+
+    if (all.length >= totalCount || pageItems.length === 0) break;
+    pageNo++;
+  }
+  return all;
+}
+
+async function main() {
+  const rawItems = await fetchAllPages();
+  console.log(`[fetch-recruit] 전체 fetched ${rawItems.length} items`);
 
   const items = rawItems.map(normalizeItem).filter(it => it.sn);
+  const hsCount = items.filter(it => it.isHighSchoolTrack).length;
+  console.log(`[fetch-recruit] 그 중 고졸 지원 가능: ${hsCount}건`);
 
   const output = {
     updatedAt: new Date().toISOString(),
     count: items.length,
+    highSchoolCount: hsCount,
     items,
   };
 
