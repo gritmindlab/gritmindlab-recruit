@@ -126,6 +126,11 @@
     overflow:hidden;word-break:keep-all;
   }
   .day-row.due .name{color:var(--red);}
+  .multi-tag{
+    font-family:var(--font-mono);font-size:8.5px;font-weight:700;
+    background:var(--line-soft);color:var(--ink-soft);
+    padding:1px 5px;border-radius:3px;white-space:nowrap;
+  }
   .day-row .cnt{
     font-family:var(--font-mono);font-size:9.5px;color:var(--ink-soft);
     padding-left:22px;display:block;margin-top:3px;
@@ -372,6 +377,22 @@ function renderMonthTitle(){
   document.getElementById('month-title').textContent = `${viewYear}년 ${viewMonth+1}월`;
 }
 
+// 같은 기관이 같은 날 여러 건 올린 경우 하나로 묶어서 표시
+function groupByOrg(entries){
+  const map = new Map();
+  entries.forEach(e=>{
+    const key = e.type + '::' + e.it.orgName;
+    if(!map.has(key)) map.set(key, { orgName: e.it.orgName, type: e.type, items: [] });
+    map.get(key).items.push(e.it);
+  });
+  return [...map.values()];
+}
+function groupLabel(group){
+  const sum = group.items.reduce((s,it)=>s+it.totalCount, 0);
+  const allHsOnly = group.items.every(it => it.eduCondNm && it.eduCondNm.length===1 && it.eduCondNm[0]==='고졸');
+  return allHsOnly ? `고졸 ${sum}명` : `총 ${sum}명`;
+}
+
 function dayCellHtml(date, inMonth){
   const key = toKey(date);
   const postItems = startByDate[key]||[];
@@ -384,11 +405,13 @@ function dayCellHtml(date, inMonth){
       ...postItems.map(it=>({it, type:'new'})),
       ...dueItems.map(it=>({it, type:'due'}))
     ];
-    chipsHtml = combined.map(({it,type})=>{
-      const badge = type==='due' ? '끝' : '시';
-      return `<div class="day-row ${type}">
-        <div class="row-top"><span class="badge">${badge}</span><span class="name">${it.orgName}</span></div>
-        <div class="cnt">${countLabelShort(it)}</div>
+    const groups = groupByOrg(combined);
+    chipsHtml = groups.map(group=>{
+      const badge = group.type==='due' ? '끝' : '시';
+      const countTag = group.items.length>1 ? ` <span class="multi-tag">${group.items.length}건</span>` : '';
+      return `<div class="day-row ${group.type}">
+        <div class="row-top"><span class="badge">${badge}</span><span class="name">${group.orgName}${countTag}</span></div>
+        <div class="cnt">${groupLabel(group)}</div>
       </div>`;
     }).join('');
   }
