@@ -298,20 +298,21 @@
   /* ---------- 학교 코드 접근 게이트 ---------- */
   .access-gate{
     position:fixed;inset:0;z-index:200;
-    background:rgba(28,43,58,.6);
+    background:var(--bg);
     display:flex;align-items:center;justify-content:center;
     padding:20px;
   }
   .gate-card{
     background:var(--paper);border-top:5px solid var(--navy);
-    border-radius:6px;padding:28px 26px;max-width:320px;width:100%;
-    text-align:center;box-shadow:0 12px 32px rgba(0,0,0,.2);
+    border-radius:6px;padding:28px 30px;max-width:380px;width:100%;
+    text-align:center;box-shadow:0 12px 32px rgba(0,0,0,.12);
   }
   .gate-card h2{font-family:var(--font-display);font-size:19px;margin:10px 0 6px;}
-  .gate-sub{font-size:12.5px;color:var(--ink-soft);margin:0 0 16px;}
+  .gate-sub{font-size:12px;color:var(--ink-soft);margin:0 0 16px;white-space:nowrap;}
   #gate-input{
     width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:5px;
     font-size:14px;text-align:center;margin-bottom:10px;font-family:var(--font-body);
+    box-sizing:border-box;
   }
   #gate-input:focus{outline:none;border-color:var(--navy);}
   #gate-submit{
@@ -320,6 +321,9 @@
   }
   #gate-submit:hover{background:#25599a;}
   .gate-error{color:var(--red);font-size:12px;margin-top:10px;}
+  @media (max-width:400px){
+    .gate-sub{white-space:normal;}
+  }
 </style>
 </head>
 <body>
@@ -327,15 +331,15 @@
 <div class="access-gate" id="access-gate">
   <div class="gate-card">
     <span class="doc-tag">그릿마인드랩</span>
-    <h2>학교 코드를 입력해주세요</h2>
-    <p class="gate-sub">발급받으신 학교 코드를 입력하면 캘린더를 볼 수 있어요</p>
+    <h2>학교 코드를 입력해주세요.</h2>
+    <p class="gate-sub">코드를 입력하면 캘린더를 볼 수 있어요.</p>
     <input type="text" id="gate-input" placeholder="학교 코드" autocomplete="off">
     <button id="gate-submit">확인</button>
     <div class="gate-error" id="gate-error" style="display:none;">코드가 올바르지 않습니다. 다시 확인해주세요.</div>
   </div>
 </div>
 
-<div class="wrap">
+<div class="wrap" id="page-content" style="display:none;">
 
   <header>
     <div>
@@ -745,6 +749,7 @@ const CODE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1P3VygcXujJqS
 
 function unlockGate(){
   document.getElementById('access-gate').style.display = 'none';
+  document.getElementById('page-content').style.display = 'block';
 }
 
 async function verifySchoolCode(code){
