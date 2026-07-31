@@ -108,9 +108,10 @@
   }
   .day-chips{margin-top:6px;display:flex;flex-direction:column;}
   .day-row{
-    font-size:11px;color:var(--ink);overflow:hidden;
+    font-size:11px;color:var(--ink);overflow:hidden;cursor:pointer;
     padding:6px 0;border-top:1px solid var(--line-soft);
   }
+  .day-row:hover{background:var(--navy-soft);}
   .day-row:first-child{border-top:none;padding-top:0;}
   .row-top{display:flex;align-items:flex-start;gap:6px;}
   .day-row .badge{
@@ -137,6 +138,45 @@
     white-space:nowrap;letter-spacing:-0.02em;
   }
   .more-mini{font-size:9px;color:var(--ink-soft);padding-left:19px;}
+
+  /* ---------- 공고 상세 팝오버 (클릭한 위치 옆/아래 뜨는 카드) ---------- */
+  .post-popover{
+    position:fixed;z-index:50;
+    width:280px;max-width:calc(100vw - 24px);
+    background:var(--paper);border:1px solid var(--line);
+    border-radius:8px;box-shadow:0 8px 24px rgba(28,43,58,.12);
+    padding:14px 16px;
+  }
+  .post-popover .pp-head{
+    display:flex;justify-content:space-between;align-items:flex-start;
+    gap:8px;margin-bottom:8px;
+  }
+  .post-popover .pp-org{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.35;}
+  .post-popover .pp-close{
+    flex-shrink:0;border:none;background:none;color:var(--ink-soft);
+    font-size:16px;line-height:1;cursor:pointer;padding:0 2px;
+  }
+  .post-popover .pp-close:hover{color:var(--ink);}
+  .post-popover .pp-item{
+    border-top:1px solid var(--line-soft);padding:9px 0;
+  }
+  .post-popover .pp-item:first-child{border-top:none;padding-top:0;}
+  .post-popover .pp-title{font-size:12px;color:var(--ink-soft);margin-bottom:5px;line-height:1.4;}
+  .post-popover .pp-meta{
+    display:flex;align-items:center;gap:6px;font-size:11px;color:var(--ink-soft);
+    margin-bottom:7px;flex-wrap:wrap;
+  }
+  .post-popover .pp-tag{
+    background:var(--navy-soft);color:var(--navy);
+    padding:1px 7px;border-radius:4px;font-weight:600;
+  }
+  .post-popover .pp-link{
+    display:inline-block;font-size:12px;font-weight:600;color:#fff;
+    background:var(--navy);padding:6px 12px;border-radius:6px;
+    text-decoration:none;
+  }
+  .post-popover .pp-link:hover{background:#25599a;}
+  .post-popover .pp-nolink{font-size:11.5px;color:var(--ink-soft);font-style:italic;}
 
   .expando{
     grid-column:1/-1;background:var(--navy-soft);
@@ -284,6 +324,7 @@
     <div>일</div><div>월</div><div>화</div><div>수</div><div>목</div><div>금</div><div>토</div>
   </div>
   <div class="calendar" id="calendar"></div>
+  <div class="post-popover" id="post-popover" style="display:none;"></div>
   <div class="status-msg" id="status-msg" style="display:none;"></div>
 
   <div class="panel" style="margin-top:22px;">
@@ -393,6 +434,9 @@ function groupLabel(group){
   return allHsOnly ? `고졸 ${sum}명` : `총 ${sum}명`;
 }
 
+let popoverRegistry = new Map();
+let popoverCounter = 0;
+
 function dayCellHtml(date, inMonth){
   const key = toKey(date);
   const postItems = startByDate[key]||[];
@@ -409,9 +453,9 @@ function dayCellHtml(date, inMonth){
     chipsHtml = groups.map(group=>{
       const badge = group.type==='due' ? '끝' : '시';
       const countTag = group.items.length>1 ? ` <span class="multi-tag">${group.items.length}건</span>` : '';
-      // 1건짜리 그룹은 원문 링크로 바로 이동, 여러 건이면 날짜를 눌러 목록에서 선택
-      const url = group.items.length===1 ? (group.items[0].srcUrl||'') : '';
-      return `<div class="day-row ${group.type}" data-direct-url="${url}">
+      const pkey = `p${popoverCounter++}`;
+      popoverRegistry.set(pkey, group.items);
+      return `<div class="day-row ${group.type}" data-pkey="${pkey}">
         <div class="row-top"><span class="badge">${badge}</span><span class="name">${group.orgName}${countTag}</span></div>
         <div class="cnt">${groupLabel(group)}</div>
       </div>`;
@@ -430,8 +474,10 @@ function erowHtml(it, idx, type){
     ? `<span class="erow-type due">마감</span>`
     : `<span class="erow-type new">시작</span>`;
   const ddayHtml = `<span class="erow-dday ${cls}">D${diff>=0?'-'+diff:'+'+Math.abs(diff)}</span>`;
+  const pkey = `p${popoverCounter++}`;
+  popoverRegistry.set(pkey, [it]);
   return `
-  <div class="erow" data-url="${it.srcUrl||''}" title="클릭하면 원문 공고로 이동합니다">
+  <div class="erow" data-pkey="${pkey}">
     ${typeBadge}
     <span class="erow-org">${it.orgName} — ${it.title}</span>
     <span class="erow-job">${it.jobTrack}</span>
@@ -448,16 +494,78 @@ function expandoHtml(key){
   const rowsHtml =
     postItems.map((it,i)=>erowHtml(it, `new-${i}`, 'new')).join('') +
     dueItems.map((it,i)=>erowHtml(it, `due-${i}`, 'due')).join('');
-  const summary = `시작 ${postItems.length}건 · 마감 ${dueItems.length}건 · 공고 클릭 시 원문으로 이동`;
+  const summary = `시작 ${postItems.length}건 · 마감 ${dueItems.length}건 · 공고 클릭 시 상세 카드 표시`;
   return `<div class="expando" style="grid-column:1/-1;">
     <div class="expando-head">${label} <span class="count">${summary}</span></div>
     <div class="expando-body">${rowsHtml}</div>
   </div>`;
 }
 
+// ---------- 공고 상세 팝오버 ----------
+function popoverItemHtml(it){
+  const {diff, cls} = ddayInfo(it.endDate);
+  const ddayTxt = `D${diff>=0?'-'+diff:'+'+Math.abs(diff)}`;
+  const linkHtml = it.srcUrl
+    ? `<a class="pp-link" href="${it.srcUrl}" target="_blank" rel="noopener">원문 공고 보기 →</a>`
+    : `<span class="pp-nolink">원문 링크가 제공되지 않는 공고예요</span>`;
+  return `
+    <div class="pp-item">
+      <div class="pp-title">${it.title}</div>
+      <div class="pp-meta">
+        <span class="pp-tag">${it.jobTrack}</span>
+        <span>${countLabel(it)}</span>
+        <span class="dday-dot dday-${cls}"></span>${ddayTxt}
+      </div>
+      ${linkHtml}
+    </div>`;
+}
+
+function showPopover(items, anchorEl){
+  const pop = document.getElementById('post-popover');
+  const orgName = items[0]?.orgName || '';
+  pop.innerHTML = `
+    <div class="pp-head">
+      <span class="pp-org">${orgName}</span>
+      <button class="pp-close" aria-label="닫기">×</button>
+    </div>
+    ${items.map(popoverItemHtml).join('')}
+  `;
+  pop.style.display = 'block';
+
+  const rect = anchorEl.getBoundingClientRect();
+  const popWidth = pop.offsetWidth;
+  let left = rect.left;
+  if(left + popWidth > window.innerWidth - 12) left = window.innerWidth - popWidth - 12;
+  if(left < 12) left = 12;
+  pop.style.left = left + 'px';
+
+  let top = rect.bottom + 6;
+  const popHeight = pop.offsetHeight;
+  if(top + popHeight > window.innerHeight - 12){
+    top = Math.max(12, rect.top - popHeight - 6);
+  }
+  pop.style.top = top + 'px';
+
+  pop.querySelector('.pp-close').addEventListener('click', (e)=>{
+    e.stopPropagation();
+    hidePopover();
+  });
+}
+
+function hidePopover(){
+  document.getElementById('post-popover').style.display = 'none';
+}
+
+document.addEventListener('click', (e)=>{
+  if(e.target.closest('#post-popover') || e.target.closest('[data-pkey]')) return;
+  hidePopover();
+});
+
 function renderCalendar(){
   const cal = document.getElementById('calendar');
   const cells = buildMonthCells(viewYear, viewMonth);
+  popoverRegistry = new Map();
+  popoverCounter = 0;
   let html = '';
   for(let w=0; w<cells.length/7; w++){
     const week = cells.slice(w*7, w*7+7);
@@ -473,26 +581,17 @@ function renderCalendar(){
     el.addEventListener('click', ()=>{
       const key = el.dataset.key;
       selectedKey = (selectedKey===key) ? null : key;
+      hidePopover();
       renderCalendar();
     });
   });
-  // 1건짜리 기관명은 클릭하면 날짜 펼치기 없이 바로 원문으로 이동
-  cal.querySelectorAll('.day-row[data-direct-url]').forEach(el=>{
-    const url = el.dataset.directUrl;
-    if(!url) return;
-    el.style.cursor = 'pointer';
+  // 기관명(또는 목록의 공고 줄)을 클릭하면 바로 이동하지 않고, 옆/아래에 상세 카드를 띄움
+  cal.querySelectorAll('[data-pkey]').forEach(el=>{
     el.addEventListener('click', (e)=>{
       e.stopPropagation();
-      window.open(url, '_blank', 'noopener');
-    });
-  });
-  // 여러 건 묶여서 날짜를 펼쳤을 때 나오는 목록은, 각 줄 클릭 시 바로 원문으로 이동
-  cal.querySelectorAll('.erow[data-url]').forEach(el=>{
-    const url = el.dataset.url;
-    if(!url) return;
-    el.addEventListener('click', (e)=>{
-      e.stopPropagation();
-      window.open(url, '_blank', 'noopener');
+      const pkey = el.dataset.pkey;
+      const items = popoverRegistry.get(pkey);
+      if(items) showPopover(items, el);
     });
   });
 }
@@ -578,15 +677,18 @@ document.getElementById('view-tabs').addEventListener('click', (e)=>{
   document.getElementById('rank-title').textContent =
     viewMode==='hs' ? '고졸 지원 가능 채용 · 인원순' : '전체 채용 · 인원순';
   selectedKey = null;
+  hidePopover();
   applyViewMode();
 });
 
 document.getElementById('prev-month').addEventListener('click', ()=>{
   viewMonth--; if(viewMonth<0){viewMonth=11; viewYear--;}
+  hidePopover();
   renderMonthTitle(); renderCalendar();
 });
 document.getElementById('next-month').addEventListener('click', ()=>{
   viewMonth++; if(viewMonth>11){viewMonth=0; viewYear++;}
+  hidePopover();
   renderMonthTitle(); renderCalendar();
 });
 
