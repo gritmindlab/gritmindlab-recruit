@@ -295,9 +295,46 @@
     .row-top{display:contents;}
     .more-mini{display:block;margin-top:2px;}
   }
+  /* ---------- 학교 코드 접근 게이트 ---------- */
+  .access-gate{
+    position:fixed;inset:0;z-index:200;
+    background:rgba(28,43,58,.6);
+    display:flex;align-items:center;justify-content:center;
+    padding:20px;
+  }
+  .gate-card{
+    background:var(--paper);border-top:5px solid var(--navy);
+    border-radius:6px;padding:28px 26px;max-width:320px;width:100%;
+    text-align:center;box-shadow:0 12px 32px rgba(0,0,0,.2);
+  }
+  .gate-card h2{font-family:var(--font-display);font-size:19px;margin:10px 0 6px;}
+  .gate-sub{font-size:12.5px;color:var(--ink-soft);margin:0 0 16px;}
+  #gate-input{
+    width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:5px;
+    font-size:14px;text-align:center;margin-bottom:10px;font-family:var(--font-body);
+  }
+  #gate-input:focus{outline:none;border-color:var(--navy);}
+  #gate-submit{
+    width:100%;padding:10px 12px;border:none;border-radius:5px;
+    background:var(--navy);color:#fff;font-size:14px;font-weight:600;cursor:pointer;
+  }
+  #gate-submit:hover{background:#25599a;}
+  .gate-error{color:var(--red);font-size:12px;margin-top:10px;}
 </style>
 </head>
 <body>
+
+<div class="access-gate" id="access-gate">
+  <div class="gate-card">
+    <span class="doc-tag">그릿마인드랩</span>
+    <h2>학교 코드를 입력해주세요</h2>
+    <p class="gate-sub">발급받으신 학교 코드를 입력하면 캘린더를 볼 수 있어요</p>
+    <input type="text" id="gate-input" placeholder="학교 코드" autocomplete="off">
+    <button id="gate-submit">확인</button>
+    <div class="gate-error" id="gate-error" style="display:none;">코드가 올바르지 않습니다. 다시 확인해주세요.</div>
+  </div>
+</div>
+
 <div class="wrap">
 
   <header>
@@ -697,6 +734,58 @@ document.getElementById('next-month').addEventListener('click', ()=>{
   viewMonth++; if(viewMonth>11){viewMonth=0; viewYear++;}
   hidePopover();
   renderMonthTitle(); renderCalendar();
+});
+
+// ---------------------------------------------------------------
+// 학교 코드 접근 게이트 (매번 입력 - 브라우저에 기억하지 않음)
+// ---------------------------------------------------------------
+// TODO: 구글 스프레드시트 "파일 > 공유 > 웹에 게시" 로 CSV 링크를 만들어서 여기 넣으세요.
+// (시트 첫 번째 열에 학교 코드를 한 줄에 하나씩 넣어두면 됩니다)
+const CODE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1P3VygcXujJqSc29yL8LnTOg2Raj9XB0QaKJhIu_UJco/export?format=csv&gid=0';
+
+function unlockGate(){
+  document.getElementById('access-gate').style.display = 'none';
+}
+
+async function verifySchoolCode(code){
+  if(!code) return false;
+  const res = await fetch(CODE_SHEET_CSV_URL, { cache: 'no-store' });
+  if(!res.ok) throw new Error('코드 목록을 불러오지 못했습니다');
+  const text = await res.text();
+  const codes = text
+    .split('\n')
+    .slice(1) // 첫 줄(헤더: 순번,학교명,코드)은 제외
+    .map(line => {
+      const cols = line.split(',');
+      return (cols[2] || '').replace(/"/g,'').trim(); // C열 = 코드
+    })
+    .filter(Boolean);
+  return codes.includes(code.trim());
+}
+
+document.getElementById('gate-submit').addEventListener('click', async ()=>{
+  const input = document.getElementById('gate-input');
+  const errEl = document.getElementById('gate-error');
+  const btn = document.getElementById('gate-submit');
+  const code = input.value.trim();
+  errEl.style.display = 'none';
+  btn.disabled = true; btn.textContent = '확인 중...';
+  try{
+    const ok = await verifySchoolCode(code);
+    if(ok){
+      unlockGate();
+    } else {
+      errEl.textContent = '코드가 올바르지 않습니다. 다시 확인해주세요.';
+      errEl.style.display = 'block';
+    }
+  } catch(err){
+    errEl.textContent = '코드 확인 중 오류가 발생했습니다: ' + err.message;
+    errEl.style.display = 'block';
+  }
+  btn.disabled = false; btn.textContent = '확인';
+});
+document.getElementById('gate-input').addEventListener('keydown', (e)=>{
+  if(e.key === 'Enter') document.getElementById('gate-submit').click();
 });
 
 loadData();
