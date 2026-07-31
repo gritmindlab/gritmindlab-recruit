@@ -61,6 +61,14 @@
   .view-tab:hover{border-color:var(--navy);color:var(--navy);}
   .view-tab.active{background:var(--navy);border-color:var(--navy);color:#fff;}
 
+  .cal-legend{
+    display:flex;gap:16px;margin-bottom:10px;font-size:11.5px;color:var(--ink-soft);
+  }
+  .cal-legend span{display:inline-flex;align-items:center;gap:5px;}
+  .cal-legend i{width:12px;height:4px;border-radius:2px;display:inline-block;}
+  .cal-legend i.bar-new{background:var(--navy);}
+  .cal-legend i.bar-due{background:var(--red);}
+
   .month-nav{
     display:flex;justify-content:space-between;align-items:center;
     background:var(--paper);border:1px solid var(--line);border-bottom:none;
@@ -109,18 +117,14 @@
   .day-chips{margin-top:6px;display:flex;flex-direction:column;}
   .day-row{
     font-size:11px;color:var(--ink);overflow:hidden;cursor:pointer;
-    padding:6px 0;border-top:1px solid var(--line-soft);
+    padding:6px 0 6px 8px;border-top:1px solid var(--line-soft);
+    border-left:3px solid transparent;margin-left:-8px;
   }
+  .day-row.new{border-left-color:var(--navy);}
+  .day-row.due{border-left-color:var(--red);}
   .day-row:hover{background:var(--navy-soft);}
   .day-row:first-child{border-top:none;padding-top:0;}
   .row-top{display:flex;align-items:flex-start;gap:6px;}
-  .day-row .badge{
-    flex-shrink:0;width:16px;height:16px;border-radius:3px;
-    display:inline-flex;align-items:center;justify-content:center;
-    font-size:9px;font-weight:700;color:#fff;margin-top:1px;
-  }
-  .day-row.new .badge{background:var(--navy);}
-  .day-row.due .badge{background:var(--red);}
   .day-row .name{
     flex:1;min-width:0;font-weight:600;line-height:1.35;font-size:11px;
     display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
@@ -313,6 +317,10 @@
     <button class="view-tab active" data-mode="hs">고졸 지원 가능</button>
   </div>
 
+  <div class="cal-legend">
+    <span><i class="bar-new"></i>접수 시작</span>
+    <span><i class="bar-due"></i>접수 마감</span>
+  </div>
   <div class="month-nav">
     <h2 id="month-title">-</h2>
     <div class="nav-btns">
@@ -451,12 +459,11 @@ function dayCellHtml(date, inMonth){
     ];
     const groups = groupByOrg(combined);
     chipsHtml = groups.map(group=>{
-      const badge = group.type==='due' ? '끝' : '시';
       const countTag = group.items.length>1 ? ` <span class="multi-tag">${group.items.length}건</span>` : '';
       const pkey = `p${popoverCounter++}`;
       popoverRegistry.set(pkey, group.items);
       return `<div class="day-row ${group.type}" data-pkey="${pkey}">
-        <div class="row-top"><span class="badge">${badge}</span><span class="name">${group.orgName}${countTag}</span></div>
+        <div class="row-top"><span class="name">${group.orgName}${countTag}</span></div>
         <div class="cnt">${groupLabel(group)}</div>
       </div>`;
     }).join('');
