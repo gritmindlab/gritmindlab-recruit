@@ -324,9 +324,22 @@
   @media (max-width:400px){
     .gate-sub{white-space:normal;}
   }
+  .gml-platform-bar{position:relative;z-index:8500;min-height:64px;padding:0 max(20px,calc((100vw - 1120px)/2));display:flex;align-items:center;justify-content:space-between;gap:24px;background:rgba(255,255,255,.96);border-bottom:1px solid #e6ebf2;box-shadow:0 4px 18px rgba(20,34,61,.05);font-family:'Pretendard','Noto Sans KR',sans-serif}
+  .gml-platform-brand{display:flex;align-items:center;gap:10px;color:#14223d;text-decoration:none;font-size:15px;font-weight:700;white-space:nowrap}.gml-platform-brand b{color:#1769f2}.gml-platform-mark{width:32px;height:32px;display:grid;place-items:center;color:#fff;background:linear-gradient(145deg,#277cff,#0755da);border-radius:10px;font-weight:900;box-shadow:0 6px 16px rgba(23,105,242,.22)}
+  .gml-platform-nav{display:flex;align-items:center;gap:25px}.gml-platform-nav a{color:#657187;text-decoration:none;font-size:13px;font-weight:600}.gml-platform-nav a:hover,.gml-platform-nav a.active{color:#1769f2}.gml-platform-admin{padding:8px 12px;border:1px solid #e2e8f1;border-radius:9px;background:#fff}
+  @media(max-width:700px){.gml-platform-bar{min-height:58px;padding:0 14px}.gml-platform-brand{font-size:13px}.gml-platform-nav a{display:none}.gml-platform-nav a.active,.gml-platform-nav a.gml-platform-home{display:block}.gml-platform-nav{gap:14px}}
 </style>
 </head>
 <body>
+<div class="gml-platform-bar">
+  <a class="gml-platform-brand" href="https://gritmindlab.github.io/ncs-platform/"><span class="gml-platform-mark">G</span><span>그릿마인드랩 <b>NCS 플랫폼</b></span></a>
+  <nav class="gml-platform-nav" aria-label="통합 서비스 메뉴">
+    <a class="gml-platform-home" href="https://gritmindlab.github.io/ncs-platform/">홈</a>
+    <a href="https://gritmindlab.github.io/gritmindlab-cbt/">CBT 모의고사</a>
+    <a class="active" href="https://gritmindlab.github.io/gritmindlab-recruit/">채용달력</a>
+    <a class="gml-platform-admin" href="https://gritmindlab.github.io/question-bank/">관리자</a>
+  </nav>
+</div>
 
 <div class="access-gate" id="access-gate">
   <div class="gate-card">
