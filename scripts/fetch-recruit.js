@@ -76,7 +76,8 @@ async function getWithRetry(url, config) {
 const HS_EDU_CODE = 'R7030';
 
 // 제외할 고용유형 키워드 — 기간제/단기계약직/임시직 등은 캘린더에서 뺌
-// hireTypeNmLst 값에 아래 키워드 중 하나라도 포함되면 제외
+// hireTypeNmLst(고용유형) 뿐 아니라 공고 제목(title)에도 이 키워드가 있으면 제외
+// → API의 고용유형 필드가 비어있거나 부정확해도, 제목에 "기간제" 등이 명시된 경우를 잡아내기 위함
 // (필요시 이 배열만 수정하면 제외 기준을 바꿀 수 있음)
 const EXCLUDE_HIRE_TYPE_KEYWORDS = ['기간제', '계약직', '단기', '임시직', '촉탁'];
 
@@ -85,13 +86,13 @@ const EXCLUDE_HIRE_TYPE_KEYWORDS = ['기간제', '계약직', '단기', '임시�
 const KEEP_EVEN_IF_MATCHED_KEYWORDS = ['채용형인턴', '채용형 인턴', '채용형인턴제'];
 
 function isExcludedHireType(hireTypeNmStr, titleStr) {
-  if (!hireTypeNmStr) return false;
+  const combinedText = `${hireTypeNmStr || ''} ${titleStr || ''}`;
+  if (!combinedText.trim()) return false;
 
-  const combinedText = `${hireTypeNmStr} ${titleStr || ''}`;
   const isKeepException = KEEP_EVEN_IF_MATCHED_KEYWORDS.some(keyword => combinedText.includes(keyword));
   if (isKeepException) return false;
 
-  return EXCLUDE_HIRE_TYPE_KEYWORDS.some(keyword => hireTypeNmStr.includes(keyword));
+  return EXCLUDE_HIRE_TYPE_KEYWORDS.some(keyword => combinedText.includes(keyword));
 }
 
 // NCS분류(R6000) 대분류 25개 전체 → 우리 직군 라벨로 매핑
