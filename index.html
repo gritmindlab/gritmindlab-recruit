@@ -448,12 +448,16 @@ function ddayInfo(dateStr){
 
 // eduCondNm 배열 기준으로 인원 표기 문구 생성
 // - 학력조건이 "고졸" 하나뿐이면 정확한 고졸전형 인원으로 표기
-// - 여러 학력이 섞여 있으면 총 인원 + 고졸 포함 안내로 표기 (API가 학력별 분리 인원을 안 주기 때문)
+// - 여러 학력이 섞여 있고 그중 고졸이 실제로 포함된 경우만 "(고졸 포함)"으로 표기
+// - 고졸이 아예 없는 조건(예: 대졸만)이면 그냥 총 인원만 표기 (예전엔 여기가 무조건 "고졸 포함"으로 잘못 표시됐음)
 function countLabel(it){
-  if(it.eduCondNm && it.eduCondNm.length===1 && it.eduCondNm[0]==='고졸'){
+  const eduNames = it.eduCondNm || [];
+  const isHsOnly = eduNames.length===1 && eduNames[0]==='고졸';
+  if(isHsOnly){
     return `고졸전형 ${it.totalCount}명`;
   }
-  return `총 ${it.totalCount}명 (고졸 포함)`;
+  const includesHs = eduNames.includes('고졸');
+  return includesHs ? `총 ${it.totalCount}명 (고졸 포함)` : `총 ${it.totalCount}명`;
 }
 function countLabelShort(it){
   if(it.eduCondNm && it.eduCondNm.length===1 && it.eduCondNm[0]==='고졸'){
