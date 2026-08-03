@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>고졸채용 안내 캘린더 · 그릿마인드랩</title>
+<title>공기업·공공기관 채용공고 · 그릿마인드랩</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
@@ -357,8 +357,8 @@
   <header>
     <div>
       <span class="doc-tag">그릿마인드랩 진로지도 자료</span>
-      <h1>고졸채용 안내 캘린더</h1>
-      <div class="sub">공공기관 신입사원 채용 중 고졸 지원 가능한 공고만 정리해서 보여드립니다</div>
+      <h1>공기업·공공기관 채용공고</h1>
+      <div class="sub">공기업·공공기관 신입사원 채용공고를 한눈에 정리해서 보여드립니다 (고졸 지원 가능 공고만 따로 볼 수도 있어요)</div>
     </div>
     <div class="meta-right">
       자료 기준일 <b id="ref-date">-</b><br>
@@ -367,8 +367,8 @@
   </header>
 
   <div class="view-tabs" id="view-tabs">
-    <button class="view-tab" data-mode="all">전체 채용</button>
-    <button class="view-tab active" data-mode="hs">고졸 지원 가능</button>
+    <button class="view-tab active" data-mode="all">전체 채용</button>
+    <button class="view-tab" data-mode="hs">고졸 지원 가능</button>
   </div>
 
   <div class="cal-legend">
@@ -391,7 +391,7 @@
 
   <div class="panel" style="margin-top:22px;">
     <div class="panel-head">
-      <h2 id="rank-title">고졸 지원 가능 채용 · 인원순</h2>
+      <h2 id="rank-title">전체 채용 · 인원순</h2>
     </div>
     <div class="table-scroll">
       <table>
@@ -436,7 +436,7 @@ let deadlineByDate = {};
 let selectedKey = null;
 let viewYear = referenceToday.getFullYear();
 let viewMonth = referenceToday.getMonth();
-let viewMode = 'hs'; // 'hs' = 고졸 지원 가능만, 'all' = 전체
+let viewMode = 'all'; // 'hs' = 고졸 지원 가능만, 'all' = 전체 (첫 화면 기본값)
 
 function ddayInfo(dateStr){
   const d = new Date(dateStr);
