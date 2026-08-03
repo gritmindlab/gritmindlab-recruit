@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-03T22:13:55.384Z",
-  "count": 141,
-  "highSchoolCount": 13,
+  "updatedAt": "2026-08-03T22:32:08.138Z",
+  "count": 78,
+  "highSchoolCount": 11,
   "items": [
     {
       "sn": 303429,
@@ -74,29 +74,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303291,
-      "orgName": "한국전력공사",
-      "orgCode": "C0247",
-      "title": "기간제근로자(대체인력) 채용공고 [대구본부 동대구, 경주, 경산지사]",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "대구,경북",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 3,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 10,
-      "srcUrl": "http://recruit.kepco.co.kr/sangsi",
-      "aplyQlfcCn": " □ 학력/연령 : 제한없음\r\n □ 병역 : 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n □ 자  격 : (사무) 제한없음(단, 서류심사 시 관련 자격을 평가요소로 활용)\r\n □ 기  타 : 근무시작일로부터 근무 가능한 자\r\n\r\n※ 기타 자세한 사항은 채용 공고문 참조 \r\n",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303191,
       "orgName": "한국동서발전(주)",
       "orgCode": "C0066",
@@ -117,29 +94,6 @@
       "daysLeft": 8,
       "srcUrl": "https://ewp.saramin.co.kr",
       "aplyQlfcCn": "ㅇ 학력, 전공, 성별, 외국어 : 제한없음\r\nㅇ 연령 : 공고일 현재 기준「청년고용촉진특별법 시행령」에 따라 청년 (만 15세 이상 만 34세 이하)인 자\r\n* '제대군인지원에 관한 법률' 제16조 1항 및 동법 시행령 19조에 따라 제대군인이 응시할 경우 상한 연령을 다음과 같이 연장함\r\n- 군복무기간 1년 미만: 1세 / 1년 이상~2년 미만 2세 / 2년 이상 : 3세 연장\r\nㅇ 병역\r\n- 병역법 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n- 현역의 경우 최종합격자 발표일 이전에 전역 가능한 자\r\n- 체험형인턴 근무기간 내 입대가 예정되어 있지 않은 자\r\nㅇ 자격\r\n- 일반전형 : 제한 없음\r\nㅇ 기타 : 2026년 10월 12일(월)부터 근무 가능한 자\r\nㅇ 채용제외 대상자\r\n- 입사일 기준 취업이 결정된 자\r\n- 공고일 이전 한국동서발전(주) 인턴근무 유경험자\r\n- 당사 인사관리규정 제16조(신규채용자의 결격사유)[붙임4]에 해당하는 자\r\n* 채용제외 대상자가 지원하여 합격한 사실이 확인되는 경우 즉시 근로계약 해지",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303141,
-      "orgName": "한국수력원자력(주)",
-      "orgCode": "C0220",
-      "title": "2026년도 제7차 경력사원(전문계약직) 선발",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-12",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전남광주",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 8,
-      "srcUrl": "https://khnp.co.kr/recruit",
-      "aplyQlfcCn": "1. 연령: 제한 없음\r\n2. 병역: 병역법 제76조에 따라 병역의무 불이행자에 해당하지 않는 자\r\n   (현역의 경우, 2차 전형 면접 시작일 전까지 전역 가능한 자 포함) \r\n3. 기타: 당사 채용 결격사유에 해당함이 없는 자\r\n4. 자격요건: 의사 면허 소지자(우대요건: 내과 또는 가정의학과 전문의 / 임상경력 보유자)\r\n\r\n※ 세부내용 공고문 참조",
       "isExcludedHireType": false
     },
     {
@@ -216,29 +170,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303039,
-      "orgName": "(주)강원랜드",
-      "orgCode": "C0005",
-      "title": "(주)강원랜드 2026년 추계 기간제 근로자 모집 공고",
-      "startDate": "2026-07-23",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직,청년인턴(체험형)",
-      "recrutSeNm": "신입",
-      "workRgnNm": "부산,대전,강원",
-      "ncsNm": "경영.회계.사무,보건.의료,경비.청소,이용.숙박.여행.오락.스포츠,음식서비스,건설",
-      "jobTrack": "사무",
-      "totalCount": 213,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://kangwon.cairos.co.kr/kangwon",
-      "aplyQlfcCn": "[공통사항]\r\n1. 자격요건을 충족하는 자\r\n2. 채용 결격사유에 해당되지 않는 자\r\n※ 세부사항 공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303025,
       "orgName": "한국전력공사",
       "orgCode": "C0247",
@@ -305,52 +236,6 @@
       "daysLeft": 3,
       "srcUrl": "https://www.khnp.co.kr/recruit",
       "aplyQlfcCn": "1. 공통사항\r\n  ○ 학력\r\n    - 재학생: 고등학교 재학 중으로, '27년 1~2월 졸업 예정인 자\r\n    - 졸업생: 최종 학력이 '고등학교 졸업'인 자\r\n      ※ 전문대·대학에 재학 중인 경우에도 지원 가능하나, 졸업예정자*는 지원 불가\r\n    * 졸업예정자: 최종학기를 이수(등록)한 자\r\n    * 입사일 전 최종학기를 이수(등록)하는 자는 합격 제외\r\n    * 학점인정 등에 관한 법률 제8조에 따라 학점은행 80학점 이상 이수(예정)자는 지원 불가\r\n  ○ 자격: 선발 분야 관련 기능사 이상 자격증 소지자\r\n  ○ 병역: 병역법 제76조에 따라 병역의무 불이행자에 해당하지 않는 자\r\n   (현역의 경우, 2차 전형 면접 시작일 전일까지 전역 가능한 자 포함)\r\n      ※ 병역 대상자는 최종합격자 신분으로 군 전역 후 입사\r\n  ○ 연령: 제한없음(단, 당사 정년은 만 60세임)\r\n  ○ 영어: TOEIC, TEPS, TOEFL(iBT) 또는 TOEIC스피킹, TEPS스피킹, OPIc(영어) 중 1개\r\n    - TOEIC 기준 500점 이상 또는 TOEIC스피킹 기준 IM2 이상\r\n    - 유효성적: 입사지원서 접수마감일 기준 최근 2년 이내 국내 정기시험 성적에 한하며(단, TOEFL은 국외 응시 성적 가능), 해외 응시·조회불가 성적·특별시험 성적 등은 불인정\r\n      ※ 단, 공무원채용시스템(구. 통합채용포털)에 등록된 인정 영어성적(TOEIC, TEPS, TOEFL(iBT), TOEIC스피킹, TEPS스피킹, OPIc(영어))의 경우, 공무원채용시스템(구. 통합채용포털)에서 인정하는 유효기간을 적용\r\n      ※ 장애인의 경우 영어 자격요건 면제\r\n  ○ 기타\r\n    - 당사 채용 결격사유에 해당함이 없는 자\r\n    - 지원서 접수마감일 현재 한국수력원자력 4직급 직원으로 재직 중이지 않은 자\r\n    - 2026년도 제3차 신입사원(대졸수준) 선발에 지원하지 않은 자(동시 지원 불가)\r\n\r\n ※ 기타 자세한 사항은 모집요강 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302977,
-      "orgName": "한국수력원자력(주)",
-      "orgCode": "C0220",
-      "title": "2026년 제2차 체코원전사업처 기간제근로자(통·번역사) 채용",
-      "startDate": "2026-07-23",
-      "endDate": "2026-08-07",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경북",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "석사"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 3,
-      "srcUrl": "https://www.khnp.co.kr/trecruit",
-      "aplyQlfcCn": "1. 공통사항\r\n○ 연령/성별 : 제한 없음\r\n○ 병역 : 병역필(면접시작일 전까지 전역 가능한자 포함) 또는 면제자\r\n○ 기타\r\n- 해외 여행(출장)에 결격사유가 없는 자\r\n- 지원서 접수마감일 기준으로 '채용결격사유'에 해당함이 없는 자\r\n- 채용 예정일 즉시 근무 가능한 자\r\n\r\n2. 자격사항\r\n○ 학력 : 통번역대학원(한국어-영어 통번역 전공) 학위 소지자\r\n\r\n※ 세부사항 공고문 참조         ",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302975,
-      "orgName": "한국전력공사",
-      "orgCode": "C0247",
-      "title": "기간제 근로자(대체인력) 채용공고[인재개발원]",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "서울",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 1,
-      "srcUrl": "http://recruit.kepco.co.kr/sangsi",
-      "aplyQlfcCn": "□ 학력/연령 : 제한없음\r\n□ 병역 : 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n□ 자격 : 의료법 제7조에 따라 보건복지부장관의 면허를 받은 간호사 ※ 간호조무사 불가\r\n□ 기타 : '26. 8.18일 부터 근무 가능한 자\r\n\r\n※ 자세한 사항은 붙임 채용공고문 참조",
       "isExcludedHireType": false
     },
     {
@@ -450,52 +335,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303405,
-      "orgName": "한국수자원공사",
-      "orgCode": "C0221",
-      "title": "[한국수자원공사] 설계처 단기계약근로자(기술관리_전문기술) 채용 공고(육아휴직 대체인력)",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-18",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "대전",
-      "ncsNm": "건설,기계,전기.전자,정보통신",
-      "jobTrack": "토목",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 14,
-      "srcUrl": "https://k-water.recruiter.co.kr",
-      "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일부터 현업 전일근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303401,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주)서인천사업처 2026년 신인천 4CC 계획예방정비공사 안전관리보조 단기노무원 채용공고",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "인천",
-      "ncsNm": "전기.전자",
-      "jobTrack": "전기",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "○ 채용예정일 즉시 근무 가능한 자\r\n○ 만 18세 이상 건설업기초안전보건교육 이수예정자",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303390,
       "orgName": "한국전력기술주식회사",
       "orgCode": "C0248",
@@ -568,121 +407,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303381,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주) 서울경기전력지사 군포지점 단기노무원(상주감시원) 모집",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "서울,경기",
-      "ncsNm": "전기.전자",
-      "jobTrack": "전기",
-      "totalCount": 9,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 1,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "1. 채용예정일 즉시 근무 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303380,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "새울2시운전사업소 새울 3,4호기 시운전정비공사 단기노무원(정비보조) 채용공고",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "울산",
-      "ncsNm": "기계,전기.전자,환경.에너지.안전",
-      "jobTrack": "기계",
-      "totalCount": 32,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "공통\r\n1. 근로계약 체결 후 즉시 근무가능한자\r\n2. 건설업 기초안전보건교육훈련 이수자  \r\n",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303348,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주) 서울경기전력지사 수원지점 단기노무원(상주감시) 모집",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "전기.전자",
-      "jobTrack": "전기",
-      "totalCount": 5,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 1,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "채용예정일 즉시 근무가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303342,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주) 서울경기전력지사 단기노무원(벌목공,수목관리사) 모집",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "서울,경기",
-      "ncsNm": "전기.전자",
-      "jobTrack": "전기",
-      "totalCount": 21,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 0,
-      "srcUrl": "http://www.kps.co.kr",
-      "aplyQlfcCn": "1. 채용예정일 즉시 근무 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303334,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주) 서울경기전력지사 양주지점 단기노무원(정비보조) 모집",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "전기.전자",
-      "jobTrack": "전기",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 0,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "채용예정일 즉시 근무가능한 자",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303330,
       "orgName": "한전KDN",
       "orgCode": "C0306",
@@ -703,52 +427,6 @@
       "daysLeft": 13,
       "srcUrl": "없음",
       "aplyQlfcCn": "가. 공통\r\n- 학력, 연령, 외국어 제한 없음\r\n- 병역법 제 76조에서 정한 병역의무 불이행 사실이 없는 자\r\n- 건설업 기초 안전보건교육 이수자 또는 이수가능자(계약 시 증빙)\r\n- 당사 인사규정 2.1.4(채용결격사유)에 해당하지 않는 자\r\n- 주민등록상 주소지가 대구경북인 자\r\n \r\n나. 직종별 자격 및 상세 사항은 모집공고 지원자격 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303325,
-      "orgName": "한국수자원공사",
-      "orgCode": "C0221",
-      "title": "[한국수자원공사] 전남북부권지사 단기계약근로자(사무관리_건설사업)_장애인제한 채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전남광주",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://k-water.recruiter.co.kr",
-      "aplyQlfcCn": "□「장애인고용촉진 및 직업재활법」제2조에 따른 장애인\r\n□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일부터 현업 근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303317,
-      "orgName": "(주)한국가스기술공사",
-      "orgCode": "C0125",
-      "title": "대구경북지사 기간제 계약직(육아휴직 대체인력)채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "경북",
-      "ncsNm": "건설,기계,전기.전자,환경.에너지.안전",
-      "jobTrack": "토목",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 10,
-      "srcUrl": "https://kogastech.recruiter.co.kr",
-      "aplyQlfcCn": "○ 운전면허 2종 보통 이상 소지자\r\n○ 성별, 연령, 학력, 전공 제한 없음(공고일 기준 미성년자 제외)\r\n○ 우리공사 「인사규정」등에 의한 채용 결격 및 제한 사유가 없는 자\r\n○ 비위면직자 등 취업제한 대상자 지원불가\r\n○ 병역법 제76조(병역의무 불이행자에 대한 제재)에서 정한 병역\r\n   의무 불이행 사실이 없으며 병역을 필하였거나 또는 면제받은 자\r\n   ※ 임용일 전까지 전역 가능한 자 포함\r\n○ (임용일자)부터 근무가능자 ",
       "isExcludedHireType": false
     },
     {
@@ -775,121 +453,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303292,
-      "orgName": "한국수자원공사",
-      "orgCode": "C0221",
-      "title": "[한국수자원공사] 인재개발원 단기계약근로자(사무관리_서무보조) 채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "대전",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://k-water.recruiter.co.kr",
-      "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일로부터 현업 전일 근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303290,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주)서인천사업처 신인천 4CC 계획예방정비공사 단기노무원 채용공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "인천",
-      "ncsNm": "기계",
-      "jobTrack": "기계",
-      "totalCount": 38,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 6,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "○ 채용예정일 즉시 근무 가능한자\r\n○ 만 18세 이상 건설업 기초안전보건교육 이수 예정자\r\n○ 크레인운전사는 천정크레인 운전기능사 필수 ",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303275,
-      "orgName": "한국수자원공사",
-      "orgCode": "C0221",
-      "title": "[한국수자원공사] 거제권지사 단기계약근로자(수돗물 안심서비스 운영관리) 채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경남",
-      "ncsNm": "경영.회계.사무,환경.에너지.안전",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://k-water.recruiter.co.kr",
-      "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일로부터 현업 근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303272,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주)서인천사업처 2026년 신인천 4CC 계획예방정비공사 단기노무원 채용공고",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "인천",
-      "ncsNm": "전기.전자",
-      "jobTrack": "전기",
-      "totalCount": 21,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 1,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "○ 채용예정일 즉시 근무 가능한 자\r\n○ 만18세 이상 건설업 기초안전보건교육 이수예정자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303267,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주) 일산사업소 '26년도 3GT OH 단기노무원 채용",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "경영.회계.사무,기계,전기.전자,환경.에너지.안전",
-      "jobTrack": "사무",
-      "totalCount": 26,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 0,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "-공통 : 채용예정일 즉시 근무 가능한 자\r\n-크레인 운전(기계) : 천정크레인 운전기능사 자격증 소지자",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303239,
       "orgName": "한국수자원공사",
       "orgCode": "C0221",
@@ -910,29 +473,6 @@
       "daysLeft": 9,
       "srcUrl": "https://k-water.recruiter.co.kr",
       "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일부터 현업 전일근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303210,
-      "orgName": "(주)한국가스기술공사",
-      "orgCode": "C0125",
-      "title": "통영기지지사 3차 기간제 계약직(육아휴직 대체인력) 채용 공고",
-      "startDate": "2026-07-29",
-      "endDate": "2026-08-12",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "경남",
-      "ncsNm": "기계,전기.전자,환경.에너지.안전",
-      "jobTrack": "기계",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 8,
-      "srcUrl": "\thttps://kogastech.recruiter.co.kr",
-      "aplyQlfcCn": "○ 운전면허 2종 보통 이상 소지자로 운전가능자\r\n○ 성별, 연령, 학력, 전공 제한 없음(공고일 기준 미성년자 제외)\r\n○ 우리공사 「인사규정」등에 의한 채용 결격 및 제한 사유가 없는 자\r\n○ 비위면직자 등 취업제한 대상자 지원불가\r\n○ 병역법 제76조(병역의무 불이행자에 대한 제재)에서 정한 병역\r\n   의무 불이행 사실이 없으며 병역을 필하였거나 또는 면제받은 자\r\n○ 각 채용분야 중복 지원은 불가합니다.(중복지원 시 모두 불합격 처리)\r\n○ (임용일자)부터 근무가능자",
       "isExcludedHireType": false
     },
     {
@@ -982,29 +522,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303194,
-      "orgName": "한국토지주택공사",
-      "orgCode": "C0396",
-      "title": "한국토지주택공사 광주전남지역본부 기간제근로자(사업관리 외) 채용공고(2026.08)",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-17",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "전남광주",
-      "ncsNm": "경영.회계.사무,사회복지.종교",
-      "jobTrack": "사무",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 13,
-      "srcUrl": "https://lh.or.kr/board.es?mid=a10602050000&bid=0036&act=view&list_no=733283&tag=&nPage=1",
-      "aplyQlfcCn": "<공통>\r\n o 한국토지주택공사 「인사규정」제9조(채용금지) 및 「기간제근로자 운영지침」제15조(채용금지)에 해당되지 아니한 자\r\n\r\n[연번1] 대체채용(주거급여 현장조사)\r\n o 운전면허(2종 보통 이상) 자격증 소지자로서 공고일 현재 면허 취득 1년 경과자\r\n\r\n[연번2] 대체채용(사업관리)\r\n o 필요자격 없음\r\n\r\n* 자세한 사항은 공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303193,
       "orgName": "한국수자원공사",
       "orgCode": "C0221",
@@ -1028,29 +545,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303174,
-      "orgName": "한전KPS(주)",
-      "orgCode": "C0305",
-      "title": "한전KPS(주) 한울3사업소 한울6호기 15차 계획예방정비공사 단기노무원 모집공고(1차)",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경북",
-      "ncsNm": "경영.회계.사무,기계,전기.전자,환경.에너지.안전",
-      "jobTrack": "사무",
-      "totalCount": 75,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://www.kps.co.kr",
-      "aplyQlfcCn": "1. 채용일 즉시 근무 가능한 자(공통사항)\r\n2. 건설업 기초안전보건교육 수료자 (공통사항)\r\n3. FME지도요원 자격요건 (아래 요건 중 하나 이상 자격 충족자)\r\n가. 발전설비 또는 플랜트 설비 분야 정비 유경험자\r\n나. 원자력발전소 계획예방정비공사 수행 경력 보유자\r\n4. 안전패트롤 자격요건 (아래 요건 중 하나 이상 자격 충족자)\r\n가. 산업안전(건설포함) 산업기사 이상 자격 소지자\r\n나. 산업/건설현장 안전관리 또는 감리단 경력 2년 이상인 자\r\n다. 발전설비 또는 플랜트 현장에서 5년 이상 근무한 자\r\n*산업안전 관련 법규와 유해 요소를 파악하여 전문적인 안전 코칭 역량 필요\r\n5. 비파괴시험공 자격요건\r\n가. 발전설비 또는 플랜트설비 분야 비파괴검사 유경험자\r\n나. 원자력발전소 계획예방정비공사 수행 경력 보유자\r\n다. 비파괴검사 산업기사 이상 자격 소지자 ",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303150,
       "orgName": "한전KDN",
       "orgCode": "C0306",
@@ -1071,29 +565,6 @@
       "daysLeft": 9,
       "srcUrl": "없음 ",
       "aplyQlfcCn": "가. 공통\r\n- 일반: 학력, 연령, 외국어 제한없음\r\n- 병역: 병역법 제 76조에서 정한 병역의무 불이행 사실이 없는 자\r\n- 자격: 건설업 기초 안전보건교육 이수자 또는 이수 가능자(계약시 증빙)\r\n- 기타: 당사 인사규정2.1.4(채용결격사유)에 해당하지 않는자(붙임1 참조)\r\n- 주민등록상 주소지가 서울/경기/강원인 자\r\n\r\n나. KDN전공 : 전주에 승주하여 공사와 관련한 제반 업무 수행이 가능한 자\r\n\r\n다. KDN조공\r\n - 해당분야 현장의 시공과 관련한 단순작업, 자재의 운반, 교통통제 지휘, 작업준비 등 보조 업무 수행이 가능한 자\r\n - 배전주 숭주없이 단말장치 시공업무 수행이 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303145,
-      "orgName": "한국부동산원",
-      "orgCode": "C0150",
-      "title": "한국부동산원 전문계약직 채용 공고",
-      "startDate": "2026-07-29",
-      "endDate": "2026-08-13",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "경력",
-      "workRgnNm": "대구",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 9,
-      "srcUrl": "https://www.reb.or.kr/recruit",
-      "aplyQlfcCn": "□ 기본사항\r\n\r\n ㅇ입사 예정일(’26.10.15.)로부터 근무할 수 있는 사람\r\n ※ 입사 예정일은 우리 원 사정에 따라 변경될 수 있으며, 협의 가능\r\n ㅇ우리 원 「인사규정」상 채용 결격사유가 없는 사람(별첨 참조)\r\n ㅇ남자의 경우 군필* 또는 면제인 사람\r\n  * 최종합격자 발표일(’26.10.13.) 이전 전역 예정자 포함\r\n\r\n□ 자격사항\r\n\r\n ㅇ공고일 기준 다음 조건 중 어느 하나에 해당하는 사람\r\n  1) 공무원 5급(상당) 이상 출신자로, 채용 분야 관련 경력이 3년 이상인 사람\r\n  2) 채용 분야 관련 경력이 10년 이상인 사람\r\n  3) 채용 분야 관련 임원 경력이 1년 이상인 사람\r\n ※ 채용 분야 관련 경력은 기업ㆍ정책ㆍ뉴미디어 홍보, 언론 협력, 마케팅 등에 한하며, 건강보험자격득실확인서와 경력증명서로 증빙할 수 있어야 함",
       "isExcludedHireType": false
     },
     {
@@ -1143,102 +614,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303115,
-      "orgName": "한국토지주택공사",
-      "orgCode": "C0396",
-      "title": "한국토지주택공사 토지주택연구원 기간제근로자 채용공고",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-11",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "대전,세종",
-      "ncsNm": "경영.회계.사무,연구",
-      "jobTrack": "사무",
-      "totalCount": 3,
-      "eduCondNm": [
-        "대졸(4년)",
-        "석사",
-        "박사"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 7,
-      "srcUrl": "https://lh.or.kr/board.es?mid=a10602050000&bid=0036&act=view&list_no=733241&tag=&nPage=1",
-      "aplyQlfcCn": "[공통]\r\n○ 한국토지주택공사「인사규정」제9조(채용금지) 및 「기간제근로자 운영지침」제15조(채용금지)에 해당되지 아니한 자\r\n○ 남성의 경우 병역필 또는 면제자\r\n\r\n[모집단위1] 촉탁연구(연구2)\r\n○ 공고일(’26.7.28.) 현재 관련학과* 석사학위 이상 소지자\r\n* 관련학과 : 스마트도시학, 스마트시티융합학, 그린스마트시티학, 미래도시융합공학, 도시공학, 도시계획학, 지역계획학, 건축학, 지리학, 인공지능학과 등 스마트도시 및 IT 관련학 등\r\n\r\n[모집단위2] 촉탁연구(연구4)\r\n○ 공고일(’26.7.28.) 현재 관련학과* 박사학위 이상 소지자\r\n* 관련학과 : 스마트도시학, 스마트시티융합학, 그린스마트시티학, 미래도시융합공학, 도시공학, 도시계획학, 지역계획학, 건축학, 지리학, 인공지능학과 등 스마트도시 및 IT 관련학 등\r\n\r\n[모집단위3] 대체채용(연구1)\r\n○ 공고일(’26.7.28.) 현재 관련학과* 학사학위 이상 소지자\r\n* 관련학과 : 건축학, 건축공학, 기계공학, 전기공학, 정보통신학, 통계학 등",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303015,
-      "orgName": "한국토지주택공사",
-      "orgCode": "C0396",
-      "title": "한국토지주택공사 경기남부지역본부 기간제근로자 채용공고",
-      "startDate": "2026-07-27",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "경영.회계.사무,사회복지.종교,건설,전기.전자,환경.에너지.안전",
-      "jobTrack": "사무",
-      "totalCount": 11,
-      "eduCondNm": [
-        "학력무관",
-        "대졸(2~3년)",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 6,
-      "srcUrl": "https://www.lh.or.kr/board.es?mid=a10602050000&bid=0036&list_no=733207&act=view",
-      "aplyQlfcCn": "[공통]\r\n- 한국토지주택공사 「인사규정」제9조(채용금지) 및 「기간제근로자 운영지침」제15조(채용금지)에 해당되지 아니한 자\r\n\r\n[(연번1) 현장보조감독(조경)]\r\n- 운전면허(2종 보통 이상) 자격증 소지자로서, 공고일 현재 아래의 자격요건 중 하나를 만족하는 자\r\n1. 모집 직무분야 기사 이상 자격증 소지자\r\n2. 「건설기술진흥법」에 따른 모집 직무분야의 건설사업관리 건설기술인 등급 ‘초급‘ 이상인 자\r\n\r\n[(연번2~3) 현장보조감독(전기)]\r\n- 운전면허(2종 보통 이상) 자격증 소지자로서, 공고일 현재 아래의 자격요건 중 하나를 만족하는 자\r\n1. 모집 직무분야 기사 이상 자격증 소지자\r\n2. 「건설기술진흥법」에 따른 모집 직무분야의 건설사업관리 건설기술인 등급 ‘초급‘ 이상인 자\r\n3. 「전력기술관리법」 또는 「정보통신공사업법」에 따른 감리원 등급 ‘초급‘ 이상인 자\r\n\r\n[(연번4~5) 공사관리관 보조(토목)]\r\n- 운전면허(2종 보통 이상) 자격증 소지자로서, 공고일 현재 아래의 자격요건 중 하나를 만족하는 자\r\n1. 모집 직무분야 산업기사 이상 자격증 소지자\r\n2. 모집 직무분야 관련 4년제 대학 졸업자 및 졸업예정자\r\n3. 모집 직무분야 관련 2년제 또는 3년제 대학 졸업자로서 해당 직무분야 근무경력 1년 이상인 자\r\n\r\n[(연번6~8) 현장사무보조, 폐기물계근관리]\r\n- 운전면허(2종 보통 이상) 자격증 소지자\r\n\r\n[(연번9~10) 대체채용(사업관리)]\r\n- 필요자격 없음\r\n\r\n[(연번11) 대체채용(주거급여현장조사)]\r\n- 운전면허(2종 보통 이상) 자격증 소지자로서, 공고일 현재 면허 취득 1년 경과자\r\n\r\n※ 자세한 자격요건 사항은 공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303001,
-      "orgName": "한국수자원공사",
-      "orgCode": "C0221",
-      "title": "[한국수자원공사] 안전본부 단기계약근로자(보건관리) 채용 공고(휴직 대체인력)",
-      "startDate": "2026-07-23",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "대전",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 2,
-      "srcUrl": "https://k-water.recruiter.co.kr",
-      "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일부터 현업 근무가 가능한 자\r\n□ 「간호법」제4조에 따른 간호사 면허를 취득한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302980,
-      "orgName": "한국수자원공사",
-      "orgCode": "C0221",
-      "title": "[한국수자원공사] 금강경영처 단기계약근로자(사무관리_서무보조, 비서 등) 채용 공고(육아휴직 대체인력, 장애인 제한채용)",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전북",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 1,
-      "srcUrl": "https://k-water.recruiter.co.kr/",
-      "aplyQlfcCn": "□ 「장애인고용촉진 및 직업재활법」 제2조에 따른 장애인\r\n□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일로부터 현업 근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 302959,
       "orgName": "한국수자원공사",
       "orgCode": "C0221",
@@ -1259,29 +634,6 @@
       "daysLeft": 2,
       "srcUrl": "https://k-water.recruiter.co.kr",
       "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일부터 현업 전일근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302892,
-      "orgName": "한국토지주택공사",
-      "orgCode": "C0396",
-      "title": "한국토지주택공사 부산울산지역본부 기간제근로자(사업관리 외) 채용공고(2026-03)",
-      "startDate": "2026-07-21",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "부산,울산",
-      "ncsNm": "경영.회계.사무,사회복지.종교,영업판매,환경.에너지.안전",
-      "jobTrack": "사무",
-      "totalCount": 9,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 0,
-      "srcUrl": "https://www.lh.or.kr/board.es?mid=a10602050000&bid=0036&act=view&list_no=733174&tag=&nPage=1",
-      "aplyQlfcCn": "[공통]\r\n- 한국토지주택공사 「인사규정」제9조(채용금지) 및 「기간제근로자 운영지침」제15조(채용금지)에 해당되지 아니한 자\r\n\r\n(연번1,2,3) 사업관리(대체채용)\r\n- 필요자격 없음\r\n\r\n(연번4) 주거급여 현장조사(대체채용)\r\n- 운전면허(2종보통 이상) 자격증 소지자로서 공고일 현재 면허 취득 1년 경과자\r\n\r\n(연번5) 주거급여 현장조사(단축)(대체채용)\r\n- 운전면허(2종보통 이상) 자격증 소지자로서 공고일 현재 면허 취득 1년 경과자\r\n\r\n(연번6) 폐기물계근관리\r\n- 운전면허(2종보통 이상) 자격증 소지자\r\n\r\n(연번7,8,9) 전세사기 피해자 지원 업무보조\r\n- 필요자격 없음\r\n\r\n※자세한 사항은 첨부파일의 채용공고문 참조",
       "isExcludedHireType": false
     },
     {
@@ -1424,52 +776,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303338,
-      "orgName": "근로복지공단",
-      "orgCode": "C0035",
-      "title": "[창원병원] 기간제 의사(응급실전담의) 채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-20",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "경남",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 16,
-      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
-      "aplyQlfcCn": "ㅇ 채용분야 응시자격\r\n-기간제 의사(응급실전담의) : 전문의 자격 소지자 또는 전공의 1년 이상 수료자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한 없음",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303337,
-      "orgName": "근로복지공단",
-      "orgCode": "C0035",
-      "title": "[창원병원] 기간제 의사(영상의학과) 채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-20",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "경남",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 16,
-      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
-      "aplyQlfcCn": "ㅇ 채용분야별 응시자격\r\n- 영상의학과: 영상의학과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303336,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -1513,29 +819,6 @@
       "daysLeft": 16,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
       "aplyQlfcCn": "ㅇ 채용분야별 응시자격 : 정형외과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한없음",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303245,
-      "orgName": "근로복지공단",
-      "orgCode": "C0035",
-      "title": "[인천병원] 기간제(의공기사) 채용 공고",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "인천",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
-      "aplyQlfcCn": "ㅇ 채용직군별 자격요건\r\n- 의공기사 : 의공산업기사 이상의 자격증 소지자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령제한 없음",
       "isExcludedHireType": false
     },
     {
@@ -1586,29 +869,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303166,
-      "orgName": "근로복지공단",
-      "orgCode": "C0035",
-      "title": "[동해병원] 기간제 의사(진단검사의학과 또는 병리과) 채용 공고",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "강원",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 0,
-      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
-      "aplyQlfcCn": "ㅇ 채용분야별 응시자격 : 진단검사의학과 또는 병리과 전문의 자격 소지자\r\n*응시자격은 응시원서 마감일 기준\r\nㅇ 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한자\r\nㅇ임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한없음",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303164,
       "orgName": "기술보증기금",
       "orgCode": "C0038",
@@ -1652,29 +912,6 @@
       "daysLeft": 8,
       "srcUrl": "https://www.kibo.or.kr/",
       "aplyQlfcCn": "■ 입사지원서 접수 마감일('26.08.12.) 기준 최종학력이 고등학교를 졸업하였거나 졸업예정인 자 또는 그에 상응하는 지식, 학력, 기술을 보유한 것으로 인정받은 자*\r\n * 고등학교 검정고시 합격자 및 대학 중퇴자 및 재학·휴학자 포함\r\n * 대학졸업자 또는 대학졸업예정자 등은 지원불가\r\n■ 성별, 연령, 전공 등 제한 없는 블라인드 채용\r\n * 단, 공고일 기준 기금 사무지원인력 근무연한인 만 60세 이상 지원불가\r\n■ 채용 확정('26. 9월 중 예정) 후 즉시 근무가능한 자\r\n■ 기술보증기금 인사규정상 채용제한 사유에 해당되지 않는 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303162,
-      "orgName": "근로복지공단",
-      "orgCode": "C0035",
-      "title": "[동해병원] 기간제 의사(재활의학과) 채용 공고",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "강원",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 0,
-      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
-      "aplyQlfcCn": "ㅇ 채용분야별 응시자격\r\n- 재활의학과: 재활의학과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음",
       "isExcludedHireType": false
     },
     {
@@ -1747,52 +984,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303148,
-      "orgName": "서울올림픽기념국민체육진흥공단",
-      "orgCode": "C0029",
-      "title": "서울올림픽기념국민체육진흥공단 체육지도자 연수조교(단기지원직) 채용 재공고",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-09",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "서울",
-      "ncsNm": "사업관리",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 5,
-      "srcUrl": "https://kspo.or.kr/kspo/singl/empmn/view.do?empmnId=768&menuNo=200186&pageIndex=1",
-      "aplyQlfcCn": "ㅇ 성별 및 연령제한 없음\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\n* 최종 임용 전 성범죄 및 아동학대 관련 범죄전력 조회 등 사전검증 실시\r\nㅇ 채용예정일 즉시 근무 가능한 사람",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303147,
-      "orgName": "근로복지공단",
-      "orgCode": "C0035",
-      "title": "[순천병원] 기간제 의사(응급의학과) 채용 공고",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-07",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "전남광주",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 3,
-      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
-      "aplyQlfcCn": "ㅇ 채용분야별 응시자격\r\n- 의사 면허 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303106,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -1859,29 +1050,6 @@
       "daysLeft": 6,
       "srcUrl": "https://www.nps.or.kr/pnsgdnc/hiregdnc/getOHAE0004M0List.do?menuId=MN24000969",
       "aplyQlfcCn": "(공통자격)\r\n-대한민국 국적을 가진 사람\r\n-성별·연령 제한 없음 (단, 공단 정년 만 60세 이상자는 제외)\r\n-공단 인사규정 제11조(결격사유)에 해당하지 않는 사람\r\n-국민연금연구원(전주 소재) 근무 가능한 사람\r\n-임용(예정)일부터 근무가 가능한 사람\r\n\r\n(학위요건)\r\n- 연금제도연구실 분야 : 경제학 전공 박사 학위 취득자\r\n- 기금정책분석실 분야 : 경제학, 경영학 및 금융공학 관련 전공 박사 학위 취득자\r\n※ 임용예정일 전일까지 해당 학위 취득자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302992,
-      "orgName": "공무원연금공단",
-      "orgCode": "C0013",
-      "title": "자금운용 전문계약직(해외투자팀장) 채용 재공고",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "경력",
-      "workRgnNm": "서울",
-      "ncsNm": "금융.보험",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 1,
-      "srcUrl": "https://www.geps.or.kr/notiCommunication_info_incruit/42573?curPage=1",
-      "aplyQlfcCn": "○ 성별·연령·학력·전공 제한 없음(단, 공단 정년(만60세) 초과자 제외)\r\n○ 공단 인사규정의 임용결격 사유에 해당되지 않는 자\r\n○ 해외채권·주식 등 실무경력 5년 이상인 자로, 금융기관 등에서 팀장(차장) 이상의 경력이 있는 자\r\n○ 비즈니스 영어회화 가능자\r\n\r\n<해외투자 실무경력>\r\n* 해외 채권·주식 및 이와 관련된 파생상품 등 운용\r\n* 인턴, 영업, 총무, 기획, 은행PB, 회계감사 등의 업무는 경력으로 인정하지 않음",
       "isExcludedHireType": false
     },
     {
@@ -1955,29 +1123,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303400,
-      "orgName": "한국보훈복지의료공단",
-      "orgCode": "C0203",
-      "title": "[광주보훈병원] 계약직 업무지원직(고객지원_간병지원) - 휴직대체 직원 채용 공고",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-13",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전남광주",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 9,
-      "srcUrl": "https://www.bohun.or.kr/gwangju/na/ntt/selectNttInfo.do?mi=32890&bbsId=1158&bbsSysId=gwangju&nttSn=188079",
-      "aplyQlfcCn": "* 업무지원직(고객지원_간병지원) (1)\r\n(필수) 3교대 또는 상근 근무 가능자\r\n(필수) 공단 인사규정 제18조(결격사유 및 임용취소)에 해당되지 않는 자\r\n(필수) 공단 업무지원직 인사관리 시행세칙 제13조(정년)에 따른 정년(60세)을 초과하지 않는 자",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303387,
       "orgName": "건강보험심사평가원",
       "orgCode": "C0006",
@@ -2004,53 +1149,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303382,
-      "orgName": "한국장애인고용공단",
-      "orgCode": "C0242",
-      "title": "[한국장애인고용공단 대구지역본부, 경북지사] 기간제 대체근로자(체험형 청년인턴) 채용 공고",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-12",
-      "hireTypeNm": "비정규직,청년인턴(체험형)",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "대구,경북",
-      "ncsNm": "교육.자연.사회과학",
-      "jobTrack": "연구",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 8,
-      "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895",
-      "aplyQlfcCn": "- 컴퓨터 프로그램(엑셀 및 한글) 사용 및 전화 업무가 가능한 자\r\n- (청년인턴) 임용예정일 기준 만 15세 이상 만 34세 이하인 자\r\n  *「청년고용촉진 특별법 시행령」 제2조에 따른 청년 미취업자\r\n  *「초중등교육법」 제21조에 따른 특수학교 정교사 자격을 취득하였거나 취득 예정인 자 (접수 마감일 기준으로 보유 여부 판단)\r\n    ※ 자세한 사항은 첨부된 채용공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303378,
-      "orgName": "한국농어촌공사",
-      "orgCode": "C0046",
-      "title": "한국농어촌공사 청주지사, 음성지사 계약직(육아휴직 대체인력) 채용 공고",
-      "startDate": "2026-08-03",
-      "endDate": "2026-08-18",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "충북",
-      "ncsNm": "사업관리,경영.회계.사무,농림어업",
-      "jobTrack": "사무",
-      "totalCount": 3,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 14,
-      "srcUrl": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529f8d8c32019fc4b6e897783f&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437",
-      "aplyQlfcCn": "○ 학력, 성별, 연령 제한 없음\r\n○ 임용예정일부터 즉시 업무종사 가능자 (임용예정일: 2026. 9. 2.)\r\n○ 공사 인사규정 제9조의 임용 결격 사유가 없는 자 (공고문 첨부 1 참조)\r\n○ 병역법(남성) 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n○ 근무지로 출퇴근 가능자 (통근버스 미제공)",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303356,
       "orgName": "한국보훈복지의료공단",
       "orgCode": "C0203",
@@ -2071,29 +1169,6 @@
       "daysLeft": 14,
       "srcUrl": "https://www.bohun.or.kr/gwangju/na/ntt/selectNttInfo.do?mi=32890&bbsId=1158&bbsSysId=gwangju&nttSn=188038",
       "aplyQlfcCn": "* 전문의(안과) (1)\r\n(필수) 의사 면허증 소지자\r\n(필수) 안과 전문의 자격증 소지자\r\n\r\n[공통 사항]\r\n(필수) 공단 인사규정 제18조(결격사유 및 임용취소)에 해당되지 않는 자\r\n ※ 만 60세 이상자(정년초과자) 지원 가능",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303351,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "2026년 오대산사무소 기간제(환경관리) 직원 채용(3차)",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "강원",
-      "ncsNm": "경비.청소,환경.에너지.안전",
-      "jobTrack": "시설",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019581",
-      "aplyQlfcCn": "ㆍ공단「인사규정」제18조(결격사유)에 해당되지 않은 자(아래 참조)\r\nㆍ그 외 전공, 학력 등 제한 없음",
       "isExcludedHireType": false
     },
     {
@@ -2120,30 +1195,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303327,
-      "orgName": "한국장애인고용공단",
-      "orgCode": "C0242",
-      "title": "[한국장애인고용공단 대전지역본부] 기간제 근로자(체험형 청년인턴) 채용 공고",
-      "startDate": "2026-07-31",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직,청년인턴(체험형)",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "대전",
-      "ncsNm": "교육.자연.사회과학",
-      "jobTrack": "연구",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 6,
-      "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895",
-      "aplyQlfcCn": " (1) 공통자격요건(필수)\r\n  ○ 「국가공무원법」제33조에 저촉되지 않는 자\r\n  ○ 공단「인사규정」제12조(결격사유)에 해당되지 않는 자\r\n  ○ 임용예정일에 근무가능한 자(근무 불가능 시 합격 취소)\r\n  ○ 임용예정일 기준 만34세 이하인 자\r\n   - 관련:「청년고용촉진 특별법 시행령」제2조에 따른 청년 미취업자\r\n   - 단 제대군인법 시행령 제19조에 따라 복무기간에 비례*하여 최대 만 37세 이하까지 인정됨\r\n     * (2년 이상): 만 37세 이하\r\n     * (1년 이상 ~ 2년 미만): 만 36세 이하\r\n     * (1년 미만): 만 35세 이하\r\n    ※ 자세한 사항은 첨부된 채용공고문 참조\r\n\r\n (2) 채용분야 자격요건\r\n  ○ 「초중등교육법」 제21조에 따른 특수학교 정교사 자격을 취득하였거나 취득 예정인 자(자격기준은 접수마감일 기준으로 보유여부 판단)\r\n    ※ 자세한 사항은 첨부된 채용공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303284,
       "orgName": "정보통신기획평가원",
       "orgCode": "C0908",
@@ -2164,98 +1215,6 @@
       "daysLeft": 2,
       "srcUrl": "https://www.iitp.kr/web/index.do",
       "aplyQlfcCn": "<공통>\r\nㅇ 연령 제한없음(단, 우리 원 정년규정에 의거 만 60세 미만인 자)\r\nㅇ 성별 제한없음(단, 남성의 경우 「병역법」 제76조 제1항의 각호에 해당하지 않는 자)\r\nㅇ 채용 분야 직무기술서 상의 직무 역량을 보유한 자\r\nㅇ 임용예정일(‘26.9월 말~10월초 예정) 부터 근무가 가능한 자\r\n\r\n<위촉직(사업관리)>\r\nㅇ 다음 공인어학시험 중 1개 이상 자격을 충족한 자 또는 영어권 국가 학사 이상 학위취득자\r\n- TOEIC 750점, TOEFL-IBT 85점, New TEPS 268, TOEIC-S 120점, TEPS-S 51점, OPIC IM2 이상\r\n* 원서 접수마감일 기준 2년 이내 정기시험 성적 (단, 유효기간 만료 전 어학성적사전등록 시 5년간 인정)\r\n\r\n※ 이외 상세사항은 첨부파일의 공고문 등 참고",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303282,
-      "orgName": "(재)우체국물류지원단",
-      "orgCode": "C0331",
-      "title": "우체국물류지원단 경인지사 안양, 부평물류사업소 기간제(일용직_우편물 구분) 채용 공고",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "운전.운송",
-      "jobTrack": "시설",
-      "totalCount": 155,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 27,
-      "srcUrl": "https://www.pola.or.kr",
-      "aplyQlfcCn": "□ 우체국물류지원단 인사규정에 따른 결격사유가 없는 자\r\n□ 채용 즉시 근무가 가능한 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303266,
-      "orgName": "(재)우체국물류지원단",
-      "orgCode": "C0331",
-      "title": "우체국물류지원단 부산지사 진주사업소 기간제(운전직, 휴직자 대체) 채용 공고",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경남",
-      "ncsNm": "운전.운송",
-      "jobTrack": "시설",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 2,
-      "srcUrl": "https://www.pola.or.kr",
-      "aplyQlfcCn": "□ 우체국물류지원단 인사규정에 따른 결격사유가 없는 자\r\n□ 만 60세 이하(공고일 기준)\r\n□ 남성의 경우, 병역필 또는 면제자\r\n□ 채용 즉시 근무가 가능한 자\r\n□ 다음의 자격기준을 모두 갖춘 자\r\n  - 1종 대형면허 보유자\r\n  - 화물운송종사자격증 보유자\r\n  - 무사고경력 1년 이상(채용공고일 기준)",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303265,
-      "orgName": "한국관광공사",
-      "orgCode": "C0165",
-      "title": "2026~2027 관광데이터서비스팀 기간제 근로자(전문계약직) 채용 공고",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "강원",
-      "ncsNm": "정보통신",
-      "jobTrack": "IT",
-      "totalCount": 1,
-      "eduCondNm": [
-        "박사"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://knto.or.kr/recruitInfo",
-      "aplyQlfcCn": "[기본자격] \r\nㅇ 입사예정일부터 근무 가능한 자\r\nㅇ 원주 본사 근무 가능한 자\r\n[직무자격]\r\nㅇ 통계 및 데이터 부문(통계, 데이터 관련 학과) 또는 유관 부문(경제·경영학, 관광학 등 사회과학 및 관광관련 학과) 박사학위 소지자\r\n※ 세부내용은 채용 공고문 등 붙임 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303247,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "[지리산생태탐방원] 2026년 지리산생태탐방원 기간제[한시인력(탐방운전)] 채용 공고",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전남광주",
-      "ncsNm": "운전.운송",
-      "jobTrack": "시설",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019573",
-      "aplyQlfcCn": " ○ 유효한 1종 대형 운전면허 소지자 중 아래 자격 1개 이상 해당자\r\n   - 버스운전자격(한국교통안전공단 발행 소지자)\r\n   - 대형버스(36인 이상) 경력 1년 이상\r\n ○ 공단 인사규정 제18조(결격사유)에 해당되지 않는 자(첨부 참조)\r\n ○ 전공, 학력, 연령 제한 없음",
       "isExcludedHireType": false
     },
     {
@@ -2280,99 +1239,6 @@
       "daysLeft": 2,
       "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsView.do?pageIndex=1&menuId=MENU0895&bbsCode=deptgongji&bbsCnId=215139",
       "aplyQlfcCn": " 가. 공통 응시자격\r\n○ 「국가공무원법」제33조에 저촉되지 않는 자\r\n○ 공단「인사규정」제12조(결격사유)에 해당되지 않는 자\r\n○ 임용예정일에 근무 가능한 자(근무 불가능 시 합격 취소)\r\n○ 임용예정일 기준 만15세 이상 만34세 이하에 해당하는 자\r\n* 단, 제대군인법 시행령 제19조에 따라 복무기간에 비례, 최대 만37세 이하까지 인정됨\r\n※ 관련:「청년고용촉진 특별법 시행령」제2조에 따른 청년 미취업자\r\n\r\n나. 응시분야별 자격기준\r\n[장애인취업성공패키지 업무 전반]\r\n○ 해당 전문분야(사회복지, 직업재활, 심리, 상담, 특수교육 관련분야) 학사학위 취득자 또는 관련분야 자격증* 소지자\r\n＊장애인재활상담사, 사회복지사, 직업상담사, 청소년상담사, 평생교육사, 상담심리사, 정신보건사회복지사, 정신보건임상심리사, 임상심리사, 특수교사, 직업훈련교사, 공인노무사\r\n\r\n[직업체험관 운영 및 관리 등]\r\n○ 다음 각 호의 어느 하나에 해당하는 자\r\n- 공단 훈련센터 업무 수행이 가능한 자\r\n- 공단 사무지원직으로 4년 이상 재직한 자\r\n※ 자세한 사항은 첨부된 채용공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303243,
-      "orgName": "한국장애인고용공단",
-      "orgCode": "C0242",
-      "title": "[한국장애인고용공단 부산지역본부] 기간제 근로자 채용 공고",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직,청년인턴(체험형)",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "부산",
-      "ncsNm": "경영.회계.사무,교육.자연.사회과학,사회복지.종교",
-      "jobTrack": "사무",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 2,
-      "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895",
-      "aplyQlfcCn": "○ (교사직) 아래 1~3번에 모두 해당하는 자\r\n1. 「초중등교육법」 제21조에 따른 특수교사 정교사 자격을 취득하였거나\r\n취득 예정인 자\r\n2. 임용예정일 기준 정년(만 60세)을 도과하지 않은 자\r\n3. 채용분야의 직무수행이 가능할 것\r\n\r\n○ (일반직) 아래 1~2번에 모두 해당하는 자\r\n1. 공단업무를 수행할 수 있는 전문지식을 갖춘 자\r\n2. 임용예정일 기준 만 15세 이상 및 34세 이하에 해당하는 자\r\n※ 「청년고용촉진 특별법 시행령」 제2조에 따른 청년 미취업자\r\n※ 「제대군인법」에 따라 제대군인 복무기간별 청년 응시연령 연장\r\n- (2년 이상) 만 37세 이하\r\n- (1년~2년) 만 36세 이하\r\n- (1년 미만) 만 35세 이하\r\n\r\n※ 상세 내용은 붙임 채용공고문을 참고하시기 바랍니다.",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303242,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "[북한산생태탐방원] 2026년 북한산생태탐방원 기간제[한시인력_사무행정_제한경쟁(취업지원대상자)] 직원 채용",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "서울",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 10,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019569",
-      "aplyQlfcCn": "ㆍ공단「인사규정」제18조(결격사유)에 해당되지 않은 자\r\nㆍ근무시작(예정)일부터 근무 가능한 자\r\nㆍ제한경쟁으로 취업지원대상자인 자(국가유공자 등 예우 및 지원에 관한 법률 제29조의 규정에 의한 취업지원대상자로 관련 증빙서류를 제출한 자 \r\nㆍ그 외 전공, 학력 등 제한 없음",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303241,
-      "orgName": "(재)우체국물류지원단",
-      "orgCode": "C0331",
-      "title": "우체국물류지원단 서울지사 동서울물류사업소 초단기 기간제(일용직_우편물구분) 채용 공고",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "서울",
-      "ncsNm": "운전.운송",
-      "jobTrack": "시설",
-      "totalCount": 65,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 27,
-      "srcUrl": "https://www.pola.or.kr",
-      "aplyQlfcCn": "□ 우체국물류지원단 인사규정에 따른 결격사유가 없는 자\r\n□ 채용 즉시 근무가 가능한 자\r\n",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303240,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "[팔공산동부] 2026년 팔공산국립공원동부사무소 기간제(국립공원지킴이) 모집 공고(2차)",
-      "startDate": "2026-07-30",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "대구",
-      "ncsNm": "경비.청소,건설",
-      "jobTrack": "시설",
-      "totalCount": 13,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 6,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019568",
-      "aplyQlfcCn": "- 학력 전공, 나이 제한 없음(만18세 이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당하지 않은 자\r\n- 소득 자산 기준 초과자는 참여 제한(세부사항 공고문 참조)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(세부사항 공고문 참조)",
       "isExcludedHireType": false
     },
     {
@@ -2450,29 +1316,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303196,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "[북한산생태탐방원] 2026년 북한산생태탐방원 기간제[한시인력_사무행정_제한경쟁(장애인)] 직원채용 재공고(2차)",
-      "startDate": "2026-07-29",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "서울",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 6,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019554",
-      "aplyQlfcCn": "ㆍ공단「인사규정」제18조(결격사유)에 해당되지 않은 자\r\nㆍ근무시작(예정)일부터 근무 가능한 자\r\nㆍ제한경쟁으로 장애인인 자(장애인고용촉진 및 직업재활법 제2조제1호의 규정에 의한 장애인으로 관련 증빙서류를 제출한 자) \r\nㆍ그 외 전공, 학력 등 제한 없음",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303186,
       "orgName": "한국보훈복지의료공단",
       "orgCode": "C0203",
@@ -2519,79 +1362,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303183,
-      "orgName": "한국소비자원",
-      "orgCode": "C0218",
-      "title": "2026년 제3차 기간제근로자 채용",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-12",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입",
-      "workRgnNm": "충북",
-      "ncsNm": "경영.회계.사무",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "대졸(4년)",
-        "석사",
-        "박사"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 8,
-      "srcUrl": "https://www.kca.go.kr/kca/sub.do?menukey=5113&mode=view&no=1004537986",
-      "aplyQlfcCn": "ㅇ 기간제(연구보조)\r\n- 학사학위 이상 소지자\r\n- 병역을 필하였거나 면제된 자\r\n- 임용예정일 이후 근무가 가능한 자\r\n- 우리 원 인사규정 제19조(채용결격사유)에 해당하지 않는 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303153,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "[보전원] 국립공원야생생물보전원 기간제(연구복원, 환경관리) 직원 채용 ",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-11",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전남광주",
-      "ncsNm": "경비.청소,환경.에너지.안전",
-      "jobTrack": "시설",
-      "totalCount": 4,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 7,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019547",
-      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 전공/학력/나이 제한 없음\r\n- 근무시작(예정)일부터 근무 가능한 자\r\n",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303151,
-      "orgName": "한국환경공단",
-      "orgCode": "C0400",
-      "title": "한국환경공단 대기환경처 악취기술지원부 기간제 근로자 채용 공고",
-      "startDate": "2026-07-29",
-      "endDate": "2026-08-12",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "인천",
-      "ncsNm": "환경.에너지.안전",
-      "jobTrack": "시설",
-      "totalCount": 2,
-      "eduCondNm": [
-        "고졸",
-        "대졸(2~3년)",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": true,
-      "replImprYn": "N",
-      "daysLeft": 8,
-      "srcUrl": "https://www.keco.or.kr/web/lay1/bbs/S1T1205C1207/A/22/view.do?article_seq=100168&cpage=1&rows=10&condition=&keyword=",
-      "aplyQlfcCn": "1. 공통사항\r\n- 한국환경공단 인사규정 제16조의 결격사유가 없는 자\r\n- 공단 인사규정 제59조에 의거 영리업무 및 겸직근무자 제외\r\n- 공직자윤리법 제17조 퇴직공직자의 취업제한에 해당되지 않는 자\r\n- 공단 채용분야 자격기준에 해당하는 자\r\n- 임용예정일부터 근무가능자\r\n\r\n2. 촉탁라급 채용자격 기준 : 다음 각 호중 어느 하나 이상에 해당하는 자\r\n- 해당분야의 기사자격증 소지자 또는 산업기사 자격을 취득한 후 2년 이상 당해분야의 경력이 있는 자\r\n- 고등학교 졸업(동등의 자격이 있다고 국가가 인정하는 경우를 포함한다)후 3년 이상 해당분야 경력이 있는 자\r\n- 해당분야의 학사학위 소지자(졸업예정자 포함) 또는 전문학사 졸업 후 2년 이상 해당분야 경력이 있는 자",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303146,
       "orgName": "한국산업인력공단",
       "orgCode": "C0211",
@@ -2613,33 +1383,6 @@
       "daysLeft": 9,
       "srcUrl": "https://www.hrdkorea.or.kr/3/1/2/2",
       "aplyQlfcCn": "ㅇ (모든 지원자 공통조건) 최종합격자 발표 후 임용 즉시 근무 가능한 자(불가능시 합격 취소)\r\nㅇ (모든 지원자 공통조건) 우리 공단 인사규정 제24조의 결격사유에 해당하지 않는 자로서 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n※ ‘26. 10월 이전 전역(예정)자는 지원 가능하며 고졸인재 지원자는 병역과 무관하게 지원 가능\r\nㅇ (모든 지원자 공통조건) 성별 및 연령 제한 없음. 다만, 공단 인사규정 제48조(정년)에 따라 만 60세 이상자는 지원할 수 없음\r\nㅇ (일반(일반행정,데이터분석,산업안전)) 제한없음\r\nㅇ (회계) 공인회계사 자격증 취득 후 회계·세무 등 관련 분야 3년 이상 실무경력이 있는 자\r\nㅇ (노무) 공인노무사 자격증 보유자\r\nㅇ (울산·경남 지역인재(일반행정)) 「혁신도시조성 및 발전에 관한 특별법」제29조의 2(이전공공기관등의 지역인재 채용 등)에 따라 대학원을 제외한 최종학력 기준*, 울산광역시 또는 경상남도(부산 제외)에 소재한 대학교나 고등학교를 졸업**하였거나 졸업 예정인 자\r\n* 사이버대학, 평생교육기관, 독학학위 취득자, 학점인정학위 취득자 등은 해당 학력을 제외한 최종학력 기준\r\n** 접수 마감일 기준 졸업증명서 또는 졸업예정증명서 제출이 가능하여야 함\r\nㅇ (고졸인재(일반행정)) 접수 마감일 기준, 최종학력이 고졸이거나 2027년 2월 이전 고등학교 졸업 예정인 자\r\n* 접수 마감일 기준, 고교 검정고시 합격자, 대학 중퇴자 지원 가능\r\n* 접수 마감일 기준, 전문학사 이상 학위 취득(예정)자 지원 불가(수업연한 마지막 학년 재·휴학 또는 졸업유예자 지원 불가하며, 졸업예정자 또는 마지막 학년 재·휴학자가 아닌 대학 재학, 휴학 중인 자는 지원 가능)\r\nㅇ (장애(일반행정)) 접수 마감일 기준, 「장애인고용촉진및직업재활법 시행령」 제3조 및 제4조에 따른 장애인\r\n\r\n※ 자세한 사항은 첨부파일 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303143,
-      "orgName": "한국환경공단",
-      "orgCode": "C0400",
-      "title": "한국환경공단 수도권서부환경본부 환경시설관리처 기간제근로자(촉탁직, 일용직) 채용 공고",
-      "startDate": "2026-07-28",
-      "endDate": "2026-08-11",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "사업관리,경영.회계.사무,건설,환경.에너지.안전",
-      "jobTrack": "사무",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관",
-        "대졸(2~3년)",
-        "대졸(4년)",
-        "석사",
-        "박사"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 7,
-      "srcUrl": "https://www.keco.or.kr/web/lay1/bbs/S1T1205C1207/A/22/view.do?article_seq=100167&cpage=1&rows=10&condition=&keyword=",
-      "aplyQlfcCn": "○ 공통사항\r\n- 공단 인사규정 제16조 임용 결격사유가 없는 자\r\n- 공단 인사규정 제59조에 의거 영리업무 및 겸직근무자 제외\r\n\r\n○ 채용자격 기준(촉탁나급)\r\n- 해당분야의 박사학위 또는 기술사 자격을 취득한 자\r\n- 해당분야의 기사자격을 취득한 후 10년 이상 당해분야의 경력이 있는 자\r\n- 관련 협회 기술인 등급 고급 이상인 자\r\n\r\n○ 채용자격 기준(일용직)\r\n- 제한없음",
       "isExcludedHireType": false
     },
     {
@@ -2829,52 +1572,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303093,
-      "orgName": "한국농어촌공사",
-      "orgCode": "C0046",
-      "title": "한국농어촌공사 서천지사 계약직(육아휴직 대체인력) 채용 공고",
-      "startDate": "2026-07-27",
-      "endDate": "2026-08-11",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "충남",
-      "ncsNm": "사업관리,경영.회계.사무,농림어업",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 7,
-      "srcUrl": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529f8d8c32019fa0e884163e54&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437",
-      "aplyQlfcCn": "- 학력, 전공, 성별, 연령 제한 없음\r\n- 채용예정일로부터 즉시 업무종사 가능자\r\n- 남자의 경우, 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n- 공사 인사규정 제9조의 임용 결격사유가 없는 자(첨부1)\r\n- 지역제한 없음. 단, 근무지로 출퇴근 가능자(통근버스 미제공)",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303088,
-      "orgName": "한국보훈복지의료공단",
-      "orgCode": "C0203",
-      "title": "[부산보훈병원] 계약직(행정, 임상병리사-단시간, 사회복지사) 긴급채용공고",
-      "startDate": "2026-07-27",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "부산",
-      "ncsNm": "보건.의료",
-      "jobTrack": "보건복지",
-      "totalCount": 5,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://www.bohun.or.kr/busan/na/ntt/selectNttInfo.do?mi=33215&bbsId=1158&bbsSysId=busan&nttSn=187830",
-      "aplyQlfcCn": "가. 행정\r\n- 필수자격요건 없음\r\n나. 임상병리사-단시간\r\n-공고마감일 기준, 임상병리사 면허증 소지자 (합격증서 불인정)\r\n다. 사회복지사\r\n- 공고마감일 기준, 사회복지사 1급 자격증 소지자\r\n\r\n-공단 인사규정 제18조에 정한 결격 사유에 해당하지 않는 자\r\n-공단 업무지원직 인사관리 시행세칙 제13조에 따른 정년(만60세)에 도달하지 않은 자\r\n-부산보훈병원 타공고 중복지원 불가(중복지원시 서류심사 불합격할 수 있음)\r\n※전 항을 모두 충족해야함",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 303071,
       "orgName": "한국보훈복지의료공단",
       "orgCode": "C0203",
@@ -2967,52 +1664,6 @@
       "isExcludedHireType": false
     },
     {
-      "sn": 303043,
-      "orgName": "한국농어촌공사",
-      "orgCode": "C0046",
-      "title": "한국농어촌공사 화성수원지사 및 파주지사 계약직(휴직 대체인력) 채용 공고",
-      "startDate": "2026-07-24",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "사업관리,경영.회계.사무,농림어업",
-      "jobTrack": "사무",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 6,
-      "srcUrl": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529f8d8c32019f91a0e1b6576e&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437",
-      "aplyQlfcCn": " ○성별, 연령, 학력 제한 없음\r\n ○지역제한 없음(단, 근무지로 출퇴근 가능한 자)\r\n ○임용예정일(2026.08.31.)부터 즉시 업무 종사 가능자\r\n ○공사 인사규정 제9조의 임용 결격 사유가 없는 자(첨부 1)\r\n ○남자의 경우, 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 303042,
-      "orgName": "국민건강보험공단 일산병원",
-      "orgCode": "C0459",
-      "title": "2026년 7월 기간제근로자 모집공고(사무직, 전산직, 간호직, 기능직, 보건직)",
-      "startDate": "2026-07-27",
-      "endDate": "2026-08-10",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "경영.회계.사무,보건.의료,경비.청소,정보통신",
-      "jobTrack": "사무",
-      "totalCount": 42,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 6,
-      "srcUrl": "https://nhimc.recruiter.co.kr/",
-      "aplyQlfcCn": "1. 사무원(의료정보운영부) - 상근(1명)\r\nㅁ 정보처리기사, 전자계산기기사, 정보통신기사 중 1가지 이상 소지자\r\n\r\n2. 사무원(국제진료센터) - 상근(1명)\r\nㅁ 한국인의 경우 몽골(어)관련 학부 졸업생\r\nㅁ 몽골인의 경우 외국인거소증 및 취업이 가능한 비자 소지자\r\nㅁ MS오피스 사용이 가능한 사람\r\n  * 자격증 : 컴퓨터활용능력 1·2급, 워드프로세서, e-test professional 3급이상, MOS Expert/Master, MOS Core\r\n\r\n3. 간호사(건강증진부 종합검진센터)- 단시간(5H,1명)\r\nㅁ 간호사 면허증 소지자\r\n\r\n4. 정형외과 진료지원 간호사(간호교육지원부)-상근(2명)\r\nㅁ 간호사 면허증 소지자\r\nㅁ 종합병원급 이상 의료기관에서 임상 경력 3년 이상인 자\r\n\r\n5. 간호사(진료협력부)-상근(2명)\r\nㅁ 간호사 면허증 소지자\r\nㅁ 임상 경력 2년 이상인 자\r\n\r\n6.방사선사(건강증진부 종합검진센터)-상근(1명)\r\nㅁ 방사선사 면허증 소지자\r\n\r\n7.방사선사(영상의학과)-교대(6명)\r\nㅁ 방사선사 면허증 소지자\r\nㅁ 영상 검사 업무 등 500병상 이상 종합병원 근무 3개월 이상 경력자\r\n\r\n8.진료지원(건강증진부 국가검진센터)-상근(1명), 단시간(4H,1명)\r\nㅁ 해당업무 수행 가능자\r\n  - 해당업무 : 검사보조 업무, 초음파실 지원, 전화예약실 업무, 접수 및 상담 업무, 수검자 안내 및 환경관리, 기타 건강증진센터 업무 보조지원 등\r\n\r\n9. 방사선사(외래지원부)- 상근(1명)\r\nㅁ 방사선사 면허 소지자\r\n\r\n10.소아 물리치료사(어린이 재활치료부)- 상근(1명)\r\nㅁ물리치료사 면허증 소지자로서 소아 물리치료 업무 경력이 6개월 이상인 자\r\n\r\n11.청소관리(시설운영부)-3교대(1명)\r\nㅁ 여성이면서, 해당 업무 수행 가능자\r\n  ※ 해당업무: 시설물 청소 및 환경 유지 관리 등\r\n\r\n12. 약사(약제부)-상근(1명)\r\nㅁ약사 면허증 소지자\r\n\r\n13.간호사(외래지원부,건강증진센터 등)-상근(9명)\r\nㅁ 간호사면허증 소지자\r\nㅁ「국가유공자 등 예우 및 지원에 관한 법률」제29조에 따른 전상군경, 공상군경 등 취업지원 대상자\r\n\r\n14.방사선사(외래지원부,건강증진센터 등)-3교대(2명)\r\nㅁ 방사선사 면허 소지자\r\nㅁ「국가유공자 등 예우 및 지원에 관한 법률」제29조에 따른 전상군경, 공상군경 등 취업지원 대상자\r\n\r\n15.진료지원(병동, 집중치료실, 건강증진센터, 약제부 등)-3교대(9명)\r\nㅁ 해당업무 수행 가능자\r\n  ※ 해당업무 : 검사보조 업무, 초음파실 지원, 전화예약실 업무, 접수 및 상담 업무, 수검자 안내 및 환경관리, 기타 업무 보조지원 등\r\nㅁ「국가유공자 등 예우 및 지원에 관한 법률」 제29조에 따른 전상군경, 공상군경 등 취업지원 대상자\r\n\r\n16.청소관리(청소관리)-3교대(2명)\r\nㅁ 여성이면서, 해당 업무 수행 가능자\r\n  ※ 해당업무 : 시설물 청소 및 환경 유지 관리 등\r\nㅁ「국가유공자 등 예우 및 지원에 관한 법률」 29조에 따른 전상군경, 공상군경 등 취업지원 대상자\r\n\r\n",
-      "isExcludedHireType": false
-    },
-    {
       "sn": 302986,
       "orgName": "한국연구재단",
       "orgCode": "C0388",
@@ -3058,125 +1709,6 @@
       "daysLeft": 2,
       "srcUrl": "https://www.kpetro.or.kr/lay1/bbs/S1T91C685/F/72/view.do?article_seq=14802&cpage=1&rows=10&condition=&keyword=&show=&cat=",
       "aplyQlfcCn": "<공통 지원자격>\r\n- 채용예정일('26.09.28.) 기준 한국석유관리원 정년에 도달하지 않은 자\r\n- 채용예정일부터 즉시 업무종사 가능한 자\r\n- 남성의 경우 「병역법」제76조의 병역의무 불이행자에 해당하지 않는 자\r\n\r\n<모집분야별 지원자격>\r\n- 사무직(경영·행정) : 제한없음\r\n- 기술직(검사·시험) : 제한없음\r\n- 기술직(검사·시험-보훈) : 취업지원대상자 증명서 발급이 가능한 자\r\n- 기술직(검사·시험-고졸) : 최종학력이 고졸인 자\r\n- 연구직(연구) : 제한없음\r\n* 상세한 사항은 채용공고문 참조",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302982,
-      "orgName": "한국장애인고용공단",
-      "orgCode": "C0242",
-      "title": "[한국장애인고용공단 경기북부지사] 기간제 대체근로자 채용 공고",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-04",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경기",
-      "ncsNm": "교육.자연.사회과학",
-      "jobTrack": "연구",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 0,
-      "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895",
-      "aplyQlfcCn": " ○ 「초·중등교육법」제21조에 따른 특수학교 정교사 자격을 취득하였거나 취득 예정인 자(자격기준은 접수마감일 기준으로 보유여부 판단)\r\n ○ 「국가공무원법」제 33조에 저촉되지 않는 자\r\n ○ 공단 「인사규정」제12조(결격사유)에 해당하지 않는 자\r\n ○ 임용예정일 기준 공단 인사규정 상 정년(만62세)을 도래하지 아니한 자\r\n ○ 임용예정일에 근무 가능한 자(근무 불가능 시 합격 취소)\r\n\r\n ※ 자세한 사항은 첨부된 채용공고문 참고",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302981,
-      "orgName": "한국보훈복지의료공단",
-      "orgCode": "C0203",
-      "title": "[전주보훈요양원] 간호사(육아휴직 대체 계약직), 체험형 청년인턴 채용 공고",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-07",
-      "hireTypeNm": "비정규직,청년인턴(체험형)",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전북",
-      "ncsNm": "사회복지.종교",
-      "jobTrack": "보건복지",
-      "totalCount": 2,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "Y",
-      "daysLeft": 3,
-      "srcUrl": "https://www.bohun.or.kr/jjcare/na/ntt/selectNttInfo.do?mi=34249&bbsId=1259&bbsSysId=jjcare&nttSn=187694",
-      "aplyQlfcCn": "1. 사회복지직(간호사)\r\n - 간호사 면허 소지자로 3교대 근무 가능한 자\r\n - 인사규정 제44조(정년)에 따른 정년(60세)을 초과하지 않는 자\r\n - 인사규정 제18조(결격사유 및 임용취소)에 해당하지 않는 자\r\n - 남자의 경우 병역을 필하였거나 면제된 자\r\n2. 청년인턴직\r\n - 임용일 기준 만15세 이상~만34세 이하 청년 해당 자(청년고용촉진 특별법 시행령 제2조)\r\n - 인사규정 제18조(결격사유 및 임용취소)에 해당하지 않는 자\r\n - 남자의 경우 병역을 필하였거나 면제된 자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302970,
-      "orgName": "한국보훈복지의료공단",
-      "orgCode": "C0203",
-      "title": "[본사] 계약직 기술직(전산) 채용 공고",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "강원",
-      "ncsNm": "정보통신",
-      "jobTrack": "IT",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 1,
-      "srcUrl": "https://www.bohun.or.kr/main/na/ntt/selectNttInfo.do?mi=37029&bbsId=1158&bbsSysId=main&nttSn=187675",
-      "aplyQlfcCn": "· 공단 인사규정 제44조에서 정하는 정년(60세)을 초과하지 않는 자\r\n· 공단 인사규정 제18조에서 정하는 결격사유에 해당하지 않는 자\r\n· 정보처리기사 자격증 보유자",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302963,
-      "orgName": "한국농어촌공사",
-      "orgCode": "C0046",
-      "title": "한국농어촌공사 전문계약직(변호사) 채용 공고",
-      "startDate": "2026-07-22",
-      "endDate": "2026-08-06",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "전남광주",
-      "ncsNm": "법률.경찰.소방.교도.국방",
-      "jobTrack": "사무",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "replImprYn": "N",
-      "daysLeft": 2,
-      "srcUrl": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019f875d8d5659fd&page=1&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=8a8bb3529665d7140199501cd3ef6280&searchType=&keyword=&categoryUid1=&categoryUid2=8a8bb3529665d714019951996437",
-      "aplyQlfcCn": "○ 「변호사법」 제4조에서 정한 변호사 자격을 가진 자\r\n- 사법연수원 수료 또는 변호사 시험 합격 후 의무연수기간을 마친자\r\n○ 학력, 성별, 연령 제한 없음\r\n○ 임용예정일부터 즉시 업무종사 가능자(임용예정일: 2026.9.14(월))\r\n○ 공사 인사규정 제9조의 임용 결격 사유가 없는 자(공고문 첨부 1)\r\n○ 남자의 경우 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n○ 「국가유공자 등 예우 및 지원에 관한 법률」 등에 따른 취업지원대상자의 경우, 면접전형에서 동점자 발생 시 예비합격 우선순위자로 정함",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 302958,
-      "orgName": "국립생태원",
-      "orgCode": "C0879",
-      "title": "2026년 제5차 국립생태원 기간제근로자(수탁과제) 채용 재공고",
-      "startDate": "2026-07-27",
-      "endDate": "2026-08-05",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "경북",
-      "ncsNm": "환경.에너지.안전",
-      "jobTrack": "시설",
-      "totalCount": 1,
-      "eduCondNm": [
-        "학력무관",
-        "고졸",
-        "대졸(2~3년)",
-        "대졸(4년)"
-      ],
-      "isHighSchoolTrack": true,
-      "replImprYn": "N",
-      "daysLeft": 1,
-      "srcUrl": "https://nierecruit.fairy.im/announcement/detail/113",
-      "aplyQlfcCn": "가. 국립생태원 「기간제근로자 관리세칙」 제8조의 결격사유에 해당되지 않은 자\r\n나. 자격 및 경력 요건: 해당분야 전공자 및 경력자로서 해당 업무 수행이 가능한 자\r\n\r\n(※전문위원 마급)\r\n위 “가부터 라”의 자격 및 경력요건에 포함할 수 없는 자격·기능 및 경력이 있는 자\r\n\r\n* 비교를 위함 - '전문위원 라급'\r\n1. 채용예정 직무분야와 관련된 석사학위 취득 후 2년 이상 경력이 있는 자\r\n2. 채용예정 직무분야와 관련된 학사학위 취득 후 5년 이상 경력이 있는 자\r\n3. 기사 자격을 취득하고 해당 분야에 2년 이상 경력이 있는 자\r\n4. 산업기사 자격을 취득하고 해당 분야에 6년 이상 경력이 있는 자\r\n\r\n다. 병역을 필하였거나 면제된 자(남자만 해당)\r\n라. 장애인 또는 보훈대상자 관계법에 따라 우대(관련 서류 제출 시)\r\n마. 최종 합격 후 즉시 출근이 가능한 자",
       "isExcludedHireType": false
     },
     {
