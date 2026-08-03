@@ -27,6 +27,51 @@ if (!SERVICE_KEY) {
 const BASE_URL = 'https://apis.data.go.kr/1051000/recruitment';
 const LIST_URL = `${BASE_URL}/list`;
 
+// 네트워크 요청 관련 설정
+// - 공공데이터포털 API가 간헐적으로 연결 지연/타임아웃을 일으키는 경우가 있어
+//   짧은 timeout + 재시도(retry)로 자체 복구하도록 함
+const REQUEST_TIMEOUT_MS = 15000; // 요청당 15초 제한 (기존엔 무제한 → 실패 시 2분 이상 걸림)
+const MAX_RETRIES = 3;             // 최대 3회까지 재시도
+const RETRY_DELAYS_MS = [1000, 3000, 5000]; // 재시도 간격 (점점 늘림)
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// 재시도 가능한 에러인지 판단 (네트워크/타임아웃/5xx 서버 오류)
+function isRetryableError(err) {
+  if (!err.response) {
+    // 응답 자체를 못 받음 → 타임아웃, ETIMEDOUT, ECONNRESET, ECONNREFUSED 등
+    return true;
+  }
+  const status = err.response.status;
+  return status >= 500 && status < 600; // 서버 쪽 일시 오류
+}
+
+// axios.get을 timeout + 재시도 로직으로 감싼 래퍼
+async function getWithRetry(url, config) {
+  let lastErr;
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      return await axios.get(url, { ...config, timeout: REQUEST_TIMEOUT_MS });
+    } catch (err) {
+      lastErr = err;
+      const reason = err.response
+        ? `HTTP ${err.response.status}`
+        : (err.code || err.message);
+
+      if (attempt < MAX_RETRIES && isRetryableError(err)) {
+        const delay = RETRY_DELAYS_MS[attempt] ?? RETRY_DELAYS_MS[RETRY_DELAYS_MS.length - 1];
+        console.warn(`[fetch-recruit] 요청 실패 (${reason}), ${delay}ms 후 재시도 (${attempt + 1}/${MAX_RETRIES})...`);
+        await sleep(delay);
+        continue;
+      }
+      throw err;
+    }
+  }
+  throw lastErr;
+}
+
 // 학력정보(R7000)의 고졸 코드
 const HS_EDU_CODE = 'R7030';
 
@@ -111,7 +156,7 @@ async function fetchPagesForInstType(instType) {
   const MAX_PAGES = 15; // 안전장치: 최대 1500건까지만
 
   while (pageNo <= MAX_PAGES) {
-    const res = await axios.get(LIST_URL, {
+    const res = await getWithRetry(LIST_URL, {
       params: {
         serviceKey: SERVICE_KEY,
         resultType: 'json',
