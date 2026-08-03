@@ -75,6 +75,25 @@ async function getWithRetry(url, config) {
 // 학력정보(R7000)의 고졸 코드
 const HS_EDU_CODE = 'R7030';
 
+// 제외할 고용유형 키워드 — 기간제/단기계약직/임시직 등은 캘린더에서 뺌
+// hireTypeNmLst 값에 아래 키워드 중 하나라도 포함되면 제외
+// (필요시 이 배열만 수정하면 제외 기준을 바꿀 수 있음)
+const EXCLUDE_HIRE_TYPE_KEYWORDS = ['기간제', '계약직', '단기', '임시직', '촉탁'];
+
+// 채용형 인턴은 서류상 고용유형이 "계약직/기간제"로 분류돼 있어도
+// 정규직 전환을 전제로 한 채용이므로 제외 대상에서 예외 처리함
+const KEEP_EVEN_IF_MATCHED_KEYWORDS = ['채용형인턴', '채용형 인턴', '채용형인턴제'];
+
+function isExcludedHireType(hireTypeNmStr, titleStr) {
+  if (!hireTypeNmStr) return false;
+
+  const combinedText = `${hireTypeNmStr} ${titleStr || ''}`;
+  const isKeepException = KEEP_EVEN_IF_MATCHED_KEYWORDS.some(keyword => combinedText.includes(keyword));
+  if (isKeepException) return false;
+
+  return EXCLUDE_HIRE_TYPE_KEYWORDS.some(keyword => hireTypeNmStr.includes(keyword));
+}
+
 // NCS분류(R6000) 대분류 25개 전체 → 우리 직군 라벨로 매핑
 // (코드정의서 MOEF_NKOD_DB_05_v1.2 기준 NCS 대분류 전체 목록 반영)
 const NCS_TO_JOB_TRACK = {
@@ -146,6 +165,7 @@ function normalizeItem(item) {
     daysLeft: item.decimalDay ?? null,                // API가 계산해주는 마감까지 남은 일수
     srcUrl: item.srcUrl || null,
     aplyQlfcCn: item.aplyQlfcCn || '',                // 지원자격 원문 (참고용, 전공 등 파싱 가능)
+    isExcludedHireType: isExcludedHireType(item.hireTypeNmLst, item.recrutPbancTtl), // 기간제/단기계약직 등 제외 대상 여부 (채용형 인턴은 예외)
   };
 }
 
@@ -198,7 +218,12 @@ async function main() {
   const rawItems = await fetchAllPages();
   console.log(`[fetch-recruit] 전체 fetched ${rawItems.length} items`);
 
-  const items = rawItems.map(normalizeItem).filter(it => it.sn);
+  const normalized = rawItems.map(normalizeItem).filter(it => it.sn);
+
+  const excludedCount = normalized.filter(it => it.isExcludedHireType).length;
+  const items = normalized.filter(it => !it.isExcludedHireType);
+  console.log(`[fetch-recruit] 기간제/단기계약직 등 제외: ${excludedCount}건 (채용형 인턴은 유지)`);
+
   const hsCount = items.filter(it => it.isHighSchoolTrack).length;
   console.log(`[fetch-recruit] 그 중 고졸 지원 가능: ${hsCount}건`);
 
