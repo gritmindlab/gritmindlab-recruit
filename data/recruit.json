@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-04T01:28:34.061Z",
-  "count": 83,
+  "updatedAt": "2026-08-04T04:54:44.367Z",
+  "count": 86,
   "highSchoolCount": 11,
   "items": [
     {
@@ -1121,6 +1121,75 @@
       "daysLeft": 3,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6657&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
       "aplyQlfcCn": "1. 공통\r\nㅇ 연령 제한 없음   * 단, 채용공고일 기준 만 60세 미만인 사람\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\nㅇ 채용예정일 즉시 근무 가능한 사람\r\n2. 필수\r\nㅇ 운동생리학, 선수 트레이닝 등 관련 박사학위(예정*)자 \r\nㅇ 체육학 관련 석사학위자로 경력 4년 이상(경력에는 박사과정 포함)\r\n * 박사학위 예정자는 졸업예정증명서 제출 가능자에 한함\r\n=======================================================================\r\n  * 증빙서류를 제출하지 않은 경력은 경력 기간에 포함되지 않음\r\n ** 경력이라 함은 연구기관(대학 포함) 등에서 공동연구자, 연구보조원, 조교 등 업무를 수행한 경력을 말하며, 월 단위 합산함.(단, 석사학위 취득 이후 경력에 한해 인정하며 석ㆍ박사학위과정 기간과 다른 경력기간이 중복되는 경우 본인에게 유리한 경력 하나만 인정)\r\n*** 15일 이상 근무기간은 1개월로 인정함, 재직 중인 경우 공고일 기준으로 기간 산정 ",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303463,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[대구보훈병원] 의사직(호흡기내과, 순환기내과, 응급의학과, 외과, 비뇨의학과, 입원전담의) 채용 공고",
+      "startDate": "2026-08-04",
+      "endDate": "2026-08-14",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "대구",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 7,
+      "eduCondNm": [
+        "대졸(4년)"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://bohun.fairyhr.com/announcement/detail/608",
+      "aplyQlfcCn": "(의사직 공통)\r\n- (필수) 공단 인사규정 제18조(결격사유)에 해당하지 않는자\r\n\r\n(호흡기내과 전문의)\r\n- (필수) 호흡기내과 전문의 자격증 소지자\r\n- (우대) 호흡기내과 전임의 1년 이상 경력자\r\n\r\n(순환기내과 전문의)\r\n- (필수) 호흡기내과 전문의 자격증 소지자\r\n- (우대) 부정맥 시술가능자\r\n\r\n(응급의학과(전문의, 일반의))\r\n- (필수) 의사 면허증 소지자\r\n- (우대) 경력자\r\n\r\n(외과 전문의)\r\n- (필수) 외과 전문의 자격증 소지자\r\n- (우대) 외과 전임의 1년 이상 경력자\r\n\r\n(비뇨의학과 전문의)\r\n- (필수) 비뇨의학과 전문의 자격증 소지자\r\n- (우대) 비뇨의학 관련 수술이 능숙한 전문의\r\n\r\n(입원전담의(전문의, 일반의))\r\n- (필수) 의사 면허증 소지자\r\n- (우대) 경력자\r\n\r\n※ 공고마감일자 기준 해당 자격 보유하여야 함",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303462,
+      "orgName": "국민건강보험공단 일산병원",
+      "orgCode": "C0459",
+      "title": "2026년도 하반기 의과 전공의 레지던트 1년차 모집공고",
+      "startDate": "2026-08-04",
+      "endDate": "2026-08-12",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경기",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 8,
+      "srcUrl": "https://nhimc.recruiter.co.kr",
+      "aplyQlfcCn": "- 「국가공무원법」 제33조의 결격사유가 없는 자\r\n- 인턴 수료자 또는 수료 예정자\r\n- 의무사관후보생 지원(예정)자는 만 33세가 되는 해의 8월까지 전공의 과정을 마칠 수 있는 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303449,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[대전보훈병원] 2026년도 하반기 가정의학과 전공의(레지던트 1년차) 모집",
+      "startDate": "2026-08-04",
+      "endDate": "2026-08-12",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "대전",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 8,
+      "srcUrl": "https://www.bohun.or.kr/daejeon/na/ntt/selectNttInfo.do?mi=33414&bbsId=1158&bbsSysId=daejeon&nttSn=188116#none",
+      "aplyQlfcCn": "1) 인턴수료자 또는 해당연도 수료 예정자\r\n- 가정의학과의 경우 의사면허 취득자 또는 해당연도 취득 예정자도 지원 가능\r\n2) 의사면허증 소지자\r\n3) 공단(본원) 인사규정 제18조 결격사유에 해당되지 않는 자\r\n\r\n ※ 전항을 전부 충족해야 함\r\n ※ 의무사관후보생으로 지원하려는 자 26.8월 말 인턴 수료 예정자(’25.9.1. 수련개시 인턴)로서 의무사관후보생으로 선발된 자도 지원 가능\r\n ※ 수련 중인 전공의는 지원 불가(수련환경평가위원회 모집 공고일 기준)\r\n ※ 1개 병원(기관)에만 지원 가능(이중 지원 불가)",
       "isExcludedHireType": false
     },
     {
