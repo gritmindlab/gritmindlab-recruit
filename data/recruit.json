@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-06T01:42:32.234Z",
-  "count": 105,
-  "highSchoolCount": 12,
+  "updatedAt": "2026-08-06T07:35:07.509Z",
+  "count": 110,
+  "highSchoolCount": 13,
   "items": [
     {
       "sn": 303429,
@@ -752,6 +752,30 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 303584,
+      "orgName": "서울올림픽기념국민체육진흥공단",
+      "orgCode": "C0029",
+      "title": "한국스포츠과학원 초빙연구원(나급) 채용 공고-국가대표데이터시스템 고도화: 장애인 국가대표 스포츠과학지원 기능 구축 및 통합운영 기반 마련",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-20",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "서울",
+      "ncsNm": "연구",
+      "jobTrack": "연구",
+      "totalCount": 1,
+      "eduCondNm": [
+        "대졸(4년)",
+        "석사"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6664&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
+      "aplyQlfcCn": "1. 공통\r\nㅇ 연령 제한 없음   * 단, 채용공고일 기준 만 60세 미만인 사람\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\nㅇ 채용예정일 즉시 근무 가능한 사람\r\n2. 필수\r\nㅇ 스포츠과학(운동생리학, 체육측정평가, 특수체육 등) 또는 데이터·정보시스템 관련 전공(스포츠측정평가, 스포츠경기분석, 통계학, 데이터사이언스, 정보시스템, 산업공학 등) 석사학위(예정)자 \r\nㅇ 스포츠과학 또는 데이터·정보시스템 관련전공 학사학위자로 경력 2년 이상 (경력에는 석사학위과정  포함)\r\n  * 학위 예정자는 졸업예정증명서 제출 가능자에 한함\r\n=======================================================================\r\n  * 증빙서류를 제출하지 않은 경력은 경력 기간에 포함되지 않음\r\n ** 경력이라 함은 연구기관(대학 포함) 등에서 공동연구자, 연구보조원, 조교 등 업무를 수행한 경력을 말하며, 월 단위 합산함.(단, 학사학위 취득 이후 경력에 한해 인정하며 석사학위과정 기간과 다른 경력기간이 중복되는 경우 본인에게 유리한 경력 하나만 인정)\r\n*** 15일 이상 근무기간은 1개월로 인정함, 재직 중인 경우 공고일 기준으로 기간 산정 ",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303563,
       "orgName": "서울올림픽기념국민체육진흥공단",
       "orgCode": "C0029",
@@ -1262,6 +1286,98 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 303597,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "\t[팔공산서부]2026년 팔공산국립공원서부사무소 국립공원지킴이 채용(2차) 공고",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-18",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경북",
+      "ncsNm": "경비.청소",
+      "jobTrack": "시설",
+      "totalCount": 3,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 12,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019591",
+      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 학력, 전공, 나이 제한 없음\r\n- (추가채용) 소득 및 자산 기준 초과자 참여 가능하나, 전형단계별 감점 및 후순위로 선발\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(공고문 참고)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303596,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[대전보훈병원] 전문의(일반내과, 신장내과, 외과) 및 일반의(응급실 및 병동 당직의) 채용 공고",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-20",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "대전",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 4,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.bohun.or.kr/daejeon/na/ntt/selectNttInfo.do?mi=33414&bbsId=1158&bbsSysId=daejeon&nttSn=188206",
+      "aplyQlfcCn": "1) 공통\r\n- 공단 인사규정 제18조(결격사유 및 임용취소)에 해당하지 않는 자\r\n- 공단 인사규정 제44조(정년)에 따른 정년(60세) 초과하지 않는 자\r\n ※ 단, 전문의(일반내과) 정년 미적용, 60세 초과자 지원 가능\r\n- 의사면허증 소지자\r\n2) 전문의(일반내과)\r\n(필수) 내과 전문의 자격증 소지자(2026년 취득 예정자)\r\n3) 전문의(신장내과)\r\n(필수) 신장내과 전임의 수료자(또는 수료 예정자)\r\n(우대) 내과분과 전문의 자격인정증(신장내과) 소지자\r\n4) 전문의(외과)\r\n(필수) 외과 전문의 자격증 소지자(2026년 취득 예정자)\r\n5) 일반의(당직의)\r\n공통요건에 준함\r\n",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303583,
+      "orgName": "한국산업안전보건공단",
+      "orgCode": "C0209",
+      "title": "2026년도 하반기 신규직원(신입직 6급) 채용공고",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "서울,부산,대구,인천,대전,울산,경기,강원,충북,충남,전북,전남광주,경북,경남,제주",
+      "ncsNm": "사업관리,경영.회계.사무,환경.에너지.안전",
+      "jobTrack": "사무",
+      "totalCount": 20,
+      "eduCondNm": [
+        "고졸"
+      ],
+      "isHighSchoolTrack": true,
+      "replImprYn": "N",
+      "daysLeft": 18,
+      "srcUrl": "https://kosha.or.kr/notification/jobncontract/job/jobdata?bbsId=B2025021400005&pstNo=202608060856579OQYZ6",
+      "aplyQlfcCn": "□ 공통 자격요건\r\n ○ 공단 「인사규정」 제18조의 결격사유에 해당하지 않는 자\r\n ○ 임용예정일 기준 정년(60세)에 도달하지 않은 자\r\n ○ 임용예정일 즉시 근무 가능한 자\r\n\r\n□ 고졸전형 자격요건\r\n ○ 고교졸업예정자 및 최종학력이 고졸인 자(고교 검정고시 합격자 및 대학(전문대학 포함) 중퇴자, 대학(전문대학 포함) 재학ㆍ휴학자 포함)\r\n\r\n※ 보다 자세한 사항은 첨부파일의 채용공고문 참조\r\n\r\n\r\n",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303582,
+      "orgName": "한국산업안전보건공단",
+      "orgCode": "C0209",
+      "title": "2026년도 하반기 신규직원(신입직 5급) 채용공고",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "서울,부산,대구,인천,대전,울산,경기,강원,충북,충남,전북,전남광주,경북,경남,제주",
+      "ncsNm": "사업관리,경영.회계.사무,환경.에너지.안전",
+      "jobTrack": "사무",
+      "totalCount": 108,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 18,
+      "srcUrl": "https://kosha.or.kr/notification/jobncontract/job/jobdata?bbsId=B2025021400005&pstNo=202608060856579OQYZ6",
+      "aplyQlfcCn": "□ 공통 자격요건\r\n○ 공단 「인사규정」 제18조의 결격사유에 해당하지 않는 자\r\n○ 임용예정일 기준 정년(60세)에 도달하지 않은 자\r\n○ 임용예정일 즉시 근무 가능한 자\r\n\r\n□ 분야별 자격요건은 응시분야(일반, 지역인재, 보훈)별 상이함\r\n\r\n※ 보다 자세한 사항은 첨부파일의 채용공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303580,
       "orgName": "한국산업안전보건공단",
       "orgCode": "C0209",
@@ -1269,7 +1385,7 @@
       "startDate": "2026-08-06",
       "endDate": "2026-08-24",
       "hireTypeNm": "정규직",
-      "recrutSeNm": "신입",
+      "recrutSeNm": "경력",
       "workRgnNm": "울산",
       "ncsNm": "사업관리,보건.의료,환경.에너지.안전",
       "jobTrack": "사무",
@@ -1374,7 +1490,7 @@
       "isHighSchoolTrack": false,
       "replImprYn": "N",
       "daysLeft": 12,
-      "srcUrl": "https://www.bohun.or.kr/djcare/na/ntt/selectNttList.do?mi=34278&bbsId=1358",
+      "srcUrl": "https://www.bohun.or.kr/djcare/na/ntt/selectNttInfo.do?mi=34278&nttSn=188202",
       "aplyQlfcCn": "○ 요양보호사 자격증 소지자\r\n○ 정년(60세)이 도래되지 않은 자\r\n○ 3교대 근무가 가능한 자\r\n○ 공단 인사규정 제18조(직원의 결격사유)에 해당되지 않는자\r\n○ 남자의 경우 병역을 필하였거나 면제된 자\r\n※ 보다 자세한 사항은 붙임의 공고문 첨부파일을 확인하여 주시기 바랍니다",
       "isExcludedHireType": false
     },
