@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T23:49:55.216Z",
+  "updatedAt": "2026-08-07T02:08:03.290Z",
   "count": 99,
   "highSchoolCount": 11,
   "items": [
@@ -1185,7 +1185,7 @@
       "isHighSchoolTrack": false,
       "replImprYn": "Y",
       "daysLeft": 15,
-      "srcUrl": "https://www.fowi.or.kr/user/bbs/bbsList.do?bbsManageId=22",
+      "srcUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=22&bbsId=9070",
       "aplyQlfcCn": "- 산림교육 자격증(숲해설가, 유아숲지도사, 숲길등산지도사)보유자\r\n-「한국산림복지진흥원」 인사규정 제6조 결격사유가 없는 사람\r\n",
       "isExcludedHireType": false
     },
