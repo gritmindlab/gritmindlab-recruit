@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T06:35:12.895Z",
-  "count": 98,
+  "updatedAt": "2026-08-08T07:40:49.881Z",
+  "count": 99,
   "highSchoolCount": 12,
   "items": [
     {
@@ -1142,6 +1142,29 @@
       "daysLeft": 2,
       "srcUrl": "https://www.nps.or.kr/pnsgdnc/hiregdnc/getOHAE0004M0List.do?menuId=MN24000969",
       "aplyQlfcCn": "(공통자격)\r\n-대한민국 국적을 가진 사람\r\n-성별·연령 제한 없음 (단, 공단 정년 만 60세 이상자는 제외)\r\n-공단 인사규정 제11조(결격사유)에 해당하지 않는 사람\r\n-국민연금연구원(전주 소재) 근무 가능한 사람\r\n-임용(예정)일부터 근무가 가능한 사람\r\n\r\n(학위요건)\r\n- 연금제도연구실 분야 : 경제학 전공 박사 학위 취득자\r\n- 기금정책분석실 분야 : 경제학, 경영학 및 금융공학 관련 전공 박사 학위 취득자\r\n※ 임용예정일 전일까지 해당 학위 취득자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303654,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[한려동부] 2026년 한려해상국립공원동부사무소 국립공원지킴이(녹색순찰대) 3차 채용 재공고",
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-13",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경남",
+      "ncsNm": "경비.청소",
+      "jobTrack": "시설",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 5,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019599",
+      "aplyQlfcCn": "- 학력·전공, 나이 제한 없음(만18세이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당하지 않는 자\r\n- 소득·자산 기준초과자는 참여 제한(세부사항 공고문 참조)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(세부사항 공고문 참조)",
       "isExcludedHireType": false
     },
     {
