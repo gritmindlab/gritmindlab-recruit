@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T07:11:11.240Z",
-  "count": 112,
+  "updatedAt": "2026-08-10T10:58:16.990Z",
+  "count": 115,
   "highSchoolCount": 12,
   "items": [
     {
@@ -167,6 +167,31 @@
       "daysLeft": 0,
       "srcUrl": "https://www.ex.co.kr",
       "aplyQlfcCn": "ㅇ 학력, 성별 제한 없음\r\nㅇ 연령 : 15세 이상 34세 이하(1991년 9월 17일 이후 출생자)\r\n※ 제대군인은 「제대군인법」에 따라 연령 상한 연장 적용\r\nㅇ 병역 : 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\nㅇ 채용일(2026년 9월 16일 예정)로부터 근무 가능자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303701,
+      "orgName": "한국전력기술주식회사",
+      "orgCode": "C0248",
+      "title": "2026년도 개방형 직위 채용공고",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-25",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "경북",
+      "ncsNm": "경영.회계.사무,건설",
+      "jobTrack": "사무",
+      "totalCount": 4,
+      "eduCondNm": [
+        "대졸(4년)",
+        "석사",
+        "박사"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 15,
+      "srcUrl": "https://kepco-enc.cairos.co.kr/kepco-enc-jobs",
+      "aplyQlfcCn": " ○ (공통) \r\n     - 전 분야 '민간전담' 직위로 공무원 · 공공기관 재직자(당사 포함) 또는 퇴직 후 3년 미만인 자 지원 불가\r\n     - 블라인드 채용 원칙 적용(만 60세 이상 지원 가능)\r\n     - 인사규정 제8조의 결격사유(첨부1)에 해당하지 않는 자\r\n     - 입사예정일에 근무가 가능한 자\r\n     - 현재 군 복무 중인 경우, 면접전형일 이전 전역 가능한 자\r\n     - 접수마감일 기준, 당사 정규직(무기계약직 포함) 재직자 지원 불가\r\n     - 자격요건의 학력, 자격, 경력 등의 인정 기준일은 접수 마감일까지로하며 임용예정일까지 해당 자격요건이 유효해야 함\r\n     - 각 채용분야별로 명시된 경력기간을 충족하여야 하며, 해당 자격요건 충족 이후의 경력에 한해 인정함\r\n     - 필수자격 상세내용은 채용공고 및 채용분야별 직무기술서 참고 \r\n ○ (분야별) 붙임 참조 ",
       "isExcludedHireType": false
     },
     {
@@ -1310,6 +1335,52 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 303706,
+      "orgName": "한국산업안전보건공단",
+      "orgCode": "C0209",
+      "title": "[조선업] '26년도 안전한 일터 지킴이 채용공고",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-20",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "경남",
+      "ncsNm": "환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://kosha.or.kr/notification/notice/contruction?bbsId=B2025021400001&pstNo=20260810173630SAYJJN",
+      "aplyQlfcCn": "(공통사항)\r\n- 임용예정일('26.9.2) 기준 만 50세 이상 퇴직자*\r\n* ~'76.9.2.까지 출생한 자로서 임용예정일인 '26.9.2 기준 퇴직 상태인 자\r\n- 공단 「기간제 근로자 관리규칙」 제15조(채용결격사유)에 해당되지 않는 자\r\n- 임용 예정일 즉시 근무가 가능한 자\r\n※ 세부 자격요건 등 보다 자세한 내용은 첨부파일의 채용공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303705,
+      "orgName": "한국장애인고용공단",
+      "orgCode": "C0242",
+      "title": "한국장애인고용공단 휠체어 배드민턴 선수 채용공고",
+      "startDate": "2026-08-10",
+      "endDate": "2026-08-21",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경기",
+      "ncsNm": "이용.숙박.여행.오락.스포츠",
+      "jobTrack": "서비스",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895",
+      "aplyQlfcCn": "○ 연령 : 공고일 기준 만 18세 이상 만 60세 미만인 자\r\n○ 성별 : 제한없음\r\n○ 등급 : WH1/WH2\r\n○ 다음 각 호 중 어느 하나 이상에 해당하는 자\r\n - 최근 3년 이내에 각종 국제대회 및 전국규모 이상 대회의 상위 입상자\r\n - 경기력 향상에 발전 가능성이 있는 선수\r\n - 대한장애인체육회에 선수로 등록되거나 등록되었던 선수\r\n○ 임용 예정일부터 근무가 가능한 자\r\n○ 결격사유에 해당하지 아니하고, 기타 법령에 의해 응시자격이 정지되지 아니한 자\r\n※ 기타 자세한 사항은 채용공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303681,
       "orgName": "한국연구재단",
       "orgCode": "C0388",
@@ -1541,7 +1612,7 @@
       "replImprYn": "Y",
       "daysLeft": 15,
       "srcUrl": "https://recruit.incruit.com/koreha/",
-      "aplyQlfcCn": "? 임용예정일에 근무가 가능한 자\r\n? 공고일 기준 만 18세 이상 및 만 60세 이하(공단 정년)\r\n? 남성의 경우 「병역법」에 따라 병역의무 불이행 사실이 없는 자\r\n? 성별 ? 학력 ? 거주지 제한 없음\r\n? 공단 규정에 따라 비상대기 및 출동 가능한 자\r\n? 공단 인사규정 등에 의한 임용결격사유에 해당되지 않는 자",
+      "aplyQlfcCn": "? 임용예정일 근무 가능한 자\r\n? 만 18세 이상 및 60세(공단정년일) 이하\r\n? 남성의 경우 「병역법」에 따라 병역의무 불이행 사실이 없는 자 \r\n? 성별, 학력, 거주지 제한 없음\r\n? 공단 규정에 따라 비상대기 및 출동 가능한 자\r\n? 공단 규범에 따른 결격사유에 해당하지 않는 자",
       "isExcludedHireType": false
     },
     {
