@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-11T00:59:03.414Z",
-  "count": 107,
+  "updatedAt": "2026-08-11T04:58:18.055Z",
+  "count": 109,
   "highSchoolCount": 11,
   "items": [
     {
@@ -662,6 +662,29 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 303729,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[순천병원] 의료직(산업위생사 4급) 채용 공고",
+      "startDate": "2026-08-11",
+      "endDate": "2026-08-21",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "전남광주",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "○ 채용분야 응시자격\r\n- 산업위생사: 산업보건지도사 또는 산업위생관리기술사 자격증 소지자로서 산업위생관리(산업)기사 이상의 자격취득 후 5년 이상 당해 업무에 근무한 경력이있는자\r\n※ 모든 전형 응시자격은 응시원서 마감일 기준\r\n○ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\n○ 연령요건: 연령제한 없음(단, 임용일 기준 60세 미만(정년)인 자)",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303683,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -1216,6 +1239,29 @@
       "daysLeft": 1,
       "srcUrl": "https://www.kibo.or.kr/",
       "aplyQlfcCn": "■ 입사지원서 접수 마감일('26.08.12.) 기준 최종학력이 고등학교를 졸업하였거나 졸업예정인 자 또는 그에 상응하는 지식, 학력, 기술을 보유한 것으로 인정받은 자*\r\n * 고등학교 검정고시 합격자 및 대학 중퇴자 및 재학·휴학자 포함\r\n * 대학졸업자 또는 대학졸업예정자 등은 지원불가\r\n■ 성별, 연령, 전공 등 제한 없는 블라인드 채용\r\n * 단, 공고일 기준 기금 사무지원인력 근무연한인 만 60세 이상 지원불가\r\n■ 채용 확정('26. 9월 중 예정) 후 즉시 근무가능한 자\r\n■ 기술보증기금 인사규정상 채용제한 사유에 해당되지 않는 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303718,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[다도해해상]2026년 다도해해상 한시인력(수익시설) 직원 채용(4차)",
+      "startDate": "2026-08-11",
+      "endDate": "2026-08-18",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "전남광주",
+      "ncsNm": "환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 7,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019612",
+      "aplyQlfcCn": "○ 공단「인사규정」제18조(결격사유)에 해당되지 않은 자\r\n○ 근무시작(예정)일부터 근무 가능한 자\r\n○ 그 외 전공, 학력 등 제한 없음",
       "isExcludedHireType": false
     },
     {
