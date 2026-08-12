@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-12T05:24:34.059Z",
-  "count": 111,
+  "updatedAt": "2026-08-12T07:08:52.547Z",
+  "count": 114,
   "highSchoolCount": 11,
   "items": [
     {
@@ -754,6 +754,52 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 303790,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[태백병원] 별정직 의사(병동당직의) 채용 공고",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "강원",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 12,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야 응시자격: 「의료법」상 의사 면허 소지자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한 없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303789,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[태백병원] 의료직 4급(약사) 채용 공고",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "강원",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 12,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야 응시자격\r\n- 약사: 약사법상 약사 면허증 소지자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 병역법 제 76조에서 정한 병역의무 불이행 사실이 없는 자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음(단, 임용일 기준 60세 미만(정년)인 자)",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303734,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -1354,6 +1400,29 @@
       "daysLeft": 0,
       "srcUrl": "https://www.kibo.or.kr/",
       "aplyQlfcCn": "■ 입사지원서 접수 마감일('26.08.12.) 기준 최종학력이 고등학교를 졸업하였거나 졸업예정인 자 또는 그에 상응하는 지식, 학력, 기술을 보유한 것으로 인정받은 자*\r\n * 고등학교 검정고시 합격자 및 대학 중퇴자 및 재학·휴학자 포함\r\n * 대학졸업자 또는 대학졸업예정자 등은 지원불가\r\n■ 성별, 연령, 전공 등 제한 없는 블라인드 채용\r\n * 단, 공고일 기준 기금 사무지원인력 근무연한인 만 60세 이상 지원불가\r\n■ 채용 확정('26. 9월 중 예정) 후 즉시 근무가능한 자\r\n■ 기술보증기금 인사규정상 채용제한 사유에 해당되지 않는 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303802,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[주왕산] 2026년도 주왕산국립공원 한시인력(탐방해설) 직원 채용",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-19",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경북",
+      "ncsNm": "사회복지.종교,이용.숙박.여행.오락.스포츠",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 7,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019617",
+      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 근무시작(예정)일부터 근무 가능한 자\r\n- 그 외 전공, 학력 등 제한 없음",
       "isExcludedHireType": false
     },
     {
