@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-12T07:08:52.547Z",
-  "count": 114,
+  "updatedAt": "2026-08-12T09:01:52.165Z",
+  "count": 115,
   "highSchoolCount": 11,
   "items": [
     {
@@ -1400,6 +1400,29 @@
       "daysLeft": 0,
       "srcUrl": "https://www.kibo.or.kr/",
       "aplyQlfcCn": "■ 입사지원서 접수 마감일('26.08.12.) 기준 최종학력이 고등학교를 졸업하였거나 졸업예정인 자 또는 그에 상응하는 지식, 학력, 기술을 보유한 것으로 인정받은 자*\r\n * 고등학교 검정고시 합격자 및 대학 중퇴자 및 재학·휴학자 포함\r\n * 대학졸업자 또는 대학졸업예정자 등은 지원불가\r\n■ 성별, 연령, 전공 등 제한 없는 블라인드 채용\r\n * 단, 공고일 기준 기금 사무지원인력 근무연한인 만 60세 이상 지원불가\r\n■ 채용 확정('26. 9월 중 예정) 후 즉시 근무가능한 자\r\n■ 기술보증기금 인사규정상 채용제한 사유에 해당되지 않는 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303813,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[북한산도봉] 2026년 북한산국립공원도봉사무소 한시인력(탐방로보수전담) 채용 공고",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-26",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "서울,경기",
+      "ncsNm": "이용.숙박.여행.오락.스포츠,건설",
+      "jobTrack": "서비스",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019618",
+      "aplyQlfcCn": "ㆍ공단「인사규정」제18조(결격사유)에 해당되지 않은 자\r\nㆍ근무시작(예정)일부터 근무 가능한 자\r\nㆍ그 외 전공, 학력 등 제한 없음",
       "isExcludedHireType": false
     },
     {
