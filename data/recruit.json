@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-13T01:07:39.630Z",
-  "count": 97,
+  "updatedAt": "2026-08-13T08:11:24.947Z",
+  "count": 101,
   "highSchoolCount": 9,
   "items": [
     {
@@ -1236,6 +1236,99 @@
       "daysLeft": 1,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6662&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
       "aplyQlfcCn": "1. 공통\r\nㅇ 연령 제한 없음   * 단, 채용공고일 기준 만 60세 미만인 사람\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\nㅇ 채용예정일 즉시 근무 가능한 사람\r\n2. 필수\r\nㅇ 전공무관 석사학위(예정)자 \r\nㅇ 학사학위자 취득 후 행정·사무 경력 2년 이상 (경력에는 석·박사학위과정  포함)\r\n  * 학위 예정자는 졸업예정증명서 제출 가능자에 한함\r\n=======================================================================\r\n  * 증빙서류를 제출하지 않은 경력은 경력 기간에 포함되지 않음\r\n ** 경력이라 함은 연구기관(대학 포함) 등에서 공동연구자, 연구보조원, 조교, 행정, 사무 등 업무를 수행한 경력을 말하며, 월 단위 합산함.(단, 학사학위 취득 이후 경력에 한해 인정하며 석ㆍ박사학위과정 기간과 다른 경력기간이 중복되는 경우 본인에게 유리한 경력 하나만 인정)\r\n*** 15일 이상 근무기간은 1개월로 인정함, 재직 중인 경우 공고일 기준으로 기간 산정 ",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303866,
+      "orgName": "국민건강보험공단",
+      "orgCode": "C0026",
+      "title": "2026년도 제2차 국민건강보험공단 개방형직위 및 전문인력 채용 공고",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-27",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "강원",
+      "ncsNm": "사업관리,경영.회계.사무,금융.보험,보건.의료,사회복지.종교",
+      "jobTrack": "사무",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관",
+        "박사"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "http://www.nhis.or.kr/nhis/together/wbhaea02700m01.do?mode=view&articleNo=11012838&article.offset=0&articleLimit=10",
+      "aplyQlfcCn": "(공통 응시 자격요건)\r\n입사지원서 접수마감일 기준 아래 요건을 모두 충족한 사람\r\n- 대한민국 국적 소지자로서 임용일부터 근무가 가능한 사람\r\n- 남자의 경우 병역을 필하였거나 면제된 사람\r\n- 공단 「인사규정」제14조(결격사유)에 해당하지 않는 사람\r\n- 「병역법」제76조 제1항 각 호에 따른 병역의무 불이행자가 아닌 사람\r\n\r\n(분야별 자격요건) 학위 및 실무기간 등\r\n - 분야별 자격요건이 상이하므로, 자세한 사항은 첨부한 공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303864,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[가야산] 2026년 가야산국립공원 한시인력(국립공원지킴이) 채용 공고",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경남",
+      "ncsNm": "환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 3,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019622",
+      "aplyQlfcCn": "- 학력, 전공, 나이 제한 없음(만 18세 이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 소득,자산 기준 초과자는 참여 제한(공고문 참고)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(공고문 참고)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303863,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[중앙보훈병원] 전임의(소화기내과) 채용 공고",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "서울",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188427",
+      "aplyQlfcCn": "·(필수) 공단 인사규정 제18조에 정한 결격사유에 해당하지 않는 자\r\n·(필수) 공단 인사규정 제44조에 따른 정년(60세)에 도달하지 않은 자\r\n·(필수) 내과 전문의 자격증 취득(예정)자\r\n",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303862,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[중앙보훈병원] 전문의(치과병원 구강악안면외과) 채용 공고",
+      "startDate": "2026-08-13",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "서울",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "Y",
+      "daysLeft": 11,
+      "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188426",
+      "aplyQlfcCn": "·(필수) 공단 인사규정 제18조에 정한 결격사유에 해당하지 않는 자\r\n·(필수) 공단 인사규정 제44조에 따른 정년(60세)에 도달하지 않은 자\r\n·(필수) 치과의사면허증 및 구강악안면외과 전문의 자격증 취득(예정)자\r\n·(우대) 중앙보훈병원 수련 및 근무경력자",
       "isExcludedHireType": false
     },
     {
