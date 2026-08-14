@@ -1,8 +1,31 @@
 {
-  "updatedAt": "2026-08-13T23:31:17.030Z",
-  "count": 100,
+  "updatedAt": "2026-08-14T01:06:32.927Z",
+  "count": 102,
   "highSchoolCount": 10,
   "items": [
+    {
+      "sn": 303896,
+      "orgName": "한국전력공사",
+      "orgCode": "C0247",
+      "title": "2026년 제3차 장애인 체험형인턴 채용 [경남본부]",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-28",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "경남",
+      "ncsNm": "경영.회계.사무",
+      "jobTrack": "사무",
+      "totalCount": 6,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "http://recruit.kepco.co.kr/sangsi",
+      "aplyQlfcCn": "○ 필수자격 : 「장애인고용촉진 및 직업재활법」 제2조 및 동법 시행령 제3조에 해당자\r\n○ 학력/연령 : 제한없음\r\n○ 병역 : 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n○ 기타 : 근무시작일(2026. 9. 7)부터 즉시 근무 가능한 자\r\n\r\n※ 기타 자세한 사항은 채용공고문 참조",
+      "isExcludedHireType": false
+    },
     {
       "sn": 303892,
       "orgName": "한국석유공사",
@@ -1213,6 +1236,29 @@
       "daysLeft": 0,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6662&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
       "aplyQlfcCn": "1. 공통\r\nㅇ 연령 제한 없음   * 단, 채용공고일 기준 만 60세 미만인 사람\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\nㅇ 채용예정일 즉시 근무 가능한 사람\r\n2. 필수\r\nㅇ 전공무관 석사학위(예정)자 \r\nㅇ 학사학위자 취득 후 행정·사무 경력 2년 이상 (경력에는 석·박사학위과정  포함)\r\n  * 학위 예정자는 졸업예정증명서 제출 가능자에 한함\r\n=======================================================================\r\n  * 증빙서류를 제출하지 않은 경력은 경력 기간에 포함되지 않음\r\n ** 경력이라 함은 연구기관(대학 포함) 등에서 공동연구자, 연구보조원, 조교, 행정, 사무 등 업무를 수행한 경력을 말하며, 월 단위 합산함.(단, 학사학위 취득 이후 경력에 한해 인정하며 석ㆍ박사학위과정 기간과 다른 경력기간이 중복되는 경우 본인에게 유리한 경력 하나만 인정)\r\n*** 15일 이상 근무기간은 1개월로 인정함, 재직 중인 경우 공고일 기준으로 기간 산정 ",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303897,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[중앙보훈병원] 체험형 청년인턴(든든동행파트너) 채용 공고",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-25",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "서울",
+      "ncsNm": "경영.회계.사무,보건.의료,경비.청소",
+      "jobTrack": "사무",
+      "totalCount": 4,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188451",
+      "aplyQlfcCn": "-「장애인고용촉진 및 직업재활법」제2조 및 시행령 제3조에 따른 장애인에 해당하는 자\r\n- 공단 인사규정 제18조에 정한 결격사유에 해당하지 않는 자\r\n- 공단 인사규정 제44조에 따른 정년(만60세)에 도달하지 않은 자\r\n- 중증: 주 5일, 일 4시간 근무 가능자\r\n- 경증: 주 5일, 일 8시간 근무 가능자\r\n- 간호·이송 보조, 고객응대·안내 보조, 시설·비품관리 보조 등 가능자",
       "isExcludedHireType": false
     },
     {
