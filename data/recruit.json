@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T01:06:32.927Z",
-  "count": 102,
+  "updatedAt": "2026-08-14T05:27:32.130Z",
+  "count": 107,
   "highSchoolCount": 10,
   "items": [
     {
@@ -705,6 +705,75 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 303925,
+      "orgName": "국민연금공단",
+      "orgCode": "C0028",
+      "title": "2026년도 제2차 국민연금공단 기금운용본부 기금운용직 채용공고",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-28",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "전북",
+      "ncsNm": "금융.보험",
+      "jobTrack": "사무",
+      "totalCount": 30,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.nps.or.kr/pnsgdnc/hiregdnc/getOHAE0004M0List.do?menuId=MN24000969",
+      "aplyQlfcCn": "ㅇ 공통 자격요건\r\n　- 국적·성별·연령·학력 등 제한 없음 (채용 확정 후 3개월 이내 근무가능한 자, 해외거주자 협의 가능)\r\n　-「금융위원회의 설치 등에 관한 법률」에 따른 금융감독원으로부터 면직 또는 정직의 징계 요구를 받은 이력이 없는 사람\r\n　- 기금운용본부의 직무수행에 필요한 외국어 구사 능력을 갖춘 자\r\n　- 공단 인사규정 제11조(결격사유)에 해당하지 않는 사람\r\n\r\nㅇ 경력요건(경력산정 기준일: 모집공고 공고일)\r\n　- 지원자가 응시하려는 직급 및 분야에서 요구하는 투자실무경력 및 채용직무경력 이상의 경력 기간 보유\r\n　　※ 투자실무경력: 책임운용역(7년 이상), 전임운용역(3년 이상)\r\n　　※ 채용직무경력: 책임운용역(1년 이상), 전임운용역(1개월 이상)\r\n\r\n   ㅇ 공단 내부규정에 따라 투자실무경력 판단\r\n 　  - 투자실무경력 대상: 운용(주식, 채권, 파생금융상품, 그 밖의 금융상품), 자산배분(포트폴리오관리), 조사 분석(애널리스트), 대체투자, 리스크관리, 투자법무, 컴플라이언스, 성과평가, 금융 관련 전산 개발, 금융 관련 회계처리 업무 등의 경력\r\n   ㅇ 기금법무 분야 지원자의 경우 일반법무 경력을 투자실무경력으로 인정\r\n 　  - 일반법무 경력: 변호사법, 외국법자문사법, 또는 이에 준하는 외국의 관련 법령에 따라 법률자문, 소송 등을 수행한 경력\r\n\r\n　- 채용직무경력은 모집분야별 채용 예정인원 및 수행직무표의 ‘채용직무경력’란에 명시되어 있는 경력으로만 산정\r\n\r\nㅇ 경력요건 관련 주의사항\r\n  - 자세한 사항은 첨부파일의 채용 공고문을 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303906,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[경인지역본부] 청년(체험형)인턴 채용 공고",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-21",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "인천",
+      "ncsNm": "경영.회계.사무",
+      "jobTrack": "사무",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 7,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "0 『청년고용촉진 특별법 시행령』에 따라 임용일 기준 15세 이상 34세 이하인 자\r\n- 군 전역자(사회복무요원 포함)는 『제대군인지원에 관한 법률』 제16조에 따라 응시연령 상한을 다음과 같이 연장(1년 미만 1세, 1년 이상 2년\r\n미만 2세, 2년 이상 3세)\r\n0 우리공단 청년(체험형)인턴으로 근무한 경험이 없는 자\r\n0 대한민국 국적을 보유한 사람\r\n0 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n- 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\n0 임용예정일 즉시 근무가 가능한 자\r\n- 임용일은 공단 사정에 따라 변경될 수 있음\r\n0 국가공무원법 제33조 및 공단 인사규정 제14조에 저촉되지 않는 자\r\n0 학력 및 경력 제한 없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303904,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[순천병원] 별정직 의사(진단검사의학과) 채용 공고",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "전남광주",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야별 응시자격 : 진단검사의학과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한없음",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303790,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -769,7 +838,7 @@
       "isHighSchoolTrack": true,
       "replImprYn": "N",
       "daysLeft": 14,
-      "srcUrl": "https://ksure-i.incruit.com",
+      "srcUrl": "https://www.ksure.or.kr/rh-kr/bbs/i-425/detail.do?ntt_sn=624566",
       "aplyQlfcCn": "□ 상업계 특성화고등학교* 졸업예정(‘26.12월~’27.2월 기간 내)인 자 중 학교장 추천(학교별 2명** 이내)을 받은 자 (첨부파일 [첨부4] 학교장 추천서 양식 참조)\r\n * 상업계열 특성화 학과를 운영하는 고등학교 포함\r\n** 학교장 추천서에 학교장 직인 또는 추천교사 본인 명의의 인장 날인이 없는 경우에는 해당 지원자를 결격 처리하며, 학교별 추천인원을 초과한 경우에는 해당학교 지원자 전원 결격 처리\r\n□ 공사 내규상 결격사유에 해당하지 않는 자 (첨부파일 [첨부5] 채용결격사유 참조)\r\n□ 모든 채용전형, 연수('26.12월 예정)에 참여가 가능하고 채용 시 즉시 근무가 가능한 자",
       "isExcludedHireType": false
     },
@@ -792,7 +861,7 @@
       "isHighSchoolTrack": false,
       "replImprYn": "N",
       "daysLeft": 14,
-      "srcUrl": "https://ksure-i.incruit.com",
+      "srcUrl": "https://www.ksure.or.kr/rh-kr/bbs/i-425/detail.do?ntt_sn=624567",
       "aplyQlfcCn": "□ 학력, 전공, 성별 및 연령 제한 없음\r\n   - 단, 연령의 경우 만 60세 미만인 자\r\n□ 남성의 경우 병역필(’26.11.22(일) 이전 전역예정자 포함) 또는 면제자\r\n□ 공사 내규상 결격사유에 해당하지 않는 자 (첨부파일 [첨부4] 채용결격사유 참조)\r\n□ 모든 채용전형 및 연수(’26.12월 예정)에 참여가 가능하고 채용 시 즉시 근무가 가능한 자\r\n   - 졸업, 재학, 이직 절차, 군 전역 등을 사유로 입사 유예 불가",
       "isExcludedHireType": false
     },
@@ -1236,6 +1305,52 @@
       "daysLeft": 0,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6662&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
       "aplyQlfcCn": "1. 공통\r\nㅇ 연령 제한 없음   * 단, 채용공고일 기준 만 60세 미만인 사람\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\nㅇ 채용예정일 즉시 근무 가능한 사람\r\n2. 필수\r\nㅇ 전공무관 석사학위(예정)자 \r\nㅇ 학사학위자 취득 후 행정·사무 경력 2년 이상 (경력에는 석·박사학위과정  포함)\r\n  * 학위 예정자는 졸업예정증명서 제출 가능자에 한함\r\n=======================================================================\r\n  * 증빙서류를 제출하지 않은 경력은 경력 기간에 포함되지 않음\r\n ** 경력이라 함은 연구기관(대학 포함) 등에서 공동연구자, 연구보조원, 조교, 행정, 사무 등 업무를 수행한 경력을 말하며, 월 단위 합산함.(단, 학사학위 취득 이후 경력에 한해 인정하며 석ㆍ박사학위과정 기간과 다른 경력기간이 중복되는 경우 본인에게 유리한 경력 하나만 인정)\r\n*** 15일 이상 근무기간은 1개월로 인정함, 재직 중인 경우 공고일 기준으로 기간 산정 ",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303926,
+      "orgName": "한국소비자원",
+      "orgCode": "C0218",
+      "title": "2026년 한국소비자원 제2차 청년인턴(장애인, 지역상생) 채용 공고",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "충북",
+      "ncsNm": "사업관리,경영.회계.사무",
+      "jobTrack": "사무",
+      "totalCount": 16,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.kca.go.kr/kca/sub.do?menukey=5113&mode=view&no=1004549155",
+      "aplyQlfcCn": "ㅇ 공통 자격조건\r\n(연령) 만 15세 이상 만 34세 이하(접수마감일 기준)\r\n       * 제대군인의 경우 병역 이행 기간에 따라 제한 연령 연장 가능\r\n(학력 및 전공) 제한 없음\r\n(기타)\r\n  - 한국소비자원 인사규정 제19조(채용결격사유)에 해당하지 않는 자\r\n  - 임용예정일부터 근무가 가능한 자\r\n  - 취업자 및 취업이 결정된 자는 지원 불가(공고 게시일 기준)\r\n \r\nㅇ 청년인턴(장애인)\r\n  - 위 공통 자격조건 및 아래 요건을 모두 충족하는 자\r\n  - (장애인 요건) 「장애인고용촉진 및 직업재활법시행령」 제3조에 의한 장애인\r\n  - (근무지) 재택근무 가능한 자(본인의 자택에서 보유한 PC를 통해 VPN 시스템 사용이 가능한 자)\r\n  - (우대) 「장애인고용촉진 및 직업재활법시행령」 제4조에 의한 중증 장애인\r\n\r\nㅇ 청년인턴(지역상생)\r\n  - 위 공통 자격조건 및 아래 요건을 모두 충족하는 자\r\n  - 정부, 지자체, 공공기관이 운영하는 대전/세종/충청 지역 공부방 프로그램에 참여하여 청소년에게 교과목 학습지도, 진로/진학 노하우 공유 등 지역사회를 위해 봉사한 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303902,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[월악산] 2026년 월악산국립공원사무소 한시인력(탐방예약제관리) 직원 채용",
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "충북",
+      "ncsNm": "경영.회계.사무,이용.숙박.여행.오락.스포츠",
+      "jobTrack": "사무",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019627",
+      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않은 자\r\n- 연령, 전공, 학력 제한 없음",
       "isExcludedHireType": false
     },
     {
