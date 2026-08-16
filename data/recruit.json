@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-16T00:41:59.774Z",
+  "updatedAt": "2026-08-16T02:00:46.374Z",
   "count": 102,
-  "highSchoolCount": 9,
+  "highSchoolCount": 10,
   "items": [
     {
       "sn": 303896,
@@ -20,6 +20,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "http://recruit.kepco.co.kr/sangsi",
@@ -43,6 +44,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://knoc.recruitlab.co.kr/",
@@ -66,6 +68,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://knoc.recruitlab.co.kr/",
@@ -89,6 +92,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://knoc.recruitlab.co.kr/",
@@ -112,6 +116,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 10,
       "srcUrl": "http://recruit.kepco.co.kr/sangsi",
@@ -135,6 +140,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 9,
       "srcUrl": "http://recruit.kepco.co.kr",
@@ -159,6 +165,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://koenergy.saramin.co.kr",
@@ -182,6 +189,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://koenergy.saramin.co.kr",
@@ -205,6 +213,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 11,
       "srcUrl": ".",
@@ -228,6 +237,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 11,
       "srcUrl": ".",
@@ -251,6 +261,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 10,
       "srcUrl": "없음",
@@ -276,6 +287,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 9,
       "srcUrl": "https://kepco-enc.cairos.co.kr/kepco-enc-jobs",
@@ -302,6 +314,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 9,
       "srcUrl": "https://kepco-enc.cairos.co.kr/kepco-enc/",
@@ -325,6 +338,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 9,
       "srcUrl": "없음.",
@@ -349,6 +363,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://komir.saramin.co.kr",
@@ -373,6 +388,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://info.korail.com",
@@ -396,6 +412,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://k-water.recruiter.co.kr",
@@ -419,6 +436,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "없음.",
@@ -442,6 +460,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "해당없음",
@@ -465,6 +484,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://k-water.recruiter.co.kr",
@@ -488,6 +508,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "없음.",
@@ -511,6 +532,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "없음",
@@ -534,6 +556,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://k-water.recruiter.co.kr",
@@ -557,6 +580,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://k-water.recruiter.co.kr",
@@ -583,6 +607,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://kepco-enc-jobs.cairos.co.kr/kepco-enc-jobs",
@@ -606,6 +631,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "없음.",
@@ -629,6 +655,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 1,
       "srcUrl": "없음",
@@ -652,6 +679,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 1,
       "srcUrl": ".",
@@ -675,6 +703,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 1,
       "srcUrl": "-",
@@ -698,6 +727,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://www.nps.or.kr/pnsgdnc/hiregdnc/getOHAE0004M0List.do?menuId=MN24000969",
@@ -721,6 +751,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -744,6 +775,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -767,6 +799,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -790,6 +823,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -813,6 +847,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://www.ksure.or.kr/rh-kr/bbs/i-425/detail.do?ntt_sn=624566",
@@ -836,6 +871,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://www.ksure.or.kr/rh-kr/bbs/i-425/detail.do?ntt_sn=624567",
@@ -859,6 +895,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -882,6 +919,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -905,6 +943,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -928,6 +967,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -951,6 +991,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -974,6 +1015,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 1,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -997,6 +1039,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -1020,6 +1063,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -1044,6 +1088,7 @@
         "석사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6690&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
@@ -1068,6 +1113,7 @@
         "석사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6664&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
@@ -1092,6 +1138,7 @@
         "석사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardList.do?board_seq=115&menu_seq=997",
@@ -1114,7 +1161,8 @@
       "eduCondNm": [
         "학력무관"
       ],
-      "isHighSchoolTrack": false,
+      "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": true,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -1138,6 +1186,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://kosmes.or.kr",
@@ -1162,6 +1211,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://www.hf.go.kr/ko/sub05/sub05_07_03.do",
@@ -1185,6 +1235,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -1208,6 +1259,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
@@ -1234,6 +1286,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 15,
       "srcUrl": "https://www.kalis.or.kr/www/brd/m_630/view.do?seq=320&srchFr=&srchTo=&srchWord=&srchTp=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&company_cd=&company_nm=&p_stat=&p_itmseq1=&diviTp=",
@@ -1257,6 +1310,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.kca.go.kr/kca/sub.do?menukey=5113&mode=view&no=1004549155",
@@ -1280,6 +1334,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019627",
@@ -1303,6 +1358,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 9,
       "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188451",
@@ -1326,6 +1382,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://kpx.saramin.co.kr",
@@ -1349,6 +1406,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "Y",
       "daysLeft": 12,
       "srcUrl": "https://www.nrf.re.kr/page/54?ac=view&searchType=&searchText=&pageNum=1&menuNo=54&boardNo=7&menuTypeCd=MENU_TYPE_02&code=&postNo=279376",
@@ -1374,6 +1432,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://kpx.saramin.co.kr",
@@ -1397,6 +1456,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://kpx.saramin.co.kr",
@@ -1421,6 +1481,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 11,
       "srcUrl": "http://www.nhis.or.kr/nhis/together/wbhaea02700m01.do?mode=view&articleNo=11012838&article.offset=0&articleLimit=10",
@@ -1444,6 +1505,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019622",
@@ -1467,6 +1529,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188427",
@@ -1490,6 +1553,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "Y",
       "daysLeft": 8,
       "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188426",
@@ -1513,6 +1577,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 10,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019618",
@@ -1536,6 +1601,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019617",
@@ -1559,6 +1625,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019616",
@@ -1582,6 +1649,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019615",
@@ -1605,6 +1673,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "https://kgsrnd.applyin.co.kr/",
@@ -1628,6 +1697,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019612",
@@ -1651,6 +1721,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://kosha.or.kr/notification/notice/contruction?bbsId=B2025021400001&pstNo=20260810173630SAYJJN",
@@ -1674,6 +1745,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsPage.do?menuId=MENU0895",
@@ -1698,6 +1770,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 15,
       "srcUrl": "https://www.nrf.re.kr/page/55?ac=view&searchType=&searchText=&pageNum=1&menuNo=55&boardNo=8&menuTypeCd=MENU_TYPE_02&postNo=279081",
@@ -1721,6 +1794,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 12,
       "srcUrl": "http://www.kiat.or.kr",
@@ -1744,6 +1818,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://kosha.or.kr/notification/notice/contruction?bbsId=B2025021400001&pstNo=20260810091009L2I1XS",
@@ -1768,6 +1843,7 @@
         "대졸(4년)"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "Y",
       "daysLeft": 3,
       "srcUrl": "https://www.kead.or.kr/bbs/deptgongji/bbsView.do?pageIndex=1&menuId=MENU0895&bbsCode=deptgongji&bbsCnId=215448",
@@ -1793,6 +1869,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://www.bohun.or.kr/main/na/ntt/selectNttInfo.do?mi=37029&bbsId=1158&bbsSysId=main&nttSn=188305",
@@ -1816,6 +1893,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.bohun.or.kr/gwangju/na/ntt/selectNttInfo.do?mi=32890&bbsId=1158&bbsSysId=gwangju&nttSn=188266",
@@ -1839,6 +1917,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "Y",
       "daysLeft": 6,
       "srcUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=22&bbsId=9070",
@@ -1863,6 +1942,7 @@
         "석사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 9,
       "srcUrl": "https://korad.scout.co.kr",
@@ -1886,6 +1966,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "Y",
       "daysLeft": 9,
       "srcUrl": "https://recruit.incruit.com/koreha/",
@@ -1909,6 +1990,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019591",
@@ -1932,6 +2014,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://www.bohun.or.kr/daejeon/na/ntt/selectNttInfo.do?mi=33414&bbsId=1158&bbsSysId=daejeon&nttSn=188206",
@@ -1955,6 +2038,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://kosha.or.kr/notification/jobncontract/job/jobdata?bbsId=B2025021400005&pstNo=202608060856579OQYZ6",
@@ -1978,6 +2062,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://kosha.or.kr/notification/jobncontract/job/jobdata?bbsId=B2025021400005&pstNo=202608060856579OQYZ6",
@@ -2003,6 +2088,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 8,
       "srcUrl": "https://kosha.or.kr/notification/jobncontract/job/jobdata?bbsId=B2025021400005&pstNo=202608060856579OQYZ6",
@@ -2026,6 +2112,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188191",
@@ -2049,6 +2136,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.bohun.or.kr/djcare/na/ntt/selectNttInfo.do?mi=34278&nttSn=188202",
@@ -2072,6 +2160,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://www.bohun.or.kr/incheon/na/ntt/selectNttInfo.do?mi=33641&bbsId=1158&bbsSysId=incheon&nttSn=188187#none",
@@ -2097,6 +2186,7 @@
         "대졸(4년)"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 4,
       "srcUrl": "https://fowi.or.kr/user/bbs/bbsView.do?bbsManageId=22&bbsId=9069",
@@ -2120,6 +2210,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019588",
@@ -2144,6 +2235,7 @@
         "대졸(4년)"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://koica-yp.hrsystem.co.kr",
@@ -2167,6 +2259,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019586",
@@ -2190,6 +2283,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.bohun.or.kr/seoul/na/ntt/selectNttInfo.do?mi=32253&bbsId=1158&bbsSysId=seoul&nttSn=188148",
@@ -2213,6 +2307,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://komsa-1.ncsplus.co.kr",
@@ -2236,6 +2331,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 5,
       "srcUrl": "https://newhome.bohun.or.kr/bohunedu/na/ntt/selectNttInfo.do?mi=34395&bbsId=1403&bbsSysId=bohunedu&nttSn=188090",
@@ -2259,6 +2355,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 3,
       "srcUrl": "https://www.koroad.or.kr/main/recruit/recruitment_list.do",
@@ -2282,6 +2379,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 1,
       "srcUrl": "https://www.xn--2i4bo5fgwadewe.kr/sgcf/SGCFNews/Recruit/RecruitNotice/?boardId=bbs_0000000000000011&category=&mode=view&cntId=191&searchCondition=&searchKeyword=&pageIdx=",
@@ -2308,6 +2406,7 @@
         "박사"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "\thttps://www.hira.or.kr/re/recruit/recruitAdList.do?pgmid=HIRAA040078000000&WT.gnb=%EC%B1%84%EC%9A%A9%EA%B3%B5%EA%B3%A0",
@@ -2331,6 +2430,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 2,
       "srcUrl": "https://www.bohun.or.kr/gwangju/na/ntt/selectNttInfo.do?mi=32890&bbsId=1158&bbsSysId=gwangju&nttSn=188038",
@@ -2354,6 +2454,7 @@
         "학력무관"
       ],
       "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "Y",
       "daysLeft": 2,
       "srcUrl": "https://recruit.incruit.com/koreha",
@@ -2377,6 +2478,7 @@
         "고졸"
       ],
       "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
       "replImprYn": "N",
       "daysLeft": 137,
       "srcUrl": "https://kotra.applyin.co.kr/jobs/22547",
