@@ -12,6 +12,15 @@
  * "이 채용에 어떤 학력 조건이 허용되는지"만 알려주고, recrutNope(모집인원)는
  * 그 채용 전체 인원 하나뿐이에요. 즉 "고졸 15명 / 전체 80명" 같은 세부 분리는
  * 이 API만으로는 불가능하고, 공고 원문(srcUrl)을 봐야 확인할 수 있어요.
+ *
+ * ⚠️ 추가 주의: acbgCondNmLst가 공고 전체를 대표하는 값 "하나"만 주기 때문에,
+ * 한 공고 안에 여러 채용 트랙(예: 일반 6급 / 보훈전형 / 장애인전형 / 고졸전형 7급)이
+ * 섞여있는 경우 실제로는 고졸전형이 있는데도 acbgCondNmLst가 "학력무관"만 찍혀서
+ * 고졸 채용 목록에서 누락되는 경우가 있음(예: 근로복지공단 '26년 2차 신규직원 공고,
+ * sn 303549 - 지원자격 원문엔 "행정직 일반 7급(고졸전형)"이 명시돼 있었으나
+ * acbgCondNmLst엔 "학력무관"만 표기됨).
+ * → 이를 보정하기 위해 aplyQlfcCn(지원자격 원문) 텍스트에서
+ *    "고졸전형" 등의 키워드를 추가로 검사해서 isHighSchoolTrack을 보정함.
  */
 
 const fs = require('fs');
@@ -95,6 +104,23 @@ function isExcludedHireType(hireTypeNmStr, titleStr) {
   return EXCLUDE_HIRE_TYPE_KEYWORDS.some(keyword => combinedText.includes(keyword));
 }
 
+// acbgCondNmLst(학력조건 필드)가 공고 전체를 대표하는 값 "하나"만 주다 보니,
+// 여러 채용 트랙이 섞인 공고(예: 일반전형/보훈전형/고졸전형이 한 공고에 같이 있는 경우)에서
+// 실제로는 고졸전형이 존재하는데도 "학력무관"만 찍혀서 누락되는 경우가 있음.
+// → 지원자격 원문(aplyQlfcCn)에서 "고졸전형" 류 표현을 추가로 탐지해 보정.
+const HS_TRACK_KEYWORDS_IN_TEXT = [
+  '고졸전형',
+  '고졸부문',
+  '고졸수준',
+  '고졸 제한경쟁',
+  '고졸제한경쟁',
+];
+
+function detectHighSchoolTrackFromText(aplyQlfcCn) {
+  if (!aplyQlfcCn) return false;
+  return HS_TRACK_KEYWORDS_IN_TEXT.some(keyword => aplyQlfcCn.includes(keyword));
+}
+
 // NCS분류(R6000) 대분류 25개 전체 → 우리 직군 라벨로 매핑
 // (코드정의서 MOEF_NKOD_DB_05_v1.2 기준 NCS 대분류 전체 목록 반영)
 const NCS_TO_JOB_TRACK = {
@@ -147,6 +173,12 @@ function extractItems(rawData) {
 function normalizeItem(item) {
   const eduNames = (item.acbgCondNmLst || '').split(',').map(s => s.trim()).filter(Boolean);
 
+  // acbgCondNmLst에 "고졸"이 명시된 경우뿐 아니라, 지원자격 원문에
+  // "고졸전형" 등의 트랙이 언급된 경우도 고졸 지원 가능으로 판단
+  // (혼합 트랙 공고에서 acbgCondNmLst가 "학력무관"으로만 대표되는 경우 보정)
+  const hasHsEduCond = eduNames.includes('고졸');
+  const hasHsTrackInText = detectHighSchoolTrackFromText(item.aplyQlfcCn);
+
   return {
     sn: item.recrutPblntSn || null,              // 채용공시 일련번호 (detail 조회 시 sn 파라미터로 사용)
     orgName: item.instNm || '',
@@ -161,7 +193,8 @@ function normalizeItem(item) {
     jobTrack: mapNcsToJobTrack(item.ncsCdNmLst),    // 우리 직군 라벨로 변환
     totalCount: Number(item.recrutNope || 0),        // 모집인원 (전체, 학력별 분리 없음)
     eduCondNm: eduNames,                              // 허용 학력조건 목록 (예: ["고졸","대졸(4년)"])
-    isHighSchoolTrack: eduNames.includes('고졸'),
+    isHighSchoolTrack: hasHsEduCond || hasHsTrackInText,
+    hsTrackDetectedFromText: !hasHsEduCond && hasHsTrackInText, // 원문 텍스트로만 감지된 경우 표시(검수용)
     replImprYn: item.replmprYn || 'N',
     daysLeft: item.decimalDay ?? null,                // API가 계산해주는 마감까지 남은 일수
     srcUrl: item.srcUrl || null,
@@ -226,7 +259,8 @@ async function main() {
   console.log(`[fetch-recruit] 기간제/단기계약직 등 제외: ${excludedCount}건 (채용형 인턴은 유지)`);
 
   const hsCount = items.filter(it => it.isHighSchoolTrack).length;
-  console.log(`[fetch-recruit] 그 중 고졸 지원 가능: ${hsCount}건`);
+  const hsFromTextCount = items.filter(it => it.hsTrackDetectedFromText).length;
+  console.log(`[fetch-recruit] 그 중 고졸 지원 가능: ${hsCount}건 (지원자격 원문으로만 보정 감지된 건: ${hsFromTextCount}건)`);
 
   const output = {
     updatedAt: new Date().toISOString(),
