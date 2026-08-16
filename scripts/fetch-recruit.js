@@ -235,9 +235,19 @@ async function fetchPagesForInstType(instType) {
 // 기관유형(A2000): 공기업(시장형 A2001, 준시장형 A2002) + 준정부기관(기금관리형 A2003, 위탁집행형 A2004)
 // → 기타공공기관(A2005)만 제외하고 나머지 다 포함
 // instType 파라미터는 한 번에 값 하나만 받는 것으로 보여서, 유형별로 나눠 호출 후 합침
+//
+// ⚠️ 4개 instType을 Promise.all로 "동시에" 요청하면 공공데이터포털 쪽에서
+// 같은 서비스키/IP로 몰리는 동시 커넥션을 정식 에러 없이 그냥 응답을 주지 않고
+// hang 시켜버리는 경우가 있어(GitHub Actions에서 4개 요청이 매번 15초 타임아웃 후
+// 재시도까지 전부 실패하는 패턴으로 확인됨 - curl로 단일 요청 시엔 1초 내 정상 200).
+// → 동시 요청 대신 순차(sequential)로 하나씩 요청하도록 변경.
 async function fetchAllPages() {
   const instTypes = ['A2001', 'A2002', 'A2003', 'A2004'];
-  const results = await Promise.all(instTypes.map(t => fetchPagesForInstType(t)));
+  const results = [];
+  for (const t of instTypes) {
+    const pageItems = await fetchPagesForInstType(t);
+    results.push(pageItems);
+  }
   const merged = results.flat();
   const seen = new Set();
   return merged.filter(it => {
