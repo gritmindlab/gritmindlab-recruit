@@ -30,7 +30,7 @@ jobs:
       # (GitHub Actions IP가 차단됐는지, 서비스키 문제인지 등을 curl로 직접 확인)
       # ─────────────────────────────────────────────────────────
       - name: "[디버그] API 원본 응답 확인"
-        if: true
+        if: false
         run: |
           echo "=== DNS 확인 ==="
           nslookup apis.data.go.kr || true
