@@ -1,3 +1,19 @@
+name: [디버그] API 원본 응답 확인
+        run: |
+          echo "=== DNS 확인 ==="
+          nslookup apis.data.go.kr || true
+          echo "=== curl 테스트 (verbose) ==="
+          curl -v --max-time 20 \
+            "https://apis.data.go.kr/1051000/recruitment/list?serviceKey=${DATAGO_SERVICE_KEY}&resultType=json&numOfRows=1&pageNo=1&ongoingYn=Y&instType=A2001" \
+            -o response.json -w "\nHTTP_STATUS:%{http_code}\nTIME_TOTAL:%{time_total}\n"
+          echo "=== 응답 내용 ==="
+          cat response.json
+        env:
+          DATAGO_SERVICE_KEY: ${{ secrets.DATAGO_SERVICE_KEY }}
+      - name: 채용정보 수집 스크립트 실행
+        run: node scripts/fetch-recruit.js
+        env:
+          DATAGO_SERVICE_KEY: ${{ secrets.DATAGO_SERVICE_KEY }}
 name: 채용정보 자동 수집
 
 # 매시 정각마다 자동 실행 + 수동 실행 버튼도 사용 가능
