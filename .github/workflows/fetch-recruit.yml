@@ -1,19 +1,3 @@
-name: [디버그] API 원본 응답 확인
-        run: |
-          echo "=== DNS 확인 ==="
-          nslookup apis.data.go.kr || true
-          echo "=== curl 테스트 (verbose) ==="
-          curl -v --max-time 20 \
-            "https://apis.data.go.kr/1051000/recruitment/list?serviceKey=${DATAGO_SERVICE_KEY}&resultType=json&numOfRows=1&pageNo=1&ongoingYn=Y&instType=A2001" \
-            -o response.json -w "\nHTTP_STATUS:%{http_code}\nTIME_TOTAL:%{time_total}\n"
-          echo "=== 응답 내용 ==="
-          cat response.json
-        env:
-          DATAGO_SERVICE_KEY: ${{ secrets.DATAGO_SERVICE_KEY }}
-      - name: 채용정보 수집 스크립트 실행
-        run: node scripts/fetch-recruit.js
-        env:
-          DATAGO_SERVICE_KEY: ${{ secrets.DATAGO_SERVICE_KEY }}
 name: 채용정보 자동 수집
 
 # 매시 정각마다 자동 실행 + 수동 실행 버튼도 사용 가능
@@ -39,6 +23,26 @@ jobs:
 
       - name: 패키지 설치
         run: npm install axios
+
+      # ─────────────────────────────────────────────────────────
+      # [디버그용] 공공데이터포털 API 원본 응답 확인
+      # 평소엔 꺼두고, 나중에 또 타임아웃/네트워크 문제가 생기면
+      # 아래 if 조건의 false를 true로 바꿔서 켜세요.
+      # (GitHub Actions IP가 차단됐는지, 서비스키 문제인지 등을 curl로 직접 확인)
+      # ─────────────────────────────────────────────────────────
+      - name: "[디버그] API 원본 응답 확인"
+        if: false
+        run: |
+          echo "=== DNS 확인 ==="
+          nslookup apis.data.go.kr || true
+          echo "=== curl 테스트 (verbose) ==="
+          curl -v --max-time 20 \
+            "https://apis.data.go.kr/1051000/recruitment/list?serviceKey=${DATAGO_SERVICE_KEY}&resultType=json&numOfRows=1&pageNo=1&ongoingYn=Y&instType=A2001" \
+            -o response.json -w "\nHTTP_STATUS:%{http_code}\nTIME_TOTAL:%{time_total}\n"
+          echo "=== 응답 내용 ==="
+          cat response.json
+        env:
+          DATAGO_SERVICE_KEY: ${{ secrets.DATAGO_SERVICE_KEY }}
 
       - name: 채용정보 수집 스크립트 실행
         run: node scripts/fetch-recruit.js
