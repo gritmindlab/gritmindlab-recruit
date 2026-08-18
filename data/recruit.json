@@ -1,8 +1,56 @@
 {
-  "updatedAt": "2026-08-18T04:39:16.891Z",
-  "count": 100,
+  "updatedAt": "2026-08-18T05:33:11.579Z",
+  "count": 102,
   "highSchoolCount": 10,
   "items": [
+    {
+      "sn": 303969,
+      "orgName": "한국전력공사",
+      "orgCode": "C0247",
+      "title": "2026년 제2차 장애인 체험형 인턴 채용공고 [인천본부]",
+      "startDate": "2026-08-18",
+      "endDate": "2026-09-01",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "인천,경기",
+      "ncsNm": "경영.회계.사무",
+      "jobTrack": "사무",
+      "totalCount": 8,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "http://recruit.kepco.co.kr/sangsi",
+      "aplyQlfcCn": "□ 지원자격 : 「장애인고용촉진 및 직업재활법」 제2조 및 동법 시행령 제3조에 해당자\r\n□ 학력, 연령, 자격증, 외국어 : 제한없음\r\n□ 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n□ 기타 : \"근무시작일\" 부터 근무 가능한 자\r\n※ 상세내용 : 채용공고문 참조(붙임)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303968,
+      "orgName": "한국서부발전(주)",
+      "orgCode": "C0082",
+      "title": "2026년도 하반기 직무전문가(사내변호사) 모집공고",
+      "startDate": "2026-08-18",
+      "endDate": "2026-09-01",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "충남",
+      "ncsNm": "법률.경찰.소방.교도.국방",
+      "jobTrack": "사무",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://iwest.machuda.kr",
+      "aplyQlfcCn": "○ 자격요건\r\n[학력] 제한없음\r\n[연령] 제한없음(단, 만 60세 이상 지원불가) ※ 당사 취업규칙 제59조(정년퇴직)에 의거 만60세 정년퇴직\r\n[어학] 제한없음\r\n[병역]\r\n＊병역기피사실이 없는 자\r\n＊현역의 경우 최종합격자 입사일 이전에 전역 가능한 자\r\n[기타]\r\n＊당사 신규채용에 결격사유가 없는 자(인사관리규정 제10조)\r\n＊회사가 정한 입사일부터 근무 가능한 자\r\n\r\n[자격사항]\r\n1. 변호사\r\n① 국내변호사 자격증 소지자로 실무경력 7년이상\r\n-사법연수원 교육기간, 의무연수기간은 제외\r\n※ 법무법인(로펌) 및 일반기업 사내변호사 경력 모두 인정\r\n② (결격사유) 변호사법 제90조에 따른 징계를 받았거나 변호사법 위반으로 형이 확정된 후 그 종료일로부터 3년이 경과하지 아니한 자",
+      "isExcludedHireType": false
+    },
     {
       "sn": 303896,
       "orgName": "한국전력공사",
