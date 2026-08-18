@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T06:50:03.084Z",
-  "count": 102,
+  "updatedAt": "2026-08-18T08:41:23.748Z",
+  "count": 103,
   "highSchoolCount": 10,
   "items": [
     {
@@ -1288,6 +1288,30 @@
       "daysLeft": 2,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
       "aplyQlfcCn": "ㅇ 채용분야별 응시자격 : 정형외과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303984,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[소백산북부] 2026년 가을철 한시인력(탐방로 보수전담팀) 채용 공고",
+      "startDate": "2026-08-18",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "충북",
+      "ncsNm": "경비.청소,이용.숙박.여행.오락.스포츠,건설",
+      "jobTrack": "시설",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 6,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019633",
+      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 근무시작(예정)일부터 근무 가능한 자\r\n- 그 외 전공, 학력, 연령 등 제한 없음",
       "isExcludedHireType": false
     },
     {
