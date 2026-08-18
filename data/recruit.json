@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T01:24:32.219Z",
-  "count": 99,
+  "updatedAt": "2026-08-18T04:39:16.891Z",
+  "count": 100,
   "highSchoolCount": 10,
   "items": [
     {
@@ -684,6 +684,30 @@
       "daysLeft": 0,
       "srcUrl": "없음.",
       "aplyQlfcCn": "1. 일반 : 학력, 연령, 외국어 제한없음\r\n2. 병역 : 병역법 제 76조에서 정한 병역의무 불이행 사실이 없는 자\r\n3. 기타\r\n- 당사 인사규정 2.1.4(채용결격사유)에 해당하지 않는자(붙임1 참조)\r\n- 주민등록상 거주지가 부산, 김해, 양산시인 자\r\n4. 직종별자격(업무보조원)\r\n- 배전자동화 유지보수의 단순업무(서류작성) 가능한 자\r\n- EXCEL, HWP 등 문서정리 및 PC활용 가능한 자(인정자격 : OA관련 자격증 보유자)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 303965,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[울산남부지사] 청년(체험형)인턴 채용 공고",
+      "startDate": "2026-08-18",
+      "endDate": "2026-08-25",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "울산",
+      "ncsNm": "경영.회계.사무",
+      "jobTrack": "사무",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 7,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "0 「청년고용촉진 특별법 시행령」에 따라 임용일 기준 15세 이상 34세 이하인 자\r\n- 군 전역자(사회복무요원 포함)는 「제대군인지원에 관한 법률」 제16조에 따라 응시연령 상한을 다음과 같이 연장(1년 미만 1세, 1년 이상 2년\r\n미만 2세, 2년 이상 3세)\r\n0 우리공단 청년(체험형)인턴으로 근무한 경험이 없는 자\r\n0 대한민국 국적을 보유한 사람\r\n0 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n- 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\n0 임용예정일 즉시 근무가 가능한 자\r\n- 임용일은 공단 사정에 따라 변경될 수 있음\r\n0 「국가공무원법」 제33조 및 공단 「인사규정」 제14조에 저촉되지 않는 자\r\n0 학력 및 경력 제한 없음",
       "isExcludedHireType": false
     },
     {
