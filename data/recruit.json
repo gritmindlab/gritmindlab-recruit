@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T09:38:37.248Z",
-  "count": 89,
+  "updatedAt": "2026-08-20T10:35:02.253Z",
+  "count": 90,
   "highSchoolCount": 9,
   "items": [
     {
@@ -1123,6 +1123,32 @@
       "daysLeft": 0,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
       "aplyQlfcCn": "ㅇ 채용분야별 응시자격 : 정형외과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304092,
+      "orgName": "한국교통안전공단",
+      "orgCode": "C0019",
+      "title": "2026년 한국교통안전공단 개방형직위(AI서비스개발) 공모",
+      "startDate": "2026-08-20",
+      "endDate": "2026-09-04",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "경북",
+      "ncsNm": "정보통신",
+      "jobTrack": "IT",
+      "totalCount": 1,
+      "eduCondNm": [
+        "대졸(4년)",
+        "석사",
+        "박사"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 15,
+      "srcUrl": "http://kotsa.career.co.kr",
+      "aplyQlfcCn": "[개방형계약직제] 행정 3급(AI서비스개발) 1명\r\n\r\nㅇ 아래 요건 중 어느 하나를 충족하는 자\r\n - 관련전공 박사학위 취득 후 해당분야 5년 이상 경력\r\n - 관련전공 석사학위 취득 후 해당분야 8년 이상 경력\r\n - 관련전공 학사학위 취득 후 해당분야 10년 이상 경력\r\n\r\n(관련전공) 인공지능학, 컴퓨터공학, 정보통신공학, 산업공학 등\r\n(해당분야) 책임자(PM 또는 관리자)로 생성형 AI, 딥러닝, 머신러닝 등 관련 개발 경력 3년 이상을 포함한다.\r\n\r\n※ 퇴직 후 3년 미만인 공무원 및 공공기관 근무경력자 제외(개방형계약직 등으로 채용된 경력은 제외) ",
       "isExcludedHireType": false
     },
     {
