@@ -1,8 +1,32 @@
 {
-  "updatedAt": "2026-08-19T23:26:13.026Z",
-  "count": 81,
+  "updatedAt": "2026-08-20T03:00:50.199Z",
+  "count": 82,
   "highSchoolCount": 9,
   "items": [
+    {
+      "sn": 304057,
+      "orgName": "한국서부발전(주)",
+      "orgCode": "C0082",
+      "title": "2026년도 한국서부발전(주) 2차 체험형 인턴 모집공고",
+      "startDate": "2026-08-20",
+      "endDate": "2026-09-03",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "충남,경북",
+      "ncsNm": "경영.회계.사무,건설,기계,화학,전기.전자,정보통신",
+      "jobTrack": "사무",
+      "totalCount": 10,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://iwest.machuda.kr",
+      "aplyQlfcCn": "* 학력/전공/어학 : 제한 없음\r\n* 연령 : 공고일 현재 기준 「청년고용촉진특별법 시행령」에 따른 청년(만 15세 이상 만 34세 이하)에 한함\r\n* 자격\r\n- 장애 : 장애인복지법, 장애인고용촉진 및 직업재활법 등에 의한 장애인\r\n또는 국가유공자 등 예우 및 지원에 관한 법률에 의한 국가유공상이자\r\n- 병역기피 사실이 없는 자\r\n- 현역의 경우 입사일 이전에 전역 가능한 자",
+      "isExcludedHireType": false
+    },
     {
       "sn": 303969,
       "orgName": "한국전력공사",
