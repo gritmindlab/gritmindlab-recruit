@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T03:00:50.199Z",
-  "count": 82,
+  "updatedAt": "2026-08-20T06:52:52.700Z",
+  "count": 84,
   "highSchoolCount": 9,
   "items": [
     {
@@ -587,6 +587,30 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 304067,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[태백병원] 의료직 3급(약사) 채용 공고",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-31",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "강원",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야 응시자격\r\n- 약사: 약사법상 약사 자격증(면허) 취득한 자로 자격 취득 후 채용분야에서 3년 이상 근무한 경력이 있는 자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 병역법 제 76조에서 정한 병역의무 불이행 사실이 없는 자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음(단, 임용일 기준 60세 미만(정년)인 자)",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 303965,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -971,6 +995,30 @@
       "daysLeft": 0,
       "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
       "aplyQlfcCn": "ㅇ 채용분야별 응시자격 : 정형외과 전문의 자격 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한자\r\nㅇ 기타: 임용예정일 즉시 근무가 가능한 자\r\n※ 임용예정일은 공단 사정에 따라 변경될 수 있음\r\nㅇ 연령요건 : 제한없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304070,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[지리산전북] 지리산국립공원전북사무소 한시인력(탐방로보수) 채용 공고 ",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-24",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "전북",
+      "ncsNm": "환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 4,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019645",
+      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 근무시작(예정)일부터 근무 가능한 자\r\n- 그 외 전공, 학력 등 제한 없음",
       "isExcludedHireType": false
     },
     {
