@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-21T11:29:58.286Z",
-  "count": 90,
+  "updatedAt": "2026-08-21T13:49:24.049Z",
+  "count": 94,
   "highSchoolCount": 7,
   "items": [
     {
@@ -1145,6 +1145,102 @@
       "daysLeft": 3,
       "srcUrl": "https://kosmes.or.kr",
       "aplyQlfcCn": "- 「장애인고용촉진 및 직업재활법」에 의한 장애인\r\n- 임용예정일 기준 만 15세 이상 만 34세 이하인 자\r\n* 제대군인에 대해서는 관련법에 의거 응시연령 상한 연장\r\n- 학력, 전공, 성별 등 제한 없음\r\n- 임용 즉시 근무가 가능한 자(교육훈련 시작 시점 고용보험 미가입자)\r\n\r\n※ 상세내용 첨부 공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304148,
+      "orgName": "(재)우체국물류지원단",
+      "orgCode": "C0331",
+      "title": "2026년도 우체국물류지원단 4분기 정기채용(기술직 마케팅, 선임급) 공고",
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-04",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "서울",
+      "ncsNm": "경영.회계.사무,영업판매",
+      "jobTrack": "사무",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://pola.plusrecruit.co.kr",
+      "aplyQlfcCn": " · [근무] 2026.10.12.(월)부터 근무 가능자\r\n · [학력] 제한없음\r\n · [병역] 남성의 경우 채용예정일 현재 군필 또는 면제자(단, 고등학교 졸업예정자는 예외)\r\n · [자격] 제한없음\r\n · [경력] 물류분야 마케팅 또는 영업 관련 분야*에서 2년 이상 근무한 자\r\n   * 물류분야란, ①~ ⑥ 중 하나 이상 충족\r\n   ① 해외직구 플랫폼 운영·영업, ② 관세·통관 영업·마케팅, ③ 글로벌 이커머스 셀러·MD, ④ 국제 택배·배송 서비스 영업, ⑤ 무역·수출 마케팅, ⑥ 항공화물 영업·마케팅 \r\n   * 세부 경력 인정 여부는 제출서류 및 수행업무를 기준으로 판단함\r\n · [연령] 만 60세 이하(공고일 기준)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304147,
+      "orgName": "(재)우체국물류지원단",
+      "orgCode": "C0331",
+      "title": "2026년도 우체국물류지원단 4분기 정기채용(기술직 안전, 선임급) 공고",
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-04",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "서울",
+      "ncsNm": "경영.회계.사무,환경.에너지.안전",
+      "jobTrack": "사무",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://pola.plusrecruit.co.kr",
+      "aplyQlfcCn": " · [근무] 2026.10.12.(월)부터 근무 가능자\r\n · [학력] 제한없음\r\n · [병역] 남성의 경우 채용예정일 현재 군필 또는 면제자(단, 고등학교 졸업예정자는 예외)\r\n · [자격] ① ~ ③ 중 하나 이상 충족\r\n   ① 산업안전보건법에 따른 산업안전지도사\r\n   ② 국가기술자격법에 따른 산업안전기사\r\n   ③ 국가기술자격법에 따른 산업안전산업기사\r\n · [경력] 산업안전·보건, 안전관리, 재난관리 등 관련 분야에서 2년 이상 근무한 자\r\n · [연령] 만 60세 이하(공고일 기준)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304146,
+      "orgName": "(재)우체국물류지원단",
+      "orgCode": "C0331",
+      "title": "2026년도 우체국물류지원단 4분기 정기채용(사무직 행정, 5급) 공고",
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-04",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "서울",
+      "ncsNm": "경영.회계.사무",
+      "jobTrack": "사무",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://pola.plusrecruit.co.kr",
+      "aplyQlfcCn": " · [근무] 2026.10.12.(월)부터 근무 가능자\r\n · [학력] 제한없음\r\n · [병역] 남성의 경우 채용예정일 현재 군필 또는 면제자(단, 고등학교 졸업예정자는 예외)\r\n · [자격] 제한없음\r\n · [경력] 공공기관 경영평가, 전략기획, 혁신 등 관련 분야에서 2년 이상 근무한 자\r\n · [연령] 만 60세 이하(공고일 기준)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304145,
+      "orgName": "(재)우체국물류지원단",
+      "orgCode": "C0331",
+      "title": "2026년도 우체국물류지원단 4분기 정기채용(개방형직위_원주사업소장) 공고",
+      "startDate": "2026-08-21",
+      "endDate": "2026-09-04",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "강원",
+      "ncsNm": "사업관리,경영.회계.사무,운전.운송",
+      "jobTrack": "사무",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://pola.plusrecruit.co.kr",
+      "aplyQlfcCn": " · [근무] 2026.11.2.(월)부터 근무 가능자\r\n · [학력] 제한없음\r\n · [병역] 남성의 경우 채용예정일 현재 군필 또는 면제자(단, 고등학교 졸업예정자는 예외)\r\n · [자격] 제한없음\r\n · [경력] ① ∼ ③중 1개 이상 충족\r\n  ① (외부) 7급 이상 국가·지방공무원으로 1년 이상 근무한 경력자\r\n  ② (외부) 민간(물류 또는 운송분야)에서 15년 이상 근무한 경력자\r\n  ③ (내부) 4급 사무직 또는 10년 이상 기술급 이상\r\n  - 단, 정직, 파면, 해임 등 중징계 처분자는 제외\r\n · [연령] 제한없음",
       "isExcludedHireType": false
     },
     {
