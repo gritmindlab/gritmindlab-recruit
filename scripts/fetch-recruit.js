@@ -39,9 +39,9 @@ const LIST_URL = `${BASE_URL}/list`;
 // 네트워크 요청 관련 설정
 // - 공공데이터포털 API가 간헐적으로 연결 지연/타임아웃을 일으키는 경우가 있어
 //   짧은 timeout + 재시도(retry)로 자체 복구하도록 함
-const REQUEST_TIMEOUT_MS = 15000; // 요청당 15초 제한 (기존엔 무제한 → 실패 시 2분 이상 걸림)
-const MAX_RETRIES = 3;             // 최대 3회까지 재시도
-const RETRY_DELAYS_MS = [1000, 3000, 5000]; // 재시도 간격 (점점 늘림)
+const REQUEST_TIMEOUT_MS = 30000; // 요청당 30초 제한 (15초는 너무 빡빡해서 순간 지연에도 실패하는 경우가 많았음)
+const MAX_RETRIES = 4;             // 최대 4회까지 재시도
+const RETRY_DELAYS_MS = [2000, 5000, 10000, 15000]; // 재시도 간격 (점점 늘림)
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
