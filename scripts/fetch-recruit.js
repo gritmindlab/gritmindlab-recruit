@@ -21,6 +21,12 @@
  * acbgCondNmLst엔 "학력무관"만 표기됨).
  * → 이를 보정하기 위해 aplyQlfcCn(지원자격 원문) 텍스트에서
  *    "고졸전형" 등의 키워드를 추가로 검사해서 isHighSchoolTrack을 보정함.
+ *
+ * ⚠️ 마감 처리: 이 API는 ongoingYn=Y로 "현재 진행중인" 공고만 돌려주기 때문에,
+ * 접수가 마감되면 다음 실행부터 응답에서 통째로 빠짐. 이걸 그대로 반영하면
+ * 마감 공고가 흔적도 없이 사라져버려서, 이전 결과(data/recruit.json)와 비교해
+ * "이번엔 없어졌지만 직전엔 있었던" 항목을 status: "마감"으로 표시해
+ * closedItems에 별도 보관함. 일정 기간(CLOSED_RETENTION_DAYS) 지나면 자동 정리.
  */
 
 const fs = require('fs');
@@ -38,8 +44,10 @@ const LIST_URL = `${BASE_URL}/list`;
 
 // 네트워크 요청 관련 설정
 // - 공공데이터포털 API가 간헐적으로 연결 지연/타임아웃을 일으키는 경우가 있어
-//   짧은 timeout + 재시도(retry)로 자체 복구하도록 함
-const REQUEST_TIMEOUT_MS = 30000; // 요청당 30초 제한 (15초는 너무 빡빡해서 순간 지연에도 실패하는 경우가 많았음)
+//   timeout + 재시도(retry)로 자체 복구하도록 함
+// - 기존엔 15초/3회 재시도(1s,3s,5s)였는데, 실행 주기를 하루 2회로 줄인 김에
+//   순간적인 지연에도 잘 버티도록 여유를 더 줌
+const REQUEST_TIMEOUT_MS = 30000; // 요청당 30초 제한
 const MAX_RETRIES = 4;             // 최대 4회까지 재시도
 const RETRY_DELAYS_MS = [2000, 5000, 10000, 15000]; // 재시도 간격 (점점 늘림)
 
@@ -258,6 +266,55 @@ async function fetchAllPages() {
   });
 }
 
+// ─────────────────────────────────────────────────────────
+// 마감 항목 보관 로직
+//
+// API가 ongoingYn=Y로 "진행중인" 공고만 주기 때문에, 접수가 마감되면
+// 다음 실행부터 응답에서 통째로 빠짐. 이걸 그대로 반영하면 "마감됐다"는
+// 정보 자체가 사라져버리므로, 이전 결과 파일과 비교해서
+// "직전엔 있었는데 이번엔 없어진" 항목을 status: "마감"으로 표시해
+// closedItems에 별도로 보관함.
+// ─────────────────────────────────────────────────────────
+const CLOSED_RETENTION_DAYS = 90; // 마감 후 이 기간 지나면 목록에서 완전히 제거
+
+function loadPreviousData(outPath) {
+  try {
+    const raw = fs.readFileSync(outPath, 'utf-8');
+    return JSON.parse(raw);
+  } catch {
+    return null; // 파일이 없거나 처음 실행하는 경우
+  }
+}
+
+function buildClosedItems(prevData, currentActiveSns) {
+  const now = new Date();
+  const prevItems = prevData?.items || [];
+  const prevClosedItems = prevData?.closedItems || [];
+
+  // 이번에 새로 마감된 것들: 이전엔 활성 목록에 있었는데 이번엔 없는 것
+  const newlyClosed = prevItems
+    .filter(it => !currentActiveSns.has(it.sn))
+    .map(it => ({ ...it, status: '마감', closedAt: now.toISOString() }));
+
+  // 기존에 이미 마감돼서 보관중이던 것들과 합치되, 혹시 다시 활성화됐으면 제외
+  const stillClosed = prevClosedItems.filter(it => !currentActiveSns.has(it.sn));
+
+  const merged = [...stillClosed, ...newlyClosed];
+
+  // 중복 제거 (sn 기준, 최신 closedAt 우선)
+  const bySn = new Map();
+  for (const it of merged) {
+    const existing = bySn.get(it.sn);
+    if (!existing || new Date(it.closedAt) > new Date(existing.closedAt)) {
+      bySn.set(it.sn, it);
+    }
+  }
+
+  // 보관 기간 지난 것 정리
+  const cutoff = now.getTime() - CLOSED_RETENTION_DAYS * 24 * 60 * 60 * 1000;
+  return [...bySn.values()].filter(it => new Date(it.closedAt).getTime() >= cutoff);
+}
+
 async function main() {
   const rawItems = await fetchAllPages();
   console.log(`[fetch-recruit] 전체 fetched ${rawItems.length} items`);
@@ -272,14 +329,21 @@ async function main() {
   const hsFromTextCount = items.filter(it => it.hsTrackDetectedFromText).length;
   console.log(`[fetch-recruit] 그 중 고졸 지원 가능: ${hsCount}건 (지원자격 원문으로만 보정 감지된 건: ${hsFromTextCount}건)`);
 
+  const outPath = path.join(__dirname, '..', 'data', 'recruit.json');
+
+  const prevData = loadPreviousData(outPath);
+  const currentActiveSns = new Set(items.map(it => it.sn));
+  const closedItems = buildClosedItems(prevData, currentActiveSns);
+  console.log(`[fetch-recruit] 마감 처리된 항목: ${closedItems.length}건 (보관중, ${CLOSED_RETENTION_DAYS}일 후 자동 정리)`);
+
   const output = {
     updatedAt: new Date().toISOString(),
     count: items.length,
     highSchoolCount: hsCount,
     items,
+    closedItems,
   };
 
-  const outPath = path.join(__dirname, '..', 'data', 'recruit.json');
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`[fetch-recruit] wrote ${items.length} items to ${outPath}`);
