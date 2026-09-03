@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-03T02:14:14.220Z",
-  "count": 112,
-  "highSchoolCount": 3,
+  "updatedAt": "2026-09-03T13:23:15.692Z",
+  "count": 118,
+  "highSchoolCount": 4,
   "items": [
     {
       "sn": 304551,
@@ -349,6 +349,54 @@
       "daysLeft": 13,
       "srcUrl": "https://www.komipo.co.kr",
       "aplyQlfcCn": "1. 기본자격\r\n가. 학력, 성별, 전공: 제한 없음\r\n나. 연령: 공고일 현재 기준 「청년고용촉진특별법」에 따른 청년(15세 이상 ~ 34세 이하)인 자\r\n※ 「제대군인지원에 관한 법률」제16조 1항 및 동법 시행령 19조에 따라 제대군인이 응시할 경우 상한 연령을 다음과 같이 연장함\r\n  - 군복무기간 1년 미만: 1세 / 1년 이상~2년 미만: 2세 / 2년 이상: 3세 연장\r\n다. 병역: 병역 기피사실이 없는 자, 현역의 경우 최종합격자 발표일('26. 10. 28.) 이전 전역 가능한 자\r\n라. 기타: '26. 11. 4. (수)부터 근무 가능한 자\r\n\r\n2. 분야별 필수자격\r\n가. 일반전형\r\n1) 외국어\r\n대상: 영어[TOEIC, TOEIC-S, (New)TEPS, TEPS-S, OPIc]\r\n기준: TOEIC 700점 이상(기타 어학성적 환산점수 인정)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304605,
+      "orgName": "한전KDN",
+      "orgCode": "C0306",
+      "title": "한전KDN(주) 전북사업처 AMI분야 일용근로자 모집 공고",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-17",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "전북",
+      "ncsNm": "정보통신",
+      "jobTrack": "IT",
+      "totalCount": 4,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "없음.",
+      "aplyQlfcCn": "○ 공통: 건설업 기초 안전보건교육 이수자 또는 계약(작업투입)시 증빙가능자 포함\r\n○ KDN조공\r\n  - 해당분야 현장의 시공과 관련한 단순작업, 자재의 운반, 교통통제, 작업준비 등 보조업무 수행이 가능한자\r\n  - 배전주 승주없이 단말장치 시공업무 수행이 가능한 자\r\n  - 운전면허 소지자(2종보통 이상) 및 현장 작업차량 운전 가능자\r\n  - 현장투입 가능차량 보유자(자동차보험, 유효한 검사필증 必)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304591,
+      "orgName": "한국수자원공사",
+      "orgCode": "C0221",
+      "title": "[한국수자원공사] 장흥수도지사 특수직(지방상수도 시설운영) 채용 공고",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-17",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "전남광주",
+      "ncsNm": "건설,기계,전기.전자,정보통신,환경.에너지.안전",
+      "jobTrack": "토목",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://k-water.recruiter.co.kr",
+      "aplyQlfcCn": "□ 연령, 성별, 학력 제한 없음\r\n□ 남자의 경우 병역필 또는 면제자(병역특례 근무중인 자 제외)\r\n□ 우리 공사 인사규정에 의한 결격사유가 없는 자\r\n□ 채용예정일부터 현업 전일근무가 가능한 자",
       "isExcludedHireType": false
     },
     {
@@ -1488,6 +1536,127 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 304616,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[설악산] 2026년 국립공원지킴이(녹색순찰대) 추가 모집 공고",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "강원",
+      "ncsNm": "경비.청소,이용.숙박.여행.오락.스포츠,환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 13,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019711",
+      "aplyQlfcCn": "- 학력·전공, 나이 제한 없음(만18세이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당하지 않는 자\r\n- 소득·자산 기준초과자는 참여 제한(세부사항 공고문 참조)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(세부사항 공고문 참조)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304612,
+      "orgName": "한국산림복지진흥원",
+      "orgCode": "C1055",
+      "title": "2026년도 하반기 한국산림복지진흥원 정규직(5급, 6급) 채용 공고",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-21",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "부산,대전,울산,경기,강원,충북,충남,전북,전남광주,경북,경남",
+      "ncsNm": "사업관리,경영.회계.사무,보건.의료,이용.숙박.여행.오락.스포츠,전기.전자,환경.에너지.안전,농림어업",
+      "jobTrack": "사무",
+      "totalCount": 27,
+      "eduCondNm": [
+        "학력무관",
+        "고졸"
+      ],
+      "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 18,
+      "srcUrl": "https://fowi.or.kr/user/bbs/bbsView.do?bbsManageId=22&bbsId=9165",
+      "aplyQlfcCn": "1. 공통사항: 결격사유에 해당하지 않는 자로서 임용일 기준 만60세 이하인 자\r\n2. 공개경쟁채용: 제한없음(5급(전 직무))\r\n3. 제한경쟁채용: 채용공고 시작일 기준 아래 응시자격의 어느 하나에 충족하는 자\r\n 가. 5급(자격): 아래 중 하나 이상 자격증 소지자\r\n  - 안전관리: 건설안전기술사, 건설안전기사, 산업안전기사, 산업위생관리기사, 소방설비기사(기계·전기분야), 인간공학기사\r\n  - 시설관리(전기): 건축전기설비기술사, 전기응용기술사, 전기공사기사, 전기기사, 소방설비기사(전기분야)\r\n 나. 5급(국가유공자): 아래 중 어느 하나에 해당하는 자\r\n  - ‘국가유공자등 예우 및 지원에 관한 법률’ 제29조, ‘독립유공자 예우에 관한 법률’  제16조 및 ‘5·18 민주유공자 예우 및 단체설립에 관한 법률’ 제20조에 따른 취업지원 대상자\r\n  - ‘특수임무유공자 예우 및 단체설립에 관한 법률’ 제19조, ‘고엽제후유의증 등 환자지원 및 단체설립에 관한 법률’ 제7조제9항, ‘보훈보상대상자 지원에 관한 법률’ 제35조에 따른 취업지원 대상자\r\n 다. 6급(고졸, 자립준비청년): ‘아동복지법’제38조제2항제3호에 따른 자립지원 대상자 중 아래 기준 어느 하나에 해당하는 자\r\n  - 최종학력이 고등학교 졸업자\r\n  - 기타 이와 동등한 자격이 있다고 인정되는 자(자세한 사항은 공고문 참고)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304598,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[주왕산] 2026년도 주왕산국립공원 한시인력(수익시설) 직원 추가 채용",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-08",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경북",
+      "ncsNm": "경비.청소,이용.숙박.여행.오락.스포츠",
+      "jobTrack": "시설",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 5,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019720",
+      "aplyQlfcCn": "- 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- 근무시작(예정)일부터 근무 가능한 자\r\n- 그 외 전공, 학력 등 제한 없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304590,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[금정산] 2026년 국립공원지킴이(녹색순찰대) 모집 공고(양산시)",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "경남",
+      "ncsNm": "경비.청소,건설",
+      "jobTrack": "시설",
+      "totalCount": 3,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019716",
+      "aplyQlfcCn": "-학력, 전공, 나이 제한 없음\r\n-공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n-소득, 자산 기준 초과자는 참여 제한(공고문 참고)\r\n-직접일자리사업 반복 및 중복 참여자는 참여 제한(공고문 참고)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304589,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[금정산] 2026년 국립공원지킴이(녹색순찰대) 모집 공고(부산광역시)",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "부산",
+      "ncsNm": "경비.청소,건설",
+      "jobTrack": "시설",
+      "totalCount": 7,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019715",
+      "aplyQlfcCn": "-학력, 전공, 나이 제한 없음\r\n-공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n-소득, 자산 기준 초과자는 참여 제한(공고문 참고)\r\n-직접일자리사업 반복 및 중복 참여자는 참여 제한(공고문 참고)",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 304575,
       "orgName": "국립공원공단",
       "orgCode": "C0021",
@@ -1509,30 +1678,6 @@
       "daysLeft": 14,
       "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019713",
       "aplyQlfcCn": "가. 학력, 전공, 나이 제한 없음(만18세 이상)\r\n나. 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n다. 소득, 자산 기준 초과자는 참여 제한\r\n라. 직접일자리사업 반복 및 중복참여자는 참여 제한",
-      "isExcludedHireType": false
-    },
-    {
-      "sn": 304561,
-      "orgName": "국립공원공단",
-      "orgCode": "C0021",
-      "title": "[설악산] 2026년 국립공원지킴이(녹색순찰대) 추가 모집 공고",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-14",
-      "hireTypeNm": "비정규직",
-      "recrutSeNm": "신입+경력",
-      "workRgnNm": "강원",
-      "ncsNm": "경비.청소,이용.숙박.여행.오락.스포츠,환경.에너지.안전",
-      "jobTrack": "시설",
-      "totalCount": 13,
-      "eduCondNm": [
-        "학력무관"
-      ],
-      "isHighSchoolTrack": false,
-      "hsTrackDetectedFromText": false,
-      "replImprYn": "N",
-      "daysLeft": 11,
-      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019711",
-      "aplyQlfcCn": "- 학력·전공, 나이 제한 없음(만18세이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당하지 않는 자\r\n- 소득·자산 기준초과자는 참여 제한(세부사항 공고문 참조)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(세부사항 공고문 참조)",
       "isExcludedHireType": false
     },
     {
@@ -4589,6 +4734,32 @@
       "isExcludedHireType": false,
       "status": "마감",
       "closedAt": "2026-09-03T02:14:14.219Z"
+    },
+    {
+      "sn": 304561,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[설악산] 2026년 국립공원지킴이(녹색순찰대) 추가 모집 공고",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "강원",
+      "ncsNm": "경비.청소,이용.숙박.여행.오락.스포츠,환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 13,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019711",
+      "aplyQlfcCn": "- 학력·전공, 나이 제한 없음(만18세이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당하지 않는 자\r\n- 소득·자산 기준초과자는 참여 제한(세부사항 공고문 참조)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(세부사항 공고문 참조)",
+      "isExcludedHireType": false,
+      "status": "마감",
+      "closedAt": "2026-09-03T13:23:15.692Z"
     }
   ]
 }
