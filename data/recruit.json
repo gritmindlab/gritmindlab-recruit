@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-04T02:11:21.506Z",
-  "count": 107,
-  "highSchoolCount": 3,
+  "updatedAt": "2026-09-04T13:17:24.653Z",
+  "count": 114,
+  "highSchoolCount": 4,
   "items": [
     {
       "sn": 304551,
@@ -851,6 +851,127 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 304656,
+      "orgName": "국민연금공단",
+      "orgCode": "C0028",
+      "title": " 2026년도 하반기 일반직 신입직원 공개채용 공고",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-18",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "서울,부산,대구,인천,대전,울산,세종,경기,강원,충북,충남,전북,전남광주,경북,경남,제주",
+      "ncsNm": "경영.회계.사무,보건.의료,사회복지.종교,전기.전자",
+      "jobTrack": "사무",
+      "totalCount": 90,
+      "eduCondNm": [
+        "학력무관",
+        "고졸"
+      ],
+      "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.nps.or.kr/pnsgdnc/hiregdnc/getOHAE0004M0List.do?menuId=MN24000969",
+      "aplyQlfcCn": "(공통)\r\n성별, 연령, 학력(사무직 6급보 제외) 제한 없음 [임용일 기준 공단 정년(60세) 이상자는 제외]\r\n대한민국 국적을 보유한 사람\r\n공단이 정한 임용일부터 교육 입소 및 근무가 가능한 사람\r\n공단 인사규정 제11조(결격사유)에 해당하지 않는 사람\r\n\r\n(6급 사무직 일반)\r\n공통 지원자격 외 별도의 응시자격 없음\r\n\r\n(6급 사무직 취업지원)\r\n「국가유공자 등 예우 및 지원에 관한 법률」 등 보훈관계법률에 따른 취업지원대상자에 해당하는 사람\r\n\r\n(6급 사무직 장애인)\r\n「장애인고용촉진 및 직업재활법 시행령」 제3조 및 제4조에 따른 장애인에 해당하는 사람\r\n\r\n(6급 사무직 사회형평)\r\n국민기초생활수급자, 한부모가족, 북한이탈주민, 다문화가족, 자립준비청년, 의사상자 중 1가지 이상에 해당하는 사람\r\n\r\n(6급 심사직)\r\n간호사, 물리치료사, 임상병리사, 작업치료사 면허증 소지자로 면허 취득 이후 관련 업무 1년 이상 경력자*\r\n*「의료법」 제3조제2항제3호에 따른 병원급 의료기관의 임상 경력 또는 우리 공단 심사 경력(기초근평 의학적 평가 포함)\r\n※ 경력환산은 365일을 1년으로 산정함\r\n\r\n(6급 기술직 전기)\r\n전기기사, 전기공사기사, 건축전기설비기술사 자격증 중 하나 이상 소지자로, 해당 자격증 취득 이후 관련분야 1년 이상 경력자\r\n※ 경력환산은 365일을 1년으로 산정함\r\n\r\n(6급보 사무직 일반)\r\n최종학력이 고등학교 졸업인 자 또는 이에 준하는 학력자\r\n\r\n(6급보 사무직 사회형평)\r\n최종학력이 고등학교 졸업인 자 또는 이에 준하는 학력자이면서 국민기초생활수급자, 한부모가족, 북한이탈주민, 다문화가족, 자립준비청년, 의사상자 중 1가지 이상에 해당하는 사람\r\n\r\n* 자세한 사항은 첨부파일의 채용공고문을 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304646,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[인천병원] 별정직 의사(재활의학과) 채용 공고",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "인천",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야별 응시자격\r\n- 재활의학과: 재활의학과 전문의 자격증 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304645,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[인천병원] 별정직 의사(내과 또는 가정의학과) 채용 공고",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "인천",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야별 응시자격\r\n- 내과 또는 가정의학과 전문의 자격증 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304643,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[안산병원] 의료직(간호사) 6급 채용 공고",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "경기",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 6,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야 응시자격\r\n- 간호사 : 간호법상 간호사 면허를 취득한자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\nㅇ 연령요건 : 연령제한 없음(단, 임용일 기준 만 60세 미만(정년)인 자)\r\nㅇ 기타 : 임용예정일 즉시 근무가 가능한 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304642,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[대전병원] 의료직(간호사) 6급 채용 공고",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "대전",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 5,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야 응시자격\r\n- 간호사 : 간호법상 간호사 면허를 취득한자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\nㅇ 연령요건 : 연령제한 없음(단, 임용일 기준 만 60세 미만(정년)인 자)\r\nㅇ 기타 : 임용예정일 즉시 근무가 가능한 자",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 304501,
       "orgName": "서울올림픽기념국민체육진흥공단",
       "orgCode": "C0029",
@@ -1357,6 +1478,54 @@
       "daysLeft": 4,
       "srcUrl": "https://www.sports.re.kr/front/board/job/boardView.do?board_seq=115&pageNo=1&menu_seq=+997&con_seq=6692&keyKind3=&keyKind4=&keyKind5=&keyKind6=&keyKind7=&keyKind=TITLE&keyWord=",
       "aplyQlfcCn": "1. 공통\r\nㅇ 연령 제한 없음   * 단, 채용공고일 기준 만 60세 미만인 사람\r\nㅇ 공단 인사규정 제20조(임용결격사유)에 해당하지 않는 사람\r\nㅇ 채용예정일 즉시 근무 가능한 사람\r\n2. 필수\r\nㅇ 체육계열 박사학위(예정*)자\r\nㅇ 체육계열 석사학위자로 경력 4년 이상자(경력에는 박사학위 과정 포함)\r\n  * 박사학위 예정자는 졸업예정증명서 제출 가능자에 한함\r\n ** 보고서 작성 경험자 및 외국어(영어, 일어 등) 가능자 우대\r\n=======================================================================\r\n  * 증빙서류를 제출하지 않은 경력은 경력 기간에 포함되지 않음\r\n ** 경력이라 함은 연구기관(대학 포함) 등에서 공동연구자, 연구보조원, 조교 등 업무를 수행한 경력을 \r\n   말하며, 월 단위 합산함.(단, 석사학위 취득 이후 경력에 한해 인정하며 박사학위과정 \r\n   기간과 다른 경력기간이 중복되는 경우 본인에게 유리한 경력 하나만 인정)\r\n*** 15일 이상 근무기간은 1개월로 인정함, 재직 중인 경우 공고일 기준으로 기간 산정 ",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304640,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[인천보훈병원] 2026년 제7차 의사직 [일반내과, 내과(순환기내과), 신경외과, 정형외과, 치과보철과, 병동당직의] 공개채용",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-18",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "인천",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 6,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.bohun.or.kr/incheon/na/ntt/selectNttInfo.do?mi=33641&bbsId=1158&bbsSysId=incheon&nttSn=189179",
+      "aplyQlfcCn": "○ 일반내과, 내과(순환기내과), 신경외과, 정형외과, 치과보철과, 병동당직의 각 1명(총 6명, 계약직)\r\n  ※ 정년(60세) 초과자 지원 가능\r\n  ※ 병동 당직의는 전문의 또는 일반의 지원 가능\r\n-  (필수) 공단 인사규정 제18조(결격사유)에 해당되지 않는 자\r\n- (필수) 의사 면허증 소지자 \r\n- (필수) 전문의 자격 소지자(전문의일 경우) \r\n- (필수) 직무 외 영리를 목적으로 하는 업무를 겸하여 종사할 수 없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304633,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[전주보훈요양원] 장애인 청년인턴 채용 공고",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-14",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "전북",
+      "ncsNm": "사회복지.종교",
+      "jobTrack": "보건복지",
+      "totalCount": 4,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.bohun.or.kr/jjcare/na/ntt/selectNttInfo.do?mi=34249&bbsId=1259&bbsSysId=jjcare&nttSn=189170#none",
+      "aplyQlfcCn": "다음 각 호의 사항을 모두 충족하는 자\r\n 1. 「장애인고용촉진 및 직업재활법 시행령」 제3조에 따른 장애인\r\n 2. 공단 인사규정 제18조(결격사유)에 해당하지 않는 자\r\n 3. 「청년고용촉진 특별법 시행령」 제2조에 따른 청년으로 임용예정일 기준 만 15세 이상 만 34세 이하인 자\r\n  ※ 「제대군인지원에 관한 법률 시행령」 제19조에 따라 제대군인에 대한 청년 인정 연령을 아래와 같이 연장함\r\n      → 군복무기간 1년 미만 1세, 1년 이상~2년 미만 2세, 2년 이상 3세",
       "isExcludedHireType": false
     },
     {
