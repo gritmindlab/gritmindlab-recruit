@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-07T02:03:09.135Z",
-  "count": 102,
-  "highSchoolCount": 4,
+  "updatedAt": "2026-09-07T14:55:07.128Z",
+  "count": 104,
+  "highSchoolCount": 5,
   "items": [
     {
       "sn": 304551,
@@ -197,6 +197,31 @@
       "daysLeft": 9,
       "srcUrl": "https://www.komipo.co.kr",
       "aplyQlfcCn": "1. 기본자격\r\n가. 학력, 성별, 전공: 제한 없음\r\n나. 연령: 공고일 현재 기준 「청년고용촉진특별법」에 따른 청년(15세 이상 ~ 34세 이하)인 자\r\n※ 「제대군인지원에 관한 법률」제16조 1항 및 동법 시행령 19조에 따라 제대군인이 응시할 경우 상한 연령을 다음과 같이 연장함\r\n  - 군복무기간 1년 미만: 1세 / 1년 이상~2년 미만: 2세 / 2년 이상: 3세 연장\r\n다. 병역: 병역 기피사실이 없는 자, 현역의 경우 최종합격자 발표일('26. 10. 28.) 이전 전역 가능한 자\r\n라. 기타: '26. 11. 4. (수)부터 근무 가능한 자\r\n\r\n2. 분야별 필수자격\r\n가. 일반전형\r\n1) 외국어\r\n대상: 영어[TOEIC, TOEIC-S, (New)TEPS, TEPS-S, OPIc]\r\n기준: TOEIC 700점 이상(기타 어학성적 환산점수 인정)",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304717,
+      "orgName": "한국전력기술주식회사",
+      "orgCode": "C0248",
+      "title": "2026년도 하반기 정규직(신입사원) 채용공고",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-22",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "경북",
+      "ncsNm": "사업관리,경영.회계.사무,문화.예술.디자인.방송,건설,기계,전기.전자,정보통신,환경.에너지.안전",
+      "jobTrack": "사무",
+      "totalCount": 109,
+      "eduCondNm": [
+        "학력무관",
+        "고졸"
+      ],
+      "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 15,
+      "srcUrl": "https://kepco-enc.cairos.co.kr/kepco-enc/",
+      "aplyQlfcCn": "1. 공통 응시자격\r\n- 채용 전 과정 블라인드 방식 적용\r\n- 입사 예정일에 근무가 가능한 자로, 회사 정년(만60세)에 도달하지 아니한 자\r\n- 회사 인사규정 제8조 결격사유에 해당하지 않는 자(첨부 공고문 참조)\r\n- 현재 군 복무 중인 경우, 면접전형 시작일 이전 전역이 가능한 자\r\n\r\n2. 채용분야별 응시자격 : 채용공고 참조",
       "isExcludedHireType": false
     },
     {
@@ -920,6 +945,30 @@
       "daysLeft": 0,
       "srcUrl": "없음",
       "aplyQlfcCn": "가. 공통\r\n- 학력, 연령, 외국어 제한 없음\r\n- 병역법 제 76조에서 정한 병역의무 불이행 사실이 없는 자\r\n- 건설업 기초 안전보건교육 이수자 또는 이수가능자(계약 시 증빙)\r\n- 당사 인사규정 2.1.4(채용결격사유)에 해당하지 않는 자\r\n나. 직종별 자격 및 상세 사항은 모집공고문 지원 자격 참조\r\n",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 304674,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[근로복지공단] 기술기능직(기술) 5급 채용 공고",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-21",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "울산",
+      "ncsNm": "건설,기계",
+      "jobTrack": "토목",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "※ 다음 조건을 모두 충족하는 자\r\n\r\n1. 공통자격\r\n○ 성별·학력제한 없음\r\n○ 임용예정일 기준 공단 「인사규정」에 따른 정년 미도과자(60세 미만인 자)\r\n○ 대한민국 국적을 보유한 자\r\n○ 「국가공무원법」 제33조 및 공단 「인사규정」 제14조 규정에 저촉되지 않는 자\r\n○ 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n - 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\n○ 임용예정일 즉시 근무가 가능한 자\r\n - 임용일은 공단 사정에 따라 변경될 수 있음\r\n\r\n2. 채용 분야 응시자격\r\n0 기술기능직(기술) 5급\r\n다음 각 호의 어느 하나에 해당하는 자\r\nㆍ 기술직 공무원으로 소정기술분야 8급직에 재직한 자 또는 동 분야 9급직에 3년 이상 재직한 자\r\nㆍ 우리공단 상당직급으로 공공기관의 소정기술분야에서 재직한 자\r\nㆍ 「국가기술자격법」에 따른 ‘건설’ 분야 건축기사 또는 길내건축기사 이상 자격증을 취득한 자로 관련 분야 2년 이상 경력자이며, '안전관리' 분야 건설안전기사 자격을 갖춘 자\r\n  * 관련 분야 경력사항은 「국가기술자격법」에 따른 건축 분야 관련 경력에 한함",
       "isExcludedHireType": false
     },
     {
