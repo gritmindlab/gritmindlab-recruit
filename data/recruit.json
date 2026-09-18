@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-18T02:24:20.208Z",
-  "count": 104,
-  "highSchoolCount": 13,
+  "updatedAt": "2026-09-18T13:29:48.705Z",
+  "count": 110,
+  "highSchoolCount": 14,
   "items": [
     {
       "sn": 305117,
@@ -341,6 +341,58 @@
       "daysLeft": 4,
       "srcUrl": "http://recruit.kepco.co.kr",
       "aplyQlfcCn": "1. 연령/학력 : 제한없음 (한전 취업규칙에 따라 정년(60세) 이상인 자 지원 불가)\r\n2. 병역 : 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\n3. 신체조건 : 색맹이 아닌자\r\n4. 필수자격(아래의 필수자격 모두 보유 시 지원 가능)\r\n- 전기(공사) 산업기사 이상 또는 전기기능사 이상\r\n- 가공배전전공 이상 또는 지중배전전공 이상\r\n- 자동차 운전면허 1종 대형\r\n- 기중기운전기능사 또는 이동식크레인 및 고소작업대 조종자격 교육이수*\r\n* 고용노동부 「유해·위험기관의 취업 제한에 관한 규칙」에서 인정한 교육인정기관\r\n5. 기타 : 한전 인사관리규정 제11조의 결격사유가 없는 자, 근무시작일부터 근무 가능한 자\r\n\r\n※ 자세한 사항은 붙임의 채용공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305146,
+      "orgName": "한국조폐공사",
+      "orgCode": "C0257",
+      "title": "2027년도 한국조폐공사 경력직 채용공고",
+      "startDate": "2026-09-18",
+      "endDate": "2026-10-02",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "서울,대전",
+      "ncsNm": "사업관리,경영.회계.사무,영업판매,정보통신,연구",
+      "jobTrack": "사무",
+      "totalCount": 2,
+      "eduCondNm": [
+        "학력무관",
+        "대졸(4년)"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.komsco.com/kor/88/recruitment/206?pageIndex=1&searchCondition=&searchKeyword=",
+      "aplyQlfcCn": "1. 공통 지원자격\r\n - 성별 및 연령 : 제한없음 (단, 공사 정년(60세) 이상자 지원 불가)\r\n - 병역 : 남성의 경우, 병역의무를 필하였거나 면제된 사람 (최종합격자 발표일 이전 전역 예정자 포함)\r\n - 결격사항 : 한국조폐공사 「인사관리 규정」 제10조 채용 결격사유에 해당하지 않는 사람 (붙임2 참조)\r\n - 기타 : 임용 즉시 업무종사가 가능하고 공사 사업장 소재지에서 근무가 가능한 사람 (이직절차에 따른 임용시기 협의/조정 가능)\r\n ※ 모집단위별 중복지원 불가\r\n\r\n2. 모집단위별 필수 지원자격\r\n [마케팅]\r\n ㅇ 마케팅 분야의 업무 경력기간의 총합이 접수 마감일 기준 4년 이상인 사람\r\n ㅇ 학력 및 전공은 제한없음\r\n [ICT SW 연구개발]\r\n ㅇ 해당 분야 학사 학위 이상 소지자이면서, 아래 중 하나 이상에 해당하는 경력기간의 총합이 접수 마감일 기준 4년 이상인 사람\r\n   - SW 연구/개발 경력 보유자\r\n   - IT 시스템 구축 및 서비스 개발 수행 경력 보유자\r\n   - 블록체인 기반 서비스 개발 경력 보유자\r\n\r\n※ 상세내용은 첨부파일을 참조하여 주시기 바랍니다.",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305144,
+      "orgName": "한국조폐공사",
+      "orgCode": "C0257",
+      "title": "2027년도 한국조폐공사 신입직원(채용형인턴) 채용공고",
+      "startDate": "2026-09-18",
+      "endDate": "2026-10-02",
+      "hireTypeNm": "청년인턴(채용형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "서울,대전,충남,경북",
+      "ncsNm": "사업관리,경영.회계.사무,문화.예술.디자인.방송,영업판매,기계,화학,전기.전자,정보통신,인쇄.목재.가구.공예,환경.에너지.안전,농림어업,연구",
+      "jobTrack": "사무",
+      "totalCount": 57,
+      "eduCondNm": [
+        "학력무관",
+        "고졸",
+        "대졸(4년)",
+        "석사"
+      ],
+      "isHighSchoolTrack": true,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.komsco.com/kor/88/recruitment/205?pageIndex=1&searchCondition=&searchKeyword=",
+      "aplyQlfcCn": "ㅇ공통 지원자격\r\n- 성별, 연령 제한 없음. 단, 공사 정년(60세) 이상자는 지원 불가\r\n- 공사 「인사관리 규정」 제10조의 채용 결격사유에 해당하지 않는 사람(붙임2)\r\n- 임용 즉시 업무종사가 가능하고 공사 사업장 소재지에서 근무가 가능한 사람\r\n※ 모집단위별 중복지원 불가\r\n\r\nㅇ일반분야\r\n- 행정사무·행정기술·기계기술·ICT : 학력 및 전공 제한 없음\r\n- 행정사무(장애) : 학력, 전공 제한 없음, 「장애인고용촉진 및 직업재활법」에 따른 장애인\r\n- 행정기술(장애) : 학력, 전공 제한 없음, 「장애인고용촉진 및 직업재활법」에 따른 장애인\r\n- 기계기술(보훈) : 학력, 전공 제한 없음, 「국가유공자 등 예우 및 지원에 관한 법률」 및 보훈관계법령 등에 따른 취업지원대상자\r\n- 전자기술(고졸) : 전공 제한 없음, 최종학력 고졸자('27년 2월 졸업예정자 포함)\r\n\r\nㅇ연구분야\r\n- 화공 : 해당분야 석사 이상 학위 소지자\r\n- 디자인(조각) : 해당분야 학사 이상 학위 소지자\r\n\r\n※ 상세내용은 첨부파일을 참조하여 주시기 바랍니다.\r\n\r\n",
       "isExcludedHireType": false
     },
     {
@@ -922,6 +974,54 @@
       "isExcludedHireType": false
     },
     {
+      "sn": 305139,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[근로복지공단 소속병원] 의료직 채용 공고",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-28",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "대구,인천,대전,경기,강원,전남광주,경북,경남",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 46,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/pblanc/pblancList.do",
+      "aplyQlfcCn": "ㅇ 채용분야 응시자격\r\n<일반전형>\r\n- 간호사 : 간호사 면허 소지자\r\n- 물리치료사 : 물리치료사 면허 소지자\r\n- 작업치료사 : 작업치료사 면허 소지자\r\n- 방사선사 : 방사선사 면허 소지자\r\n- 임상병리사 : 임상병리사 면허 소지자\r\n- 산업위생사 : 산업위생관리(산업)기사 자격증 소지자\r\n- 청능청각사 : 청각사 인증서 또는 청능사 자격증 소지자\r\n* 모든 전형 응시자격은 응시원서 마감일 기준\r\nㅇ 병역법 제76조에서 정한 병역의무 불이행 사실이 없는 자\r\nㅇ 연령요건 : 연령제한 없음(단, 임용일 기준 만 60세 미만(정년)인 자)\r\nㅇ 기타 : 임용예정일 즉시 근무가 가능한 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305138,
+      "orgName": "근로복지공단",
+      "orgCode": "C0035",
+      "title": "[인천병원] 별정직 의사(내과 또는 가정의학과) 채용 공고",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-28",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "신입",
+      "workRgnNm": "인천",
+      "ncsNm": "보건.의료",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.comwel.or.kr/recruit/hp/main.do",
+      "aplyQlfcCn": "ㅇ 채용분야별 응시자격\r\n- 내과 또는 가정의학과 전문의 자격증 소지자\r\n* 응시자격은 응시원서 마감일 기준\r\nㅇ 병역사항: 「병역법」 제76조에서 정한 병역의무 불이행 사실이 없는자\r\n※ 현재 군복무 중인 경우 임용예정일 이전 전역이 가능한 자\r\nㅇ 연령요건: 제한없음",
+      "isExcludedHireType": false
+    },
+    {
       "sn": 305134,
       "orgName": "근로복지공단",
       "orgCode": "C0035",
@@ -1425,6 +1525,54 @@
       "daysLeft": 0,
       "srcUrl": "https://www.nps.or.kr/pnsgdnc/hiregdnc/getOHAE0004M0List.do?menuId=MN24000969",
       "aplyQlfcCn": "(공통)\r\n성별, 연령, 학력(사무직 6급보 제외) 제한 없음 [임용일 기준 공단 정년(60세) 이상자는 제외]\r\n대한민국 국적을 보유한 사람\r\n공단이 정한 임용일부터 교육 입소 및 근무가 가능한 사람\r\n공단 인사규정 제11조(결격사유)에 해당하지 않는 사람\r\n\r\n(6급 사무직 일반)\r\n공통 지원자격 외 별도의 응시자격 없음\r\n\r\n(6급 사무직 취업지원)\r\n「국가유공자 등 예우 및 지원에 관한 법률」 등 보훈관계법률에 따른 취업지원대상자에 해당하는 사람\r\n\r\n(6급 사무직 장애인)\r\n「장애인고용촉진 및 직업재활법 시행령」 제3조 및 제4조에 따른 장애인에 해당하는 사람\r\n\r\n(6급 사무직 사회형평)\r\n국민기초생활수급자, 한부모가족, 북한이탈주민, 다문화가족, 자립준비청년, 의사상자 중 1가지 이상에 해당하는 사람\r\n\r\n(6급 심사직)\r\n간호사, 물리치료사, 임상병리사, 작업치료사 면허증 소지자로 면허 취득 이후 관련 업무 1년 이상 경력자*\r\n*「의료법」 제3조제2항제3호에 따른 병원급 의료기관의 임상 경력 또는 우리 공단 심사 경력(기초근평 의학적 평가 포함)\r\n※ 경력환산은 365일을 1년으로 산정함\r\n\r\n(6급 기술직 전기)\r\n전기기사, 전기공사기사, 건축전기설비기술사 자격증 중 하나 이상 소지자로, 해당 자격증 취득 이후 관련분야 1년 이상 경력자\r\n※ 경력환산은 365일을 1년으로 산정함\r\n\r\n(6급보 사무직 일반)\r\n최종학력이 고등학교 졸업인 자 또는 이에 준하는 학력자\r\n\r\n(6급보 사무직 사회형평)\r\n최종학력이 고등학교 졸업인 자 또는 이에 준하는 학력자이면서 국민기초생활수급자, 한부모가족, 북한이탈주민, 다문화가족, 자립준비청년, 의사상자 중 1가지 이상에 해당하는 사람\r\n\r\n* 자세한 사항은 첨부파일의 채용공고문을 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305157,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[속리산] 속리산국립공원사무소 한시인력(탐방안내, 환경관리) 직원 채용",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-28",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "충북,경북",
+      "ncsNm": "경비.청소,이용.숙박.여행.오락.스포츠",
+      "jobTrack": "시설",
+      "totalCount": 3,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019786",
+      "aplyQlfcCn": "- 공단인사규정 제18조(결격사유)에 해당하지 않는 자\r\n- 연령, 전공, 학력 제한없음",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305151,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[원주보훈요양원] 2026년 제2차 체험형 청년인턴(장애인)(재공고) 채용",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-29",
+      "hireTypeNm": "청년인턴(체험형)",
+      "recrutSeNm": "신입",
+      "workRgnNm": "강원",
+      "ncsNm": "사회복지.종교",
+      "jobTrack": "보건복지",
+      "totalCount": 5,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 11,
+      "srcUrl": "https://www.bohun.or.kr/wjcare/na/ntt/selectNttList.do?mi=35524&bbsId=1314",
+      "aplyQlfcCn": "[체험형 청년인턴(장애인)]\r\n-장애인 고용촉진 및 직업재활법에 의한 장애인에 해당하는 자\r\n-인사규정 제18조 비해당자\r\n-만 15세 이상 34세 이하인 자(청년고용촉진특별법 시행령 제2조)\r\n-주5일, 1일 4시간(오전 또는 오후) 근무 가능한 자",
       "isExcludedHireType": false
     },
     {
