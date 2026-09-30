@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-29T15:30:39.336Z",
-  "count": 77,
+  "updatedAt": "2026-09-30T03:10:23.864Z",
+  "count": 78,
   "highSchoolCount": 10,
   "items": [
     {
@@ -1194,6 +1194,30 @@
       "daysLeft": 1,
       "srcUrl": "https://www.geps.or.kr/notiCommunication_info_incruit/42922?curPage=1",
       "aplyQlfcCn": "□ 응시원서 접수마감일 기준 만 18세 이상 34세 이하인 자(1991.10.2.~2008.10.1.生)\r\n - 제대군인 및 사회복무요원은 복무기간에 따라 상한연령 연장(1년 미만: 1세, 2년 미만: 2세, 2년 이상: 3세)\r\n□ 성별, 학력, 전공 제한 없음\r\n□ 채용예정일(’26.10.30.(금))에 즉시 근무 가능한 자\r\n□ 공무원연금공단 인사규정에 의한 임용결격 사유가 없는 자\r\n□ 공무원연금공단 청년인턴 근무 경험자 제외\r\n\r\n[전형별]\r\n□ (장애) 「장애인고용촉진 및 직업재활법」 제2조, 동법시행령 제3조, 제4조에 해당하는 장애인 \r\n□ (자립준비청년) 「아동복지법」 제16조 및 제16조의3에 따라 보호조치가 종료되거나, 해당 시설에서 퇴소한 자\r\n□ (북한이탈주민) 「북한이탈주민의 보호 및 정착지원에 관한 법률」 제2조제1호에 해당하는 북한이탈주민\r\n□ (한부모가족) 「한부모가족지원법」 제5조에 해당하는 수급자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305532,
+      "orgName": "국립공원공단",
+      "orgCode": "C0021",
+      "title": "[지리산전북] 지리산국립공원전북사무소 한시인력(국립공원지킴이) 모집",
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-10",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "전남광주",
+      "ncsNm": "환경.에너지.안전",
+      "jobTrack": "시설",
+      "totalCount": 3,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 10,
+      "srcUrl": "https://www.knps.or.kr/front/portal/recruit/recruitDtl.do?menuNo=7070064&emplyId=EMPM019844",
+      "aplyQlfcCn": "- 학력·전공, 나이 제한 없음(만18세이상)\r\n- 공단 인사규정 제18조(결격사유)에 해당하지 않는 자\r\n- 소득·자산 기준초과자는 참여 제한(세부사항 공고문 참조)\r\n- 직접일자리사업 반복 및 중복 참여자는 참여 제한(세부사항 공고문 참조)",
       "isExcludedHireType": false
     },
     {
