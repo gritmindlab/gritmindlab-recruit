@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-07T16:11:03.230Z",
-  "count": 95,
+  "updatedAt": "2026-10-08T03:43:30.995Z",
+  "count": 97,
   "highSchoolCount": 4,
   "items": [
     {
@@ -1518,6 +1518,54 @@
       "daysLeft": 4,
       "srcUrl": "https://kosmes.or.kr",
       "aplyQlfcCn": "- 「장애인고용촉진 및 직업재활법」에 의한 장애인\r\n- 임용예정일 기준 만 15세 이상 만 34세 이하인 자\r\n* 제대군인에 대해서는 관련 법에 의거 응시연령 상한 연장\r\n- 학력, 전공, 성별 등 제한 없음\r\n- 임용 즉시 근무가 가능한 자(교육훈련 시작 시점 고용보험 미가입자)\r\n\r\n※ 상세내용 첨부 공고문 참조",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305839,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[광주보훈요양원] 2026년 제4차 요양보호직(정규직 전환 조건) 채용 공고",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-22",
+      "hireTypeNm": "비정규직",
+      "recrutSeNm": "신입+경력",
+      "workRgnNm": "전남광주",
+      "ncsNm": "사회복지.종교",
+      "jobTrack": "보건복지",
+      "totalCount": 8,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 14,
+      "srcUrl": "https://www.bohun.or.kr/main/na/ntt/selectNttInfo.do?mi=32374&bbsId=1158&bbsSysId=main&nttSn=190101",
+      "aplyQlfcCn": "<요양보호직> - (8)\r\n- (필수) 요양보호사 자격증 소지자\r\n- (필수) 3교대 근무가 가능한 자\r\n- (필수) 남자의 경우 병역을 필하였거나 면제된 자\r\n- (필수) 공단 인사규정 제18조(결격사유 및 임용취소)에 해당하지 않는 자\r\n- (필수) 공단 인사규정 제44조(정년)에 따라 정년(60세)에 도달하지 않은 자",
+      "isExcludedHireType": false
+    },
+    {
+      "sn": 305826,
+      "orgName": "한국보훈복지의료공단",
+      "orgCode": "C0203",
+      "title": "[전주보훈요양원] 사회복지직 5급(간호사) 채용",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-23",
+      "hireTypeNm": "정규직",
+      "recrutSeNm": "경력",
+      "workRgnNm": "전북",
+      "ncsNm": "보건.의료,사회복지.종교",
+      "jobTrack": "보건복지",
+      "totalCount": 1,
+      "eduCondNm": [
+        "학력무관"
+      ],
+      "isHighSchoolTrack": false,
+      "hsTrackDetectedFromText": false,
+      "replImprYn": "N",
+      "daysLeft": 15,
+      "srcUrl": "https://www.bohun.or.kr/jjcare/na/ntt/selectNttInfo.do?mi=34249&bbsId=1259&bbsSysId=jjcare&nttSn=190087",
+      "aplyQlfcCn": "ㆍ학력, 전공, 나이, 성별 등 제한 없음\r\n   ※ 단, 공고일 기준 정년(60세) 이상인 자는 지원 불가\r\nㆍ남성의 경우 군필 또는 면제자\r\nㆍ공단 인사규정 채용 결격사유에 해당하지 않는 자 \r\nㆍ간호사 면허증 소지자로 3교대 근무 가능한 자\r\nㆍ간호사 면허를 취득한 후 의료법에 따른 병원급 이상 의료기관, 사회복지사업법에 따른 사회복지시설, 노인장기요양보험법에 따른 장기요양기관에서 재직한 경력이 있는 자",
       "isExcludedHireType": false
     },
     {
